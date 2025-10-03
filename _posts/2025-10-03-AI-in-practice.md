@@ -63,25 +63,83 @@ tags: [AI in practice]
 
 ---
 
-# 📌 Traditional AI vs. Agentic AI
-| 구분 | Traditional AI | Agentic AI |
-|------|----------------|-------------|
-| 목표 | 외부 명령 수행 | 스스로 **목표 설정·재조정** |
-| 상호작용 | 입력-출력 중심 | 환경·에이전트·인간과 지속적 상호작용 |
-| 의사결정 | 사전학습 모델 기반 | 적응적·협력적 의사결정 |
-| 자율성 | 제한적 | 예측불가 상황에서도 자율 대응 |
-| 협력 | 개별 성능 최적화 | 전체 성능 최적화 |
+<h2>📌 Traditional AI vs. Agentic AI</h2>
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>Traditional AI</th>
+      <th>Agentic AI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>목표</td>
+      <td>외부 명령 수행</td>
+      <td><strong>목표 설정·재조정</strong></td>
+    </tr>
+    <tr>
+      <td>상호작용</td>
+      <td>입력-출력 중심</td>
+      <td>환경·에이전트·인간과 지속적 상호작용</td>
+    </tr>
+    <tr>
+      <td>의사결정</td>
+      <td>사전학습 모델 기반</td>
+      <td>적응적·협력적 의사결정</td>
+    </tr>
+    <tr>
+      <td>자율성</td>
+      <td>제한적</td>
+      <td>예측불가 상황에서도 자율 대응</td>
+    </tr>
+    <tr>
+      <td>협력</td>
+      <td>개별 성능 최적화</td>
+      <td>전체 성능 최적화</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
+<h2>📌 Generative AI vs. Agentic AI</h2>
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>Generative AI</th>
+      <th>Agentic AI</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>핵심 개념</td>
+      <td>콘텐츠 생성 (텍스트·이미지 등)</td>
+      <td>목표 설정·의사결정 수행</td>
+    </tr>
+    <tr>
+      <td>출력</td>
+      <td>프롬프트 기반 결과</td>
+      <td>의사결정 + 행동 수행</td>
+    </tr>
+    <tr>
+      <td>상호작용</td>
+      <td>단발적 입력-출력</td>
+      <td>지속적 협력/협상</td>
+    </tr>
+    <tr>
+      <td>자율성</td>
+      <td>외부 지시 의존</td>
+      <td>스스로 목표·전략 수립</td>
+    </tr>
+    <tr>
+      <td>활용 예</td>
+      <td>텍스트 작성, 이미지 생성</td>
+      <td>교통 신호 제어, 위급상황 자율 대응</td>
+    </tr>
+  </tbody>
+</table>
 
-# 📌 Generative AI vs. Agentic AI
-| 구분 | Generative AI | Agentic AI |
-|------|---------------|-------------|
-| 핵심 개념 | 콘텐츠 생성 (텍스트·이미지 등) | 목표 설정·의사결정 수행 |
-| 출력 | 프롬프트 기반 결과 | 의사결정 + 행동 수행 |
-| 상호작용 | 단발적 입력-출력 | 지속적 협력/협상 |
-| 자율성 | 외부 지시 의존 | 스스로 목표·전략 수립 |
-| 활용 예 | 텍스트 작성, 이미지 생성 | 교통 신호 제어, 위급상황 자율 대응 |
 
 ---
 
@@ -136,7 +194,7 @@ tags: [AI in practice]
 - **방어 기술**: DarkBERT(다크웹 분석), FakeCheck(딥페이크 탐지)  
 
 ---
-ㄴ
+
 # 📌 The 30% Rule
 - **AI 70% + 인간 30%** 역할 분담  
 
