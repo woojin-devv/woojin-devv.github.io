@@ -1,6 +1,6 @@
 ---
 title: Agentic AI (1)
-date: 2025-09-24 00:34:00 +0800
+date: 2025-10-03 00:34:00 +0800
 categories: [cs study]
 tags: [AI in practice]
 ---
