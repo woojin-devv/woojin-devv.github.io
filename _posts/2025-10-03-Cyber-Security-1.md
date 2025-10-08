@@ -1,5 +1,5 @@
 ---
-title: 1부 기초 리버싱
+title: 리버싱 핵심 원리 | 1부 기초 리버싱
 date: 2025-10-03 00:34:00 +0800
 categories: [cs study]
 tags: [reverse engineering]

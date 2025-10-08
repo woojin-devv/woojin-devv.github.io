@@ -1,5 +1,5 @@
 ---
-title: Computer System Overview
+title: Operating System | Computer System Overview
 date: 2025-09-25 00:34:00 +0800
 categories: [cs study]
 tags: [os]

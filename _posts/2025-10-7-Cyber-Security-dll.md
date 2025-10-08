@@ -1,5 +1,5 @@
 ---
-title: DLL
+title: 리버싱 핵심 원리 | DLL
 date: 2025-10-07 00:34:00 +0800
 categories: [cs study]
 tags: [reverse engineering]

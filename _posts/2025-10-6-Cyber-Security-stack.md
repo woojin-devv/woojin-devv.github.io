@@ -1,5 +1,5 @@
 ---
-title: Stack Frame
+title: 리버싱 핵심 원리 | Stack Frame
 date: 2025-10-06 00:34:00 +0800
 categories: [cs study]
 tags: [reverse engineering]

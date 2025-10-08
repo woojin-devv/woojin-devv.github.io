@@ -1,5 +1,5 @@
 ---
-title: Computer System Overview | Interrupt
+title: Operating System | Computer System Overview | Interrupt
 date: 2025-09-25 
 categories: [cs study]
 tags: [os]
