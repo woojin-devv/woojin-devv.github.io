@@ -3,6 +3,7 @@ title: Operating System | Computer System Overview
 date: 2025-09-25 00:34:00 +0800
 categories: [cs study]
 tags: [os]
+image: https://m.media-amazon.com/images/I/51eMwTzJMEL._UF1000,1000_QL80_.jpg
 ---
 
 ## ch 1 학습목표
