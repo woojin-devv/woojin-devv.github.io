@@ -3,6 +3,7 @@ title: 리버싱 핵심 원리 | 1부 기초 리버싱
 date: 2025-10-03 00:34:00 +0800
 categories: [cs study]
 tags: [reverse engineering]
+image: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg
 ---
 
 ## 1. 리버싱 분석 방법

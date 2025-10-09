@@ -3,6 +3,7 @@ title: 리버싱 핵심 원리 | DLL
 date: 2025-10-07 00:34:00 +0800
 categories: [cs study]
 tags: [reverse engineering]
+image: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg 
 ---
 
 # Windows Library, DLL
