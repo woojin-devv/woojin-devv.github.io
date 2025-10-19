@@ -1,5 +1,5 @@
 ---
-title: 딥러닝 | Agentic AI란 무엇인가
+title: 딥러닝 | Agentic AI개요
 date: 2025-10-19 00:34:00 +0800
 categories: [cs study]
 tags: [CNN]
@@ -7,10 +7,10 @@ image: https://scalevise.com/resources/content/images/2025/07/agentic-ai.webp
 ---
 
 
-### Agentic AI란?
+## Agentic AI란?
 > 주어진 상황에서 문제 해결을 하기 위해 스스로 목표를 설정하고, 재조정하며 적응적 의사결정을 하는 AI를 말한다. 
 
-### Agentic AI vs AI Agent
+## Agentic AI vs AI Agent
 - Agentic AI : 스스로 목표 설정을하고 실행 능력을 갖춘 AI
 - AI Agent : 특정 작업 중심으로 사전에 정의된 범위 내에서만 자율적으로 작동
 
@@ -21,3 +21,67 @@ image: https://scalevise.com/resources/content/images/2025/07/agentic-ai.webp
 | **목표 설정**| 스스로 목표를 설정하고 재조정                               | 사전에 정해진 목표를 따름                                               |
 | **행동**     | 적응적 의사결정 및 AI Agent들의 협업을 통한 복잡한 문제 해결 | 환경에 따라 결정하고 자율적으로 행동                                      | 
 
+## Agent System은 다음과 같이 나눌 수 있다. 
+### 1. Single Agent System 
+> 하나의 AI system이 환경과 상호작용하며 문제 해결을 함 
+> - (+) : 단순구조
+> - (+) : 의사결정 속도가 빠름
+> - (-) : 복잡한 문제 해결 불가능
+
+### 2. Multi Agent System
+> 여러 Agent들이 동일한 환경에서 상호작용하며 문제 해결을 한다. 
+> - (+) : 복잡한 문제 해결 가능
+
+### MAS의 특징 
+1. 분산성 (decentralization)
+    - 의사결정과 제어가 중앙 집중적이지 않고, 각 에이전트들이 독립적으로 동작한다. 
+    - 단일 실패 지점을 제거하여, 시스템 안정성을 향상시켰다. 
+    - P2P network, 블록체인, 자율 드론 분산 제어 
+2. 자율성 (Autonomy)
+    - 외부의 개입 없이, 스스로 목표 달성을 위한 의사결정 수행 
+    - 환경 변화에 대응, 인간의 개입 최소화 
+    - 예) 로봇이 스스로 경로 탐색, 에이전트가 자원 사용 결정
+3. 상호작용 (Interaction)
+    - 에이전트들 간 정보 교환과 협력을 통해 집단적으로 문제 해결
+    - 시너지 효과 
+4. 적응성 (Adaptivity)
+    - 에이전트가 환경 변화 및 다른 에이전트의 행동에 맞게 전략을 수정
+    - 동적 및 불확실한 환경에서도 유효하게 동작 가능
+    - 예) 주식 거래에서 시장 변화에 따라 매매 전략 조정
+
+### 다음과 같이 세분화 할 수 있다. 
+### 2-1. 계층기반 MAS (Hierarchy MAS) 
+- 하나의 관리 Agent와 여러 개의 Agent들로 구성 되어 있다. 
+    - 관리 Agent는 전체 프로세스를 조율, 하위 Agent들을 제어하고 업무 조정
+    - (+) : 통제 용이, 의사결정 속도 빠름 
+    - (-) : 중앙 에이전트 의존성, 병목 가능성 
+
+### 2-2. Collaborative MAS (협력 기반 MAS) 
+- 여러 Agent들이 정보를 공유하며 협력적으로 문제해결한다. 
+    - (+) : 시너지 효과 -> 문제 해결 능력이 높아짐
+    - (-) : 협상과 조율이 필요
+    - 협력 전략 
+        - Task Sharing 
+        - Result Sharing
+        - CNP(Contract Net Protocol) 
+    - 응용 사례 
+        - 자율주행 : 차량들이 서로 협력하여 교통의 혼잡도를 완화시킴
+        - 로보틱스 : 다수의 드론이 협력하여 탐사, 재난 구조 수행
+        - 스마트 그리드: 에이전트 기반 전력 거래와 분배를 최적화 
+        - 전자상거래: 자동 협상 / 경매 에이전트
+        - 사회 시뮬레이션 : 인구 이동, 질병확산등
+
+### 2-3. Competitive MAS (경쟁기반 MAS)
+- Agent들이 자신의 이익을 극대화하기 위해 경쟁 
+    - 주식 시장 시뮬레이션, 경매 시스템
+    - (+) : 현실성 반영 
+    - (-) : 갈등이 발생 -> 전체 효율이 저하됨
+
+## Agent간 통신 프로토콜 
+> Agent간 정보 교환을 위해 프로토콜 필요 
+- 통신 방식 
+    - 직접통신 
+    - 브로드캐스트 / 멀티캐스트
+    - 중앙 매개체 기반
+### FIPA (Foundation for Intelligent Physical Agents)
+> MAS의 상호운용성 확보를 위한 국제 표준 제정
