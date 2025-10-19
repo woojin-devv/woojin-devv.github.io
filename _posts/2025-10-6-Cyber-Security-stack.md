@@ -7,6 +7,8 @@ image: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg
 ---
 
 ## 스택 프레임
+> x64dbg에서 main caller에 break point를 걸고 확인 
+>   - main함수도 누군가에게 호출 됨
 > EBP 레지스터를 이용하여 스택 내의 로컬 변수, 파라미터, RET에 접근하는 기법
 >   - EBP를 사용하는 이유: ESP 레지스터의 값은 프로그램 안에서 수시로 변경되기 때문에 스택에 저장된 변수, 파라미터에 접근하고자 할 때는 EBP를 사용하는 것이 효율적임
 >   - EBP: 베이스 포인터, ESP: 스택의 최상단 주소를 가리키는 레지스터
@@ -34,3 +36,35 @@ RET
     - 함수 실행 
     - 함수 실행이 종료되면 EBP가 가리키는 값을 다시 ESP에 저장
     - EBP값을 pop하여, 함수 시작 전에 저장해둔 이전 함수의 프레임 포인터(EBP)를 되돌려줘서 스택 프레임을 원복함
+ 
+## 스택 예제 
+```cpp
+int function(int a, int b) {
+    char buffer[10] = { 0 };
+    a = a + b;
+    return a;
+}
+void main() {
+    int c;
+    c = function(1, 2);
+}
+```
+
+### 스택 예제 | main 함수의 prologue
+```nasm
+
+```
+
+
+### 메모리 연산자 
+- 특정 주소의 값을 참조하기 사용하는 연산자
+```
+BYTE PTR[...]
+WORD PTR[...]
+DWORD PTR[...]
+QWORD PTR[...]
+```
+- BYTE는 1바이트,
+- WORD는 2바이트,
+- DWORD(Double WORD)는 4바이트
+- QWORD(Quad WORD)는 8바이트.
