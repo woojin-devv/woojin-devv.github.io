@@ -83,5 +83,9 @@ image: https://scalevise.com/resources/content/images/2025/07/agentic-ai.webp
     - 직접통신 
     - 브로드캐스트 / 멀티캐스트
     - 중앙 매개체 기반
+
 ### FIPA (Foundation for Intelligent Physical Agents)
 > MAS의 상호운용성 확보를 위한 국제 표준 제정
+> - FIPA-ACL(Agent Communication Language)
+>   - 에이전트 간 메시지 교환을 위한 언어 
+>   - 메시지 구성: Performative, Content, Sender, Receiver, Ontology, Protocol
