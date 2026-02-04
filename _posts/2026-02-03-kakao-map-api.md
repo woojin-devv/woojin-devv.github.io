@@ -152,6 +152,7 @@ def coord_to_bcode(x, y, sleep=0.05):
 
 
 ### 4. 카테고리 별 장소 수집
+
 ```python
 def fetch_places(category, x, y, radius):
     page = 1
@@ -205,6 +206,7 @@ def dong_to_coord(address, sleep=0.1):
 ### 6. 실행
 > 법정동별 카테고리 시설 수 계산 & 즉시 저장
 - 커널이 종료 되더라도 이어서 실행할 수 있도록 분기 처리
+
 ```python
 dong_df = pd.read_csv("../raw/legal_dong.csv")
 
