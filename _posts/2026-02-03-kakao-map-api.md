@@ -33,14 +33,14 @@ CATEGORIES = {
 # 1. Kakao api key 발급
 > Kakao map api를 활용할 예정이기 때문에, 앱을 등록하고 kakao api key를 발급하도록 한다. 
 
-![alt text](../assets/img/etc/kakao-map-01.png)
+![alt text](https://github.com/woojin-devv/woojin-devv.github.io/blob/master/assets/img/etc/kakao-map-01.png?raw=true)
 
-![alt text](../assets/img/etc/kakao-map-02.png)
+![alt text](https://github.com/woojin-devv/woojin-devv.github.io/blob/master/assets/img/etc/kakao-map-02.png?raw=true)
 
 - 이미지 중 **C. 호출 허용 IP 주소**에 내 Public ip 주소를 입력해야 한다. 
 - 가장 간단한 방법은, 
     - **네이버** > “내 아이피 주소 확인”
-> ![alt text](../assets/img/etc/kakao-map-03.png)
+> ![alt text](https://github.com/woojin-devv/woojin-devv.github.io/blob/master/assets/img/etc/kakao-map-03.png?raw=true)
     - Private ip를 입력하지 않도록 주의하자.
 
 ## 1.1 NotAuthorizedError 에러 
@@ -51,7 +51,7 @@ CATEGORIES = {
 ```
 
 ## 1.1 에러 해결 
-> ![alt text](../assets/img/etc/kakao-map-04.png)
+> ![alt text](https://github.com/woojin-devv/woojin-devv.github.io/blob/master/assets/img/etc/kakao-map-04.png?raw=true)
 - [앱](https://developers.kakao.com/console/app) > 제품 설정 > 카카오맵 에서 사용 설정을 ON 해주면 해결 된다.
 
 # 2. 구성
