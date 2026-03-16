@@ -62,3 +62,40 @@ for _ in range(m):
 
 # 2. 2차원 구간합
 ![alt text](/assets/img/prefix_sum.png)
+
+## 백준 2167 – 2차원 배열의 합
+
+```python
+n, m = map(int, input().split())
+
+arr = [[0]*(m+1)]  # 0번째 행 추가
+
+for _ in range(n):
+    row = [0] + list(map(int, input().split()))
+    arr.append(row)
+
+# prefix_sum 초기화 
+prefix_sum = [[0] * (m+1) for _ in range(n+1)]
+
+# prefix_sum[1][1] 시작 추가
+prefix_sum[1][1] = arr[1][1]
+
+# prefix_sum 순회하면서 각각의 값 채워넣기 
+for i in range(1, n+1):
+    for j in range(1, m+1):
+        if i == 1 and j > 1:
+            prefix_sum[i][j] = prefix_sum[1][j-1] + arr[1][j]
+        elif i > 1 and j == 1:
+            prefix_sum[i][j] = prefix_sum[i-1][1] + arr[i][1]
+        else:
+            prefix_sum[i][j] = prefix_sum[i-1][j] + prefix_sum[i][j-1] - prefix_sum[i-1][j-1] + arr[i][j]
+
+k = int(input())
+
+for _ in range(k):
+    i, j, x, y = map(int, input().split())
+
+    result = prefix_sum[x][y] - prefix_sum[i-1][y] - prefix_sum[x][j-1] + prefix_sum[i-1][j-1]
+
+    print(result)
+```
