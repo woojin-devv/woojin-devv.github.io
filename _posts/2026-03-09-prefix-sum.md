@@ -3,7 +3,7 @@ title: 구간합 / 누적합
 date: 2026-03-09
 categories: [Algorithm]
 tags: [Algorithm]
-image: https://coursework.vschool.io/content/images/size/w2000/2017/08/react-banner.png
+image: https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/images/boj-og.png
 layout: post
 math: true
 ---
