@@ -61,3 +61,4 @@ for _ in range(m):
 ---
 
 # 2. 2차원 구간합
+![alt text](/assets/img/prefix_sum.png)
