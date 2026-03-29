@@ -37,7 +37,7 @@ image: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg
         - Intel x86 CPU에서 리틀 엔디언 방식을 사용함
 
 ## 3. Visual Studio 디버깅 방법
-![alt text](../assets/img/cyber_security/vs_dbg1.png)
+![alt text](/assets/img/cyber_security/vs_dbg1.png)
 1. 의심 함수 앞에 breakpoint.
 2. 변수 Watch에 추가.
 3. 처음엔 Step Over로 큰 그림 파악.
@@ -109,7 +109,7 @@ int main(void) {
     - [ebp-4] = b
     - [ebp-0Ch] = retval
 ### 3.1 Step over & Step Into 차이 
-> ![alt text](../assets/img/cyber_security/x64dbg.png)
+> ![alt text](/assets/img/cyber_security/x64dbg.png)
 1. Step Over
 - 현재 줄을 실행하되, 그 줄의 함수 안으로 들어가지 않음
     - 결과만 받아서 다음 줄로 이동

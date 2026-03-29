@@ -86,14 +86,14 @@ typedef struct _IMAGE_DOS_HEADER // DOS .EXE header
 1. Dos header signature 확인
 > Dos Header > Magic number 부분을 클릭하면 아래 HEX DUMP 창에 해당 영역에 하이라이트가 칠해진 부분을 확인할 수 있다. 
 > - Magic Number가 차지하는 부분은 총 2bytes이고 signature는 `MZ`이다.
-![alt text](../assets/img/cyber_security/mz.png)
+![alt text](/assets/img/cyber_security/mz.png)
 
 ## PE 파일 로딩과 메모리
 
 Windows가 프로세스를 메모리에 로드할 때, PE 파일의 정보를 사용하여 가상 메모리 공간에 내용을 매핑한다. 이때 운영체제는 가상 메모리의 어느 위치에, 어떤 크기로 공간을 할당해야 할지 어떻게 알 수 있을까?
 
 그 해답은 **옵셔널 헤더(Optional Header)** 에 있다.
-> ![alt text](../assets/img/cyber_security/imagebase.png)
+> ![alt text](/assets/img/cyber_security/imagebase.png)
 > -   **`ImageBase`**: PE 파일이 메모리에 로드될 가상 주소(VA)의 시작점을 지정한다. 예를 들어 `ImageBase`가 `0x00400000`이라면, 로더는 이 주소부터 PE 이미지를 배치하려고 시도한다.
 >    -   Hex Dump에서 이 값은 `00 00 40 00`처럼 보이는데, 이는 intel x86 아키텍처가 사용하는 **리틀 엔디안(Little Endian)** 바이트 순서 때문이다. 낮은 주소에 데이터의 가장 낮은 바이트(Least Significant Byte)부터 저장하므로, 실제 값은 `0x00400000`이 된다.
 
