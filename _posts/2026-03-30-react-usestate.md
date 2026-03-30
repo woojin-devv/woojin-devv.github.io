@@ -111,3 +111,59 @@ return (
 1. **상태의 의미 분화**: `undefined`와 `null`을 구분하여 앱의 다중 모드(대기, 생성, 상세)를 효과적으로 제어한다.
 2. **함수형 업데이트와 전개 연산자**: 객체 상태를 변경할 때는 `...prevState`를 통해 기존 데이터를 유지해야 한다.
 3. **컴포넌트 구조화**: 부모의 상태 변경 함수를 자식에게 전달함으로써 UI의 일관성을 유지한다.
+
+## 6. 코드
+
+### App.jsx
+
+```js
+import { useState } from "react";
+import NewProject from "./component/NewProject";
+import ProjectSidebar from "./component/ProjectSidebar";
+import NoProjectSelected from "./component/NoProjectSelected.jsx";
+function App() {
+  const [projectsState, setProjectsState] = useState({
+    selectedProjectId: undefined, // neither adding a new project nor have a project selected
+    project: [],
+  });
+
+  function handleStartAddProject() {
+    setProjectsState((prevState) => {
+      return {
+        ...prevState,
+        selectedProjectId: null,
+      };
+    });
+  }
+
+  let content;
+
+  if (projectsState.selectedProjectId === null) {
+    content = <NewProject />;
+  } else if (projectsState.selectedProjectId === undefined) {
+    content = <NoProjectSelected onStartAddProject={handleStartAddProject} />;
+  }
+
+  return (
+    <main className="flex flex-row h-screen gap-8 my-8">
+      {/* <h1 className="my-8 text-5xl font-bold text-center">Hello World</h1>
+       */}
+      <ProjectSidebar onStartAddProject={handleStartAddProject} />
+      {/* <NoProjectSelected onStartAddProject={handleStartAddProject} /> */}
+      {content}
+    </main>
+  );
+}
+
+export default App;
+
+```
+
+### 데모
+
+![데모](/assets/img/react/state/1.gif)
+- Project가 Selected 되지 않은 상태면 
+  - NoProjectSelected 화면
+- 'Create new project' 버튼을 클릭
+  -  selectedProjectId가 null : 새프로젝트 추가
+  -  selectedProjectId가 {어떤 값} : {어떤 값} 프로젝트 상세 보기
