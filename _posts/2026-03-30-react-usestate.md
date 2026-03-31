@@ -1,5 +1,5 @@
 ---
-title: React - 객체 상태를 활용한 조건부 렌더링 구현 (#09-1)
+title: "[React] 객체 상태를 활용한 조건부 렌더링 구현 (#09-1)"
 date: 2026-03-30
 categories: [React]
 tags: [React]

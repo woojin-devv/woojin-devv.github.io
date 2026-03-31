@@ -1,5 +1,5 @@
 ---
-title: React – props와 state의 차이
+title: "[React] props와 state의 차이"
 date: 2026-03-08
 categories: [React]
 tags: [React]
