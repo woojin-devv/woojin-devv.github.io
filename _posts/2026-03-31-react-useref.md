@@ -1,5 +1,5 @@
 ---
-title: React - useRef와 상태 끌어올리기 (09-2)
+title: React - useRef와 상태 끌어올리기 (#09-2)
 date: 2026-03-31
 categories: [React]
 tags: [React]
