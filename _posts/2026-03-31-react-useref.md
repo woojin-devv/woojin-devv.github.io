@@ -8,7 +8,15 @@ layout: post
 math: true
 toc: true
 ---
+### 📍 연관 포스팅
+> - [React - 객체 상태를 활용한 조건부 렌더링 구현 (#09-1)](https://woojin-devv.github.io/posts/react-usestate/)
+> - [React - useRef와 상태 끌어올리기 (#09-2)](https://woojin-devv.github.io/posts/react-useref/)
 
+### Github 
+> - [🔗 09-project-management-app](https://github.com/woojin-devv/react-study/tree/main/09-project-management-app)
+
+---
+## 서론
 입력 폼에서 데이터를 가져올 때, 모든 키 입력마다 상태를 업데이트하는 대신 "저장" 버튼을 누르는 시점에만 값을 읽어오고 싶다면 Ref 사용하자
 
 -> 왜냐면 상태 변화를 계속 팔로업할 필요가 없으니까..
@@ -48,7 +56,7 @@ function handleSave() {
 }
 ```
 
-### 2. 커스텀 컴포넌트에 Ref 전달하기 (`forwardRef`)
+## 2. 커스텀 컴포넌트에 Ref 전달하기 (`forwardRef`)
 내장 HTML 태그(`input`, `textarea`)가 아닌 **커스텀 컴포넌트**에 `ref` 속성을 넘기려면 React의 `forwardRef`를 사용해야 한다. 
 
 ```js
@@ -69,7 +77,7 @@ const Input = forwardRef(function Input({ label, textarea, ...props }, ref) {
 ```
 * `forwardRef`로 감싼 컴포넌트는 두 번째 인자로 `ref`를 전달받으며, 이를 내부의 실제 DOM 요소에 연결할 수 있다.
 
-### 3. 상태 끌어올리기: App에서 데이터 관리
+## 3. 상태 끌어올리기: App에서 데이터 관리
 생성된 프로젝트 데이터는 사이드바와 상세 화면 모두에서 필요하므로, 가장 공통 분모인 `App` 컴포넌트에서 상태를 관리한다.
 
 
@@ -93,7 +101,7 @@ function handleAddProject(projectData) {
 <NewProject onAdd={handleAddProject} />
 ```
 
-### 4. 입력 타입 최적화 (Date Picker)
+## 4. 입력 타입 최적화 (Date Picker)
 사용자로부터 정확한 날짜 형식을 받기 위해 `input`의 `type` 속성을 활용한다.
 
 ```javascript
@@ -111,7 +119,7 @@ function handleAddProject(projectData) {
 2.  **forwardRef**: 커스텀 컴포넌트를 설계할 때 외부에서 제어할 수 있도록 `forwardRef`를 적용하는 습관을 들이자.
 3.  **불변성 유지**: 상태 배열을 업데이트할 때는 `[...prevState.projects, newProject]`와 같이 기존 데이터를 복사하여 불변성을 지켜야 한다.
 
-## 데모
+## 5. 데모
 ![데모](/assets/img/react/state/2.gif)
 ---
 

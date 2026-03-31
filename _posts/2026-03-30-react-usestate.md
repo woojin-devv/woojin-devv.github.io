@@ -9,6 +9,14 @@ math: true
 toc: true
 ---
 
+### 📍 연관 포스팅
+> - [React - 객체 상태를 활용한 조건부 렌더링 구현 (#09-1)](https://woojin-devv.github.io/posts/react-usestate/)
+> - [React - useRef와 상태 끌어올리기 (#09-2)](https://woojin-devv.github.io/posts/react-useref/)
+
+### Github 
+> - [🔗 09-project-management-app](https://github.com/woojin-devv/react-study/tree/main/09-project-management-app)
+
+---
 
 새로운 프로젝트를 생성하거나 목록을 보여주는 등의 복잡한 UI 전환을 효과적으로 관리하기 위해서는 **상태(State) 설계**가 매우 중요하다. 이번 포스팅에서는 `useState`를 사용해 여러 상태를 하나의 객체로 관리하고, 이를 바탕으로 화면을 조건부로 렌더링하는 방법을 정리한다.
 
