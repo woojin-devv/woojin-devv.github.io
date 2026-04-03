@@ -1,5 +1,5 @@
 ---
-title: 구간합 / 누적합
+title: "[알고리즘] 구간합 / 누적합"
 date: 2026-03-09
 categories: [Algorithm]
 tags: [Algorithm]
