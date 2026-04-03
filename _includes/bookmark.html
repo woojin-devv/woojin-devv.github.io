@@ -1,0 +1,17 @@
+<a
+  href="{{ include.url }}"
+  class="notion-bookmark"
+  target="_blank"
+  rel="noopener"
+>
+  <div class="bookmark-info">
+    <div class="bookmark-title">{{ include.title }}</div>
+    <div class="bookmark-desc">{{ include.description }}</div>
+  </div>
+  {% if include.image %}
+  <div
+    class="bookmark-thumbnail"
+    style="background-image: url('{{ include.image }}');"
+  ></div>
+  {% endif %}
+</a>
