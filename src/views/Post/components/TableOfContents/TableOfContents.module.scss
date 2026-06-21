@@ -1,0 +1,56 @@
+.wrapper {
+  position: sticky;
+  top: 110px;
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  padding-left: 22px;
+  border-left: 1px solid var(--line);
+}
+
+.tableOfContents {
+  font-family: 'Pretendard', monospace;
+  font-size: 0.875rem;
+  line-height: 1.55;
+
+  &::before {
+    content: 'ON THIS PAGE';
+    display: block;
+    margin-bottom: 18px;
+    color: var(--ink);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  ul ul {
+    padding-left: 12px;
+  }
+
+  li {
+    margin-bottom: 9px;
+  }
+
+  a {
+    color: var(--faint);
+    text-decoration: none;
+
+    &:hover,
+    &.active {
+      color: var(--ink);
+    }
+  }
+
+  code[class*='language-'] {
+    all: unset;
+  }
+}
+
+@media (max-width: 1040px) {
+  .wrapper {
+    display: none;
+  }
+}

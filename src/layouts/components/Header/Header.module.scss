@@ -1,0 +1,126 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+  border-bottom: 1px solid transparent;
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(14px);
+
+  &.fixed {
+    border-color: var(--line);
+  }
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100% - 40px, 1280px);
+  height: 76px;
+  margin: 0 auto;
+}
+
+.headingLink {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.headingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  color: var(--inverse);
+  background: var(--ink);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.headerButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  a,
+  button {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 36px;
+    padding: 0 12px;
+    border: 1px solid transparent;
+    color: var(--muted);
+    background: transparent;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover {
+      color: var(--ink);
+      border-color: var(--line);
+    }
+  }
+}
+
+.iconButton {
+  font: inherit;
+}
+
+.iconLink {
+  white-space: nowrap;
+}
+
+.mobileLabel {
+  display: none;
+}
+
+.progressBar {
+  width: var(--progress-width);
+  height: 2px;
+  background: var(--ink);
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    width: min(100% - 28px, 1280px);
+    height: 64px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .headerButtons {
+    gap: 0;
+
+    a,
+    button {
+      padding: 0 8px;
+    }
+
+    > a:first-child,
+    > a:nth-child(3),
+    .desktopLabel {
+      display: none;
+    }
+
+    .mobileLabel {
+      display: inline;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.recentPostList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  padding: 1px;
+  background: var(--line);
+  list-style: none;
+}
+
+@media (max-width: 760px) {
+  .recentPostList {
+    grid-template-columns: 1fr;
+  }
+}

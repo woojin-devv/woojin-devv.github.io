@@ -1,0 +1,45 @@
+.wrapper {
+  width: min(100% - 40px, 960px);
+  min-height: calc(100vh - 220px);
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.eyebrow {
+  color: var(--muted);
+  font-family: 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 26px;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  line-height: 0.9;
+}
+
+.description {
+  max-width: 560px;
+  margin-top: 40px;
+  color: var(--muted);
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  white-space: pre-line;
+}
+
+.commentArea {
+  margin-top: 70px;
+  padding-top: 34px;
+  border-top: 1px solid var(--ink);
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    width: min(100% - 28px, 960px);
+    padding-top: 70px;
+  }
+}

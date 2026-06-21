@@ -1,0 +1,209 @@
+.main {
+  width: min(100% - 40px, 1280px);
+  margin: 0 auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  align-items: center;
+  min-height: calc(100vh - 76px);
+  padding: 80px 0 110px;
+}
+
+.heroCopy {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow,
+.sectionHeading p {
+  color: var(--muted);
+  font-family: 'Fira Code', monospace;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  margin-top: 30px;
+  font-size: clamp(3.5rem, 7.5vw, 6.5rem);
+  font-weight: 500;
+  letter-spacing: -0.075em;
+  line-height: 0.82;
+
+  span {
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--ink);
+  }
+}
+
+.heroDescription {
+  max-width: 430px;
+  margin-top: 44px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.heroLinks {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+
+  a {
+    padding: 11px 18px;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    background: transparent;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.15s ease, background 0.15s ease;
+
+    &:first-child,
+    &:hover {
+      color: var(--inverse);
+      background: var(--ink);
+      border-color: var(--ink);
+    }
+  }
+}
+
+.heroGraphic {
+  position: relative;
+  display: grid;
+  place-items: center;
+  justify-self: end;
+  width: min(35vw, 440px);
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 25% 25%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 64%;
+    aspect-ratio: 1;
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+  }
+
+  strong {
+    position: relative;
+    font-size: clamp(6rem, 12vw, 10rem);
+    font-weight: 500;
+    letter-spacing: -0.12em;
+  }
+}
+
+.graphicIndex,
+.graphicCaption {
+  position: absolute;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.graphicIndex {
+  top: 16px;
+  left: 18px;
+}
+
+.graphicCaption {
+  right: 18px;
+  bottom: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1040px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  border-top: 1px solid var(--ink);
+}
+
+.sectionHeading {
+  display: grid;
+  grid-template-columns: minmax(90px, 0.25fr) 1fr;
+  align-items: end;
+  margin-bottom: 34px;
+
+  h2 {
+    font-size: clamp(1.9rem, 4vw, 3.4rem);
+    font-weight: 500;
+    letter-spacing: -0.055em;
+    line-height: 1;
+  }
+
+  &:not(:first-child) {
+    margin-top: 120px;
+    padding-top: 30px;
+    border-top: 1px solid var(--line);
+  }
+}
+
+.tagList {
+  margin-top: 10px;
+}
+
+.postList {
+  margin-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 90px 0;
+  }
+
+  .heroGraphic {
+    justify-self: start;
+    width: min(100%, 420px);
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 640px) {
+  .main {
+    width: min(100% - 28px, 1280px);
+  }
+
+  .hero {
+    padding: 64px 0 80px;
+  }
+
+  .heroTitle {
+    margin-top: 24px;
+    font-size: clamp(3.1rem, 17vw, 4.6rem);
+  }
+
+  .heroDescription {
+    margin-top: 34px;
+    font-size: 0.875rem;
+  }
+
+  .heroGraphic {
+    margin-top: 56px;
+  }
+
+  .wrapper {
+    padding-top: 56px;
+  }
+
+  .sectionHeading {
+    grid-template-columns: 1fr;
+    gap: 14px;
+
+    &:not(:first-child) {
+      margin-top: 80px;
+    }
+  }
+}

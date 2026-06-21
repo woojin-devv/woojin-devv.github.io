@@ -1,0 +1,142 @@
+---
+title: "Javascript Core Concept"
+description: "JavaScript 핵심 개념 및 실행 환경 정리 1. JavaScript의 다양한 실행 환경 JavaScript는 더 이상 브라우저에만 국한되지 않는 강력하고 유연한 언어입니다. 브라우저 (Browser): JS가 처음 만들어진 고전적인 환경 (90년대 시작). 서버 사이드 (Node"
+date: 2026-03-29
+slug: "/js-review/"
+tags: ["javascript"]
+heroImageUrl: "https://camo.githubusercontent.com/86918d276006681ebba60a6dba69d4c090751d7c2487ffe3608fa126cbb5b8f2/68747470733a2f2f63646e2e7261776769742e636f6d2f7a656b652f6a6176617363726970742d79656c6c6f772f6d61737465722f6c6f676f2e737667"
+heroImageAlt: "Javascript Core Concept"
+---
+
+# JavaScript 핵심 개념 및 실행 환경 정리
+
+## 1. JavaScript의 다양한 실행 환경
+JavaScript는 더 이상 브라우저에만 국한되지 않는 강력하고 유연한 언어입니다.
+
+* **브라우저 (Browser):** JS가 처음 만들어진 고전적인 환경 (90년대 시작).
+* **서버 사이드 (Node.js / Deno):** 브라우저 외부에서도 JS 코드를 실행할 수 있게 해주는 런타임 환경.
+* **모바일 앱 (Mobile):** **React Native**나 **Capacitor** 같은 기술을 사용하여 iOS 및 Android 앱 제작 가능.
+    
+
+---
+
+## 2. HTML에 JavaScript를 추가하는 방법
+HTML 문서 내에서 `<script>` 태그를 사용하는 방식은 크게 두 가지로 나뉩니다.
+
+### 1) 인라인 방식 (Inline Approach)
+* **특징:** `<script>` 태그 사이에 직접 코드를 작성.
+* **단점:** 코드가 길어지면 HTML 파일이 복잡해지고 유지보수가 어려움. 주로 아주 짧은 스크립트에만 사용.
+
+### 2) 외부 파일 임포트 방식 (External Files) - **권장**
+* **특징:** 별도의 `.js` 파일을 만들고 HTML에서 불러오는 방식.
+* **장점:** 프로젝트 유지보수가 쉽고 코드가 깔끔해짐.
+* **방법:** ```html
+    <script src="assets/scripts/app.js"></script>
+    ```
+
+---
+
+## 3. `<script>` 태그의 주요 속성 (Attributes)
+
+브라우저가 스크립트를 처리하는 방식을 제어하기 위해 중요한 속성들이 있습니다.
+
+| 속성 | 설명 |
+| :--- | :--- |
+| **`src`** | 불러올 JavaScript 파일의 경로를 지정합니다. |
+| **`defer`** | HTML 파싱이 모두 끝난 후 스크립트를 실행하도록 합니다. HTML 요소가 로드되기 전에 스크립트가 실행되어 에러가 발생하는 것을 방지합니다. |
+| **`type="module"`** | 파일을 **자바스크립트 모듈**로 취급합니다. 이 설정을 통해 `import`와 `export` 구문을 사용할 수 있게 됩니다. (현대적인 프로젝트에서 필수) |
+
+
+
+---
+
+## 4. React와 빌드 프로세스 (Build Process)
+실제 React 프로젝트를 진행할 때는 우리가 직접 HTML에 `<script>` 태그를 일일이 추가하는 일이 거의 없습니다.
+
+* **이유:** React 프로젝트는 보통 **빌드 프로세스**를 거치기 때문입니다.
+* **자동화:** 빌드 도구가 우리가 작성한 여러 JS 파일들을 최적화하고, 최종 HTML 파일에 필요한 `<script>` 태그를 **자동으로 주입(Inject)**해 줍니다.
+
+---
+
+### 💡 요약 및 다음 단계
+* JS는 브라우저뿐만 아니라 서버, 모바일에서도 쓰이는 범용 언어다.
+* HTML에 스크립트를 넣을 때는 유지보수를 위해 외부 파일 형식을 사용한다.
+* `type="module"`을 사용하면 파일 간에 코드를 주고받는 `import/export`가 가능해진다.
+
+--- 
+강의 내용을 바탕으로 JavaScript의 `import`와 `export` 핵심 개념을 블로그에 올리기 좋게 **Markdown** 형식으로 정리해 드립니다.
+
+---
+
+## 5. Import & Export 정리
+
+React와 같은 현대적인 자바스크립트 프로젝트에서는 코드를 유지보수하기 쉽게 여러 파일로 나누어 관리합니다. 이때 파일 간에 변수나 함수를 공유하기 위해 사용하는 핵심 키워드가 바로 `export`와 `import`입니다.
+
+---
+
+### 1. Named Export (이름을 내보내기)
+가장 기본적인 방식입니다. 한 파일에서 **여러 개의 변수나 함수**를 내보낼 때 유용합니다.
+
+* **내보낼 때 (`util.js`):** 변수나 함수 앞에 `export` 키워드를 붙입니다.
+    ```javascript
+    export let apiKey = "abc123cryptic";
+    export let abc = "someValue";
+    ```
+* **가져올 때 (`app.js`):** 중괄호 `{ }` 안에 내보낸 이름을 그대로 적습니다.
+    ```javascript
+    import { apiKey, abc } from './util.js';
+    ```
+
+> **💡 참고:** React 빌드 시스템을 사용하면 확장자(`.js`)를 생략할 수 있지만, 순수 자바스크립트 환경(Vanilla JS)에서는 파일 경로 뒤에 `.js`를 반드시 붙여야 한다.
+
+---
+
+### 2. Default Export (기본 내보내기)
+한 파일당 **단 하나**만 존재할 수 있는 특별한 내보내기 방식입니다. 주로 파일의 메인 기능을 내보낼 때 사용합니다.
+
+* **내보낼 때 (`util.js`):** `default` 키워드를 사용하며, 이름 없이 값만 전달할 수 있습니다.
+    ```javascript
+    export default "abc123cryptic";
+    ```
+* **가져올 때 (`app.js`):** 중괄호 `{ }` 없이 **원하는 이름**으로 자유롭게 정의하여 가져옵니다.
+    ```javascript
+    import apiKey from './util.js'; // 이름을 myKey 등으로 바꿔도 무방함
+    ```
+
+---
+
+### 3. 유용한 활용 팁
+
+#### Alias 사용하기 (이름 변경)
+가져오는 파일 내에서 변수명이 중복되거나 마음에 들지 않을 때 `as` 키워드로 이름을 바꿀 수 있습니다.
+```javascript
+import { abc as content } from './util.js';
+console.log(content); // util.js의 abc 값을 출력
+```
+
+#### 모든 요소를 객체로 묶어서 가져오기
+파일 안의 모든 `export` 항목을 하나의 객체로 그룹화하여 가져올 수 있습니다.
+```javascript
+import * as util from './util.js';
+
+console.log(util.apiKey);
+console.log(util.default); // default export는 .default로 접근
+```
+
+---
+
+### 4. 주의사항 (Type Module)
+브라우저에서 직접 이 문법을 사용할 때는 `<script>` 태그에 `type="module"` 속성을 추가해야 합니다.
+```html
+<script src="app.js" type="module"></script>
+```
+*React 프로젝트에서는 빌드 도구(Webpack, Vite 등)가 파일을 하나로 합쳐주기 때문에 이 속성을 직접 관리할 필요가 없습니다.*
+
+---
+
+**정리하자면:**
+* 여러 개를 내보낼 땐 **Named Export** `{ }`
+* 하나의 메인을 내보낼 땐 **Default Export**
+* 가져올 때 이름 변경은 **`as`**
+* 모두 한 번에 가져올 땐 **`* as`**
+

@@ -1,0 +1,57 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  max-width: 720px;
+}
+
+.postProfileImage {
+  width: 76px;
+  height: 76px;
+  border: 1px solid var(--line);
+  filter: grayscale(100%);
+
+  img {
+    border-radius: 0;
+  }
+}
+
+.postDescription {
+  max-width: 470px;
+  margin-top: 8px !important;
+}
+
+.iconWrapper {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card {
+  max-width: 460px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.profileImage {
+  width: 70px;
+  height: 70px;
+  filter: grayscale(100%);
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .postProfileImage {
+    width: 56px;
+    height: 56px;
+  }
+}

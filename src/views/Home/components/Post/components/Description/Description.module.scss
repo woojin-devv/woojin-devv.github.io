@@ -1,0 +1,7 @@
+@use '@/styles/abstracts' as *;
+
+.description {
+  @include multiEllipsis(2);
+  color: var(--muted);
+  font-weight: 400;
+}

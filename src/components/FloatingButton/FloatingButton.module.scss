@@ -1,0 +1,31 @@
+.floatingButton {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  color: var(--inverse);
+  background: var(--ink);
+  font-family: 'Fira Code', monospace;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(12px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+  }
+}
