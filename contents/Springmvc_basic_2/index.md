@@ -3,7 +3,7 @@ title: "[Spring] MVC 파일 업로드 처리 흐름 정리"
 description: "1. 개요 게시판 기능을 구현하다 보면 글 작성과 함께 이미지를 업로드해야 하는 경우가 있다. 예를 들어, 사용자가 게시글을 작성하면서 사진을 첨부하면, 서버는 사용자가 입력한 내용, 작성자 정보뿐만 아니라 첨부한 파일도 함께 처리해야 한다. 주의할 점: DB에 직접 저장하지 않을 것 "
 date: 2026-06-16
 slug: "/Springmvc_basic_2/"
-tags: ["java","spring","spring-mvc","file-upload","multipart"]
+tags: [spring]
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] MVC 파일 업로드 처리 흐름 정리"
 ---

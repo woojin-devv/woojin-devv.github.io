@@ -3,7 +3,7 @@ title: "리버싱 핵심 원리 | PE 파일 구조"
 description: "PE 파일 형식 (Portable Executable) PE(Portable Executable) 는 실행 파일, DLL, 오브젝트 코드 등을 위한 파일 형식이다. 이름처럼 다른 곳으로 옮겨도 실행이 가능하도록 이식성을 염두에 두고 설계되었다. PE 파일은 크게 PE 헤더 와 섹션 으로"
 date: 2025-10-10
 slug: "/Cyber-Security-PE/"
-tags: ["reverse engineering","pe-format","cs study"]
+tags: [reverse engineering]
 heroImageUrl: "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg"
 heroImageAlt: "리버싱 핵심 원리 | PE 파일 구조"
 ---

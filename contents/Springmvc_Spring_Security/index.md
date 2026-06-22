@@ -3,7 +3,7 @@ title: "[Spring] Spring Security"
 description: "Spring Security 1. Spring 기반 보안 설정 처리 Spring Security 는 Spring 기반 애플리케이션에서 인증(Authentication) 과 권한/인가(Authorization) 를 처리하기 위한 보안 프레임워크이다. 웹 애플리케이션에서 사용자는 단순히 로"
 date: 2026-06-19
 slug: "/Springmvc_Spring_Security/"
-tags: ["java","spring"]
+tags: [spring]
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] Spring Security"
 ---

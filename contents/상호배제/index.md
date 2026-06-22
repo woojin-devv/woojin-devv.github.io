@@ -3,7 +3,7 @@ title: "Operating System | 상호배제"
 description: "상호배제 (Mutual Exclusion)란? 한 번에 하나의 프로세스만 임계 구역(critical section)을 실행할 수 있도록 하는 원리. 상호 배제를 보장하기 위해서는 프로세스가 인터럽트(interrupt) 되지 않도록 해야 한다. 단일 프로세서 시스템에서는 여러 프로세스가 "
 date: 2025-10-09
 slug: "/상호배제/"
-tags: ["os","cs study"]
+tags: ["os"]
 heroImageUrl: "https://media.geeksforgeeks.org/wp-content/uploads/20250723191540166280/examples_of_os.webp"
 heroImageAlt: "Operating System | 상호배제"
 ---

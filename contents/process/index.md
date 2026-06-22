@@ -3,7 +3,7 @@ title: "Operating System | Process"
 description: "Chapter 3 프로세스 기술과 제어 3.1 프로세스란? 프로세스의 정의 수행중인 프로그램 컴퓨터 상에 수행 중인 프로그램의 인스턴스 처리기에 할당되어 수행될 수 있는 개체(entity) 명령들의 순차 수행, 현재 상태, 연계된 시스템 자원들의 집합 PCB(Process Control"
 date: 2025-09-27
 slug: "/process/"
-tags: ["os","cs study"]
+tags: [os]
 heroImageUrl: "https://media.geeksforgeeks.org/wp-content/uploads/20250723191540166280/examples_of_os.webp"
 heroImageAlt: "Operating System | Process"
 ---

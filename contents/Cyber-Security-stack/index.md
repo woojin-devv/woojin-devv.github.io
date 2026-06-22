@@ -3,7 +3,7 @@ title: "리버싱 핵심 원리 | Stack Frame"
 description: "스택 프레임 x64dbg에서 main caller에 break point를 걸고 확인 main함수도 누군가에게 호출 됨 EBP 레지스터를 이용하여 스택 내의 로컬 변수, 파라미터, RET에 접근하는 기법 EBP를 사용하는 이유: ESP 레지스터의 값은 프로그램 안에서 수시로 변경되기 때"
 date: 2025-10-06
 slug: "/Cyber-Security-stack/"
-tags: ["reverse engineering","cs study"]
+tags: [reverse engineering]
 heroImageUrl: "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg"
 heroImageAlt: "리버싱 핵심 원리 | Stack Frame"
 ---

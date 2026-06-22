@@ -3,7 +3,7 @@ title: "[008] 자바 인터페이스 정리"
 description: "개선된 for문 인터페이스 인터페이스는 소프트웨어 설계 최상위 단계 인터페이스는 무에서 유를 창조 인터페이스란? 약속, 규칙, 규약, 표준 을 만드는 행위를 말함 표준이란? 아이폰의 C타입 충전 볼트를 조일 때 오른쪽 엘리베이터의 상승 버튼 (삼각형)등 ISO(International "
 date: 2026-04-13
 slug: "/java-interface/"
-tags: ["JAVA","OOP"]
+tags: ["java"]
 heroImage: ./heroImage.png
 heroImageAlt: "[008] 자바 인터페이스 정리"
 ---

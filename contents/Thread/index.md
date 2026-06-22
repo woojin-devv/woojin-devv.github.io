@@ -3,7 +3,7 @@ title: "Operating System | 쓰레드(Thread)"
 description: "프로세스와 쓰레드 쓰레드 = 실행흐름 쓰레드의 장점(benefits) 프로세스에 비해 새로운 쓰레드 생성 시간/비용이 절약됨 프로세스 종료 시간보다 쓰레드 종료 시간이 짧다. 한 프로세스 내의 두 쓰레드들 사이의 교환 및 교체 시간이 짧다. 동일 프로세스 내의 쓰레드들은 메모리 및 파일"
 date: 2025-10-05
 slug: "/Thread/"
-tags: ["os","cs study"]
+tags: ["os"]
 heroImageUrl: "https://media.geeksforgeeks.org/wp-content/uploads/20250723191540166280/examples_of_os.webp"
 heroImageAlt: "Operating System | 쓰레드(Thread)"
 ---

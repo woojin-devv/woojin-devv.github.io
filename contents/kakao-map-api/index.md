@@ -3,7 +3,7 @@ title: "법정동 기준 상권 데이터 수집 구현기 (Kakao Local API)"
 description: "일단, 수집하고자하는 데이터는 다음과 같다. 법정동 코드 (한 구역에) CATEGORIES에 포함된 편의시설의 개수이다. Table Header & 예시 법정동코드 category group code count 1111010100 CS2 2 1111010100 MT1 0 1. Kakao"
 date: 2026-02-03
 slug: "/kakao-map-api/"
-tags: ["Kakao Local API","cs study"]
+tags: ["Kakao Local API"]
 heroImageUrl: "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/daumMapsApi.png"
 heroImageAlt: "법정동 기준 상권 데이터 수집 구현기 (Kakao Local API)"
 ---
@@ -28,9 +28,9 @@ CATEGORIES = {
 - Table Header & 예시
 
 | 법정동코드 | category_group_code | count |
-| --- | --- | --- |
-| 1111010100 | CS2 | 2 |
-| 1111010100 | MT1 | 0 |
+| ---------- | ------------------- | ----- |
+| 1111010100 | CS2                 | 2     |
+| 1111010100 | MT1                 | 0     |
 
 # 1. Kakao api key 발급
 > Kakao map api를 활용할 예정이기 때문에, 앱을 등록하고 kakao api key를 발급하도록 한다. 

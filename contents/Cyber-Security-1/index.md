@@ -3,7 +3,7 @@ title: "리버싱 핵심 원리 | 1부 기초 리버싱"
 description: "1. 리버싱 분석 방법 1.1 정적 분석 파일의 겉모습을 분석하는 방법 파일을 실행하지 않음 파일의 종류, 크기, 헤더, 정보, 디지털 인증서 등의 다양한 내용을 확인 디스어셈블러를 이용해 내부 코드와 그 구조를 확인 1.2 동적 분석 파일을 직접 실행시켜서 그 행위를 분석하고, 디버깅"
 date: 2025-10-03
 slug: "/Cyber-Security-1/"
-tags: ["reverse engineering","cs study"]
+tags: [reverse engineering]
 heroImageUrl: "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg"
 heroImageAlt: "리버싱 핵심 원리 | 1부 기초 리버싱"
 ---

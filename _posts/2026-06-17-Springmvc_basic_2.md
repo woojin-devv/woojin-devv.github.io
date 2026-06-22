@@ -2,7 +2,7 @@
 title: "[Spring] MVC 파일 업로드 처리 흐름 정리"
 date: 2026-06-16
 categories: [java, spring]
-tags: [java, spring, spring-mvc, file-upload, multipart]
+tags: [spring]
 image: "/assets/img/spring/logo.png"
 layout: post
 math: true

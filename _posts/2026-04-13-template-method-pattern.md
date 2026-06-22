@@ -2,7 +2,7 @@
 title: "[OOP] 템플릿 메서드 패턴 정리"
 date: 2026-04-13
 categories: [JAVA]
-tags: [JAVA, OOP]
+tags: [JAVA]
 image: /assets/img/java-study/banner.png
 layout: post
 math: true

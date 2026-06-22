@@ -3,7 +3,7 @@ title: "HTTP?"
 description: "HTTP? 하이퍼텍스트 전송 프로토콜(HTTP)은 HTML과 같은 하이퍼미디어 문서를 전송하기 위한 애플리케이션 계층 프로토콜이다. 웹 브라우저와 웹 서버간의 통신을 위해 설계되었지만 다른 목적으로도 사용할 수 있다. HTTP는 무상태 프로토콜이고, 서버가 두 요청 간에 어떠한 데이터도"
 date: 2026-03-06
 slug: "/HTTP/"
-tags: ["HTTP","Web"]
+tags: ["Web"]
 heroImageUrl: "https://mdn.github.io/shared-assets/images/diagrams/http/overview/fetching-a-page.svg"
 heroImageAlt: "HTTP?"
 ---

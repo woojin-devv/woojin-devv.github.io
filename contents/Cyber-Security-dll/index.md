@@ -3,7 +3,7 @@ title: "리버싱 핵심 원리 | DLL"
 description: "Windows Library, DLL 라이브러리(Library)란? 함수, 변수, 데이터, 타입 리소스등 여러 가지 프로그래밍 요소들의 집합 windows 운영체제에서는 주로 .lib , .dll 과 같은 확장자를 가진다. 표준화할 수 있는 함수 집합 C 표준 함수 : printf(),"
 date: 2025-10-07
 slug: "/Cyber-Security-dll/"
-tags: ["reverse engineering","cs study"]
+tags: [reverse engineering]
 heroImageUrl: "https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966260522.jpg"
 heroImageAlt: "리버싱 핵심 원리 | DLL"
 ---

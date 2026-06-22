@@ -3,7 +3,7 @@ title: "[JPA] Intellij Dynamic Web project 생성"
 description: "서론 IntelliJ IDEA에서 JSP/Servlet 기반의 Dynamic Web Project를 생성하는 과정을 정리한다. Eclipse에서는 Dynamic Web Project 메뉴를 통해 바로 생성할 수 있지만, IntelliJ에서는 Jakarta EE 템플릿과 Tomcat 실행"
 date: 2026-05-20
 slug: "/intellij-dynamic-web-project/"
-tags: ["WEB","JPA"]
+tags: [Web]
 heroImage: ./heroImage.png
 heroImageAlt: "[JPA] Intellij Dynamic Web project 생성"
 ---

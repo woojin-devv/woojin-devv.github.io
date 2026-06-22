@@ -3,7 +3,7 @@ title: "딥러닝 | CNN(합성곱신경망) 개요"
 description: "1. CNN 이란? Convolutional Neural Network의 줄임말로, 격자 이미지와 같은 데이터를 설계하기 위해 고안된 인공 신경망 합성곱(convolution) 연산을 통해 이미지의 공간적 특징을 추출(feature map)한다. 특징 vision 분야에서 성능 우수 이"
 date: 2025-10-17
 slug: "/CNN/"
-tags: ["CNN","cs study"]
+tags: [CNN]
 heroImageUrl: "https://wikidocs.net/images/page/164365/Fig_02_cnn.jpeg"
 heroImageAlt: "딥러닝 | CNN(합성곱신경망) 개요"
 ---

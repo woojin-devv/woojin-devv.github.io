@@ -3,7 +3,7 @@ title: "Agentic AI (1)"
 description: "📌 AI 시스템의 사회적 영향 경제적 영향 산업 구조 변화 : 제조·물류·금융·의료 전반에서 자동화·효율성 증대 혁신 가속 : 자율주행, 맞춤형 헬스케어, 스마트시티 등 신산업 창출 노동시장 재편 : 단순 업무 감소, 고급 기술·데이터 일자리 증가 → 일자리 양극화 부의 불평등 : 대기"
 date: 2025-10-03
 slug: "/AI-in-practice/"
-tags: ["AI in practice","cs study"]
+tags: [AI]
 heroImageAlt: "Agentic AI (1)"
 ---
 

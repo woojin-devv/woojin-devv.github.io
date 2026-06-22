@@ -2,7 +2,7 @@
 title: "[Spring] 소프트웨어 개발과 관심사의 분리"
 date: 2026-06-11
 categories: [java, spring]
-tags: [java, spring ]
+tags: [spring]
 layout: post
 math: true
 toc: true

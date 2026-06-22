@@ -2,7 +2,7 @@
 title: "[Data Modeling] 데이터 모델링 1일차 - 개념/논리/물리 모델링과 ERD 기초"
 date: 2026-05-06
 categories: [Database, DataModeling]
-tags: [Database, DataModeling, ERD, Entity, Attribute, Relationship, Normalization]
+tags: [DataModeling]
 image: /assets/img/database-study/banner.png
 layout: post
 math: true

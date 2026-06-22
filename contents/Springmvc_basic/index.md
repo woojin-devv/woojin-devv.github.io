@@ -3,7 +3,7 @@ title: "[Spring] MVC 어노테이션 기반 요청 처리 흐름 정리"
 description: "1. 개요 이 글에서는 Spring MVC에서 어노테이션을 이용해 컨트롤러와 서비스 객체를 등록하고, 하나의 URL에 대해 GET 요청과 POST 요청을 분리해서 처리하는 흐름을 정리한다. 또한 JSP form에서 전달된 요청 파라미터가 NewArticleCommand 객체에 자동으로 "
 date: 2026-06-16
 slug: "/Springmvc_basic/"
-tags: ["java","spring"]
+tags: [spring]
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] MVC 어노테이션 기반 요청 처리 흐름 정리"
 ---

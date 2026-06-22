@@ -3,7 +3,7 @@ title: "[OOP] 템플릿 메서드 패턴 정리"
 description: "1. 템플릿 메서드 패턴이란? 작업의 뼈대는 미리 정해두고 구체적인 단계는 자식 클래스에서 구현하게 만든 패턴. 상위 클래스에서 실행 프로세스의 순서를 정의하고, 그 일부 단계를 abstract 메서드나 상속 가능한 메서드로 비워둔다. 알고리즘의 뼈대 자식이 건들이지 못하도록 final"
 date: 2026-04-13
 slug: "/template-method-pattern/"
-tags: ["JAVA","OOP"]
+tags: [design-pattern]
 heroImage: ./heroImage.png
 heroImageAlt: "[OOP] 템플릿 메서드 패턴 정리"
 ---

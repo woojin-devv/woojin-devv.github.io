@@ -3,7 +3,7 @@ title: "[JPA] Intellij Dynamic Web project 생성"
 date: 2026-05-20
 categories: [WEB]
 image: /assets/img/banner/intellij.png
-tags: [WEB, JPA]
+tags: [WEB]
 layout: post
 math: true
 toc: true
