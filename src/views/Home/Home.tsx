@@ -4,15 +4,20 @@ import { FloatingButton, Seo } from '@/components'
 import Layout from '@/layouts'
 import { getRefinedStringValue } from '@/utils'
 
-import { PostList, RecentPost, TagList } from './components'
+import { Pagination, PostList, RecentPost, TagList } from './components'
 import * as styles from './Home.module.scss'
-import { usePostInfiniteScroll, useTag } from './hooks'
+import { usePostPagination, useTag } from './hooks'
 
-const Home = ({ data, location: { pathname } }: PageProps<Queries.HomeQuery>) => {
+const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQuery>) => {
   const { nodes: allPosts, totalCount, group } = data.allMarkdownRemark
   const recentPosts = allPosts.slice(0, 2)
   const { tags, selectedTag, clickTag } = useTag(totalCount, group)
-  const { visiblePosts } = usePostInfiniteScroll(allPosts, selectedTag, totalCount)
+  const { visiblePosts, currentPage, totalPages, changePage } = usePostPagination(
+    allPosts,
+    selectedTag,
+    pathname,
+    search
+  )
 
   return (
     <Layout pathname={pathname}>
@@ -52,7 +57,10 @@ const Home = ({ data, location: { pathname } }: PageProps<Queries.HomeQuery>) =>
             <h2>All writing</h2>
           </div>
           <TagList tags={tags} selectedTag={selectedTag} clickTag={clickTag} className={styles.tagList} />
-          <PostList posts={visiblePosts} className={styles.postList} />
+          <div data-post-list>
+            <PostList posts={visiblePosts} className={styles.postList} />
+          </div>
+          <Pagination currentPage={currentPage} totalPages={totalPages} changePage={changePage} />
         </section>
         <FloatingButton />
       </main>

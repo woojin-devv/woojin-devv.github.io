@@ -1,2 +1,2 @@
-export * from './usePostInfiniteScroll'
+export * from './usePostPagination'
 export * from './useTag'
