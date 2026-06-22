@@ -157,6 +157,15 @@
   margin-top: 40px;
 }
 
+.emptyResult {
+  margin-top: 40px;
+  padding: 64px 20px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  text-align: center;
+}
+
 @media (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;

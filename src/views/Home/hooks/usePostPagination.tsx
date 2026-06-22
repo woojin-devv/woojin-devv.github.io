@@ -12,32 +12,43 @@ const getPageFromSearch = (search: string) => {
 export const usePostPagination = (
   allPosts: Queries.HomeQuery['allMarkdownRemark']['nodes'],
   selectedTag: string,
+  searchQuery: string,
   pathname: string,
   search: string
 ) => {
-  const posts = useMemo(
-    () => allPosts.filter(({ frontmatter: { tags } }) => selectedTag === TAGS.ALL || tags.includes(selectedTag)),
-    [allPosts, selectedTag]
-  )
+  const posts = useMemo(() => {
+    const normalizedQuery = searchQuery.trim().toLocaleLowerCase()
+
+    return allPosts.filter(({ frontmatter: { tags, title, description }, rawMarkdownBody }) => {
+      const matchesTag = selectedTag === TAGS.ALL || tags.includes(selectedTag)
+      const searchableText = `${title} ${description} ${rawMarkdownBody}`.toLocaleLowerCase()
+      const matchesQuery = normalizedQuery.length === 0 || searchableText.includes(normalizedQuery)
+
+      return matchesTag && matchesQuery
+    })
+  }, [allPosts, searchQuery, selectedTag])
   const totalPages = Math.max(1, Math.ceil(posts.length / POSTS_PER_PAGE))
   const [currentPage, setCurrentPage] = useState(() => Math.min(getPageFromSearch(search), totalPages))
-  const previousTag = useRef(selectedTag)
+  const previousFilter = useRef({ selectedTag, searchQuery })
 
   useEffect(() => {
-    if (previousTag.current !== selectedTag) {
-      previousTag.current = selectedTag
+    if (previousFilter.current.selectedTag !== selectedTag || previousFilter.current.searchQuery !== searchQuery) {
+      previousFilter.current = { selectedTag, searchQuery }
       setCurrentPage(1)
     }
-  }, [selectedTag])
+  }, [searchQuery, selectedTag])
 
   useEffect(() => {
     setCurrentPage((page) => Math.min(page, totalPages))
   }, [totalPages])
 
   useEffect(() => {
-    const url = currentPage === 1 ? pathname : `${pathname}?page=${currentPage}`
-    window.history.replaceState({}, '', url)
-  }, [currentPage, pathname])
+    const params = new URLSearchParams()
+    if (searchQuery.trim()) params.set('q', searchQuery.trim())
+    if (currentPage > 1) params.set('page', String(currentPage))
+    const queryString = params.toString()
+    window.history.replaceState({}, '', queryString ? `${pathname}?${queryString}` : pathname)
+  }, [currentPage, pathname, searchQuery])
 
   const visiblePosts = posts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE)
 
@@ -50,5 +61,5 @@ export const usePostPagination = (
     })
   }
 
-  return { visiblePosts, currentPage, totalPages, changePage }
+  return { visiblePosts, resultCount: posts.length, currentPage, totalPages, changePage }
 }

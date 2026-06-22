@@ -1,5 +1,6 @@
 export * from './Pagination'
 export * from './PostList'
+export * from './PostSearch'
 export * from './RecentPost'
 export * from './TagButtonWithCount'
 export * from './TagList'

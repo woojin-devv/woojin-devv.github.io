@@ -5,6 +5,7 @@ export const query = graphql`
     allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       totalCount
       nodes {
+        rawMarkdownBody
         frontmatter {
           tags
           slug

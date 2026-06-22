@@ -1,10 +1,11 @@
 import type { HeadProps, PageProps } from 'gatsby'
+import { useState } from 'react'
 
 import { FloatingButton, Seo } from '@/components'
 import Layout from '@/layouts'
 import { getRefinedStringValue } from '@/utils'
 
-import { Pagination, PostList, RecentPost, TagList } from './components'
+import { Pagination, PostList, PostSearch, RecentPost, TagList } from './components'
 import * as styles from './Home.module.scss'
 import { usePostPagination, useTag } from './hooks'
 
@@ -12,9 +13,11 @@ const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQu
   const { nodes: allPosts, totalCount, group } = data.allMarkdownRemark
   const recentPosts = allPosts.slice(0, 2)
   const { tags, selectedTag, clickTag } = useTag(totalCount, group)
-  const { visiblePosts, currentPage, totalPages, changePage } = usePostPagination(
+  const [searchQuery, setSearchQuery] = useState(() => new URLSearchParams(search).get('q') ?? '')
+  const { visiblePosts, resultCount, currentPage, totalPages, changePage } = usePostPagination(
     allPosts,
     selectedTag,
+    searchQuery,
     pathname,
     search
   )
@@ -56,9 +59,14 @@ const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQu
             <p>Archive</p>
             <h2>All writing</h2>
           </div>
+          <PostSearch value={searchQuery} onChange={setSearchQuery} />
           <TagList tags={tags} selectedTag={selectedTag} clickTag={clickTag} className={styles.tagList} />
           <div data-post-list>
-            <PostList posts={visiblePosts} className={styles.postList} />
+            {resultCount > 0 ? (
+              <PostList posts={visiblePosts} className={styles.postList} />
+            ) : (
+              <p className={styles.emptyResult}>No posts found for “{searchQuery}”.</p>
+            )}
           </div>
           <Pagination currentPage={currentPage} totalPages={totalPages} changePage={changePage} />
         </section>
