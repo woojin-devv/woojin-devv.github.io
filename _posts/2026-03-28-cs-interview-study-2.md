@@ -2,7 +2,7 @@
 title: 2주차 - 네트워크 
 date: 2026-03-28
 categories: [cs]
-tags: [cs면접]
+tags: ["cs면접"]
 image: https://cdn.inflearn.com/public/courses/328823/cover/1081d7c2-64b4-4063-87f4-c40e11bb481f/KakaoTalk_20220517_140737840.jpg?w=736
 layout: post
 math: true

@@ -3,7 +3,7 @@ title: "[001] Front-Back 정리"
 description: "Front Back 구조 정리 1. Client Client는 사용자가 직접 보는 화면을 담당한다. 현대 웹에서는 React, Vue, Angular 같은 프레임워크를 사용해 SPA 방식으로 구현하는 경우가 많다. 2. SPA 방식 SPA(Single Page Application) S"
 date: 2026-05-20
 slug: "/front-back/"
-tags: [WEB]
+tags: [Web]
 heroImageAlt: "[001] Front-Back 정리"
 ---
 

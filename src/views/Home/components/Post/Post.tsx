@@ -49,12 +49,10 @@ export const Post = ({ variants, title, description, date, tags, slug, heroImage
             <figure className={clsx(styles.itemFigure, { [styles.itemFigureWithoutImage]: !hasHeroImage })}>
               {renderImage(styles.itemImage)}
               <figcaption className={styles.itemCaption}>
+                <Date date={date} className={styles.itemDate} />
                 <Title title={title} className={styles.itemTitle} />
                 <Description description={description} className={styles.itemDescription} />
-                <div className={styles.itemMeta}>
-                  <Date date={date} className={styles.itemDate} />
-                  <TagList tags={tags} />
-                </div>
+                <TagList tags={tags} className={styles.itemTagList} />
               </figcaption>
             </figure>
           </article>
