@@ -14,14 +14,14 @@ export const usePostPagination = (
   selectedTag: string,
   searchQuery: string,
   pathname: string,
-  search: string
+  search: string,
 ) => {
   const posts = useMemo(() => {
     const normalizedQuery = searchQuery.trim().toLocaleLowerCase()
 
     return allPosts.filter(({ frontmatter: { tags, title, description }, rawMarkdownBody }) => {
       const matchesTag = selectedTag === TAGS.ALL || tags.includes(selectedTag)
-      const searchableText = `${title} ${description} ${rawMarkdownBody}`.toLocaleLowerCase()
+      const searchableText = `${title} ${description} ${tags.join(' ')} ${rawMarkdownBody}`.toLocaleLowerCase()
       const matchesQuery = normalizedQuery.length === 0 || searchableText.includes(normalizedQuery)
 
       return matchesTag && matchesQuery

@@ -1,7 +1,7 @@
 import type { HeadProps, PageProps } from 'gatsby'
 import { useState } from 'react'
 
-import { FloatingButton, Seo } from '@/components'
+import { FloatingButton, Hero, Seo } from '@/components'
 import Layout from '@/layouts'
 import { getRefinedStringValue } from '@/utils'
 
@@ -11,7 +11,7 @@ import { usePostPagination, useTag } from './hooks'
 
 const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQuery>) => {
   const { nodes: allPosts, totalCount, group } = data.allMarkdownRemark
-  const recentPosts = allPosts.slice(0, 2)
+  const recentPosts = allPosts.slice(0, 3)
   const { tags, selectedTag, clickTag } = useTag(totalCount, group)
   const [searchQuery, setSearchQuery] = useState(() => new URLSearchParams(search).get('q') ?? '')
   const { visiblePosts, resultCount, currentPage, totalPages, changePage } = usePostPagination(
@@ -19,48 +19,48 @@ const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQu
     selectedTag,
     searchQuery,
     pathname,
-    search
+    search,
   )
 
   return (
     <Layout pathname={pathname}>
       <main className={styles.main}>
-        <section className={styles.hero}>
-          <div className={styles.heroCopy}>
-            <p className={styles.eyebrow}>Woojin's engineering journal</p>
-            <h1 className={styles.heroTitle}>
-              Build.<br />
-              Learn.<br />
-              <span>Document.</span>
-            </h1>
-            <p className={styles.heroDescription}>
-              구조적으로 사고하고, 근거 있게 구현하기 위해 기록합니다.
-            </p>
-            <div className={styles.heroLinks}>
-              <a href="https://github.com/woojin-devv" target="_blank" rel="noreferrer">
-                GitHub ↗
-              </a>
-              <a href="mailto:dnwls0723@sookmyung.ac.kr">Email ↗</a>
+        <Hero posts={allPosts} />
+        <section className={styles.wrapper} aria-labelledby="archive-title">
+          <div className={styles.archiveHeader}>
+            <div>
+              <p className={styles.eyebrow}>Writing Archive</p>
+              <h2 id="archive-title">All writing</h2>
             </div>
+            <p className={styles.archiveDescription}>
+              Notes on development, debugging, design decisions, and things I learned while building.
+            </p>
           </div>
-          <div className={styles.heroGraphic} aria-hidden="true">
-            <span className={styles.graphicIndex}>01</span>
-            <strong>W</strong>
-            <span className={styles.graphicCaption}>THINK / MAKE / WRITE</span>
+
+          <div className={styles.controlPanel} aria-label="Writing filters">
+            <PostSearch value={searchQuery} onChange={setSearchQuery} />
+            <TagList tags={tags} selectedTag={selectedTag} clickTag={clickTag} className={styles.tagList} />
           </div>
-        </section>
-        <section className={styles.wrapper}>
+
           <div className={styles.sectionHeading}>
-            <p>Selected</p>
-            <h2>Latest notes</h2>
+            <div>
+              <p className={styles.eyebrow}>Selected Writing</p>
+              <h3>Recently organized</h3>
+            </div>
+            <p>Latest notes from the archive.</p>
           </div>
           <RecentPost posts={recentPosts} />
+
           <div className={styles.sectionHeading}>
-            <p>Archive</p>
-            <h2>All writing</h2>
+            <div>
+              <p className={styles.eyebrow}>Archive List</p>
+              <h3>All posts</h3>
+            </div>
+            <p>
+              {resultCount} {resultCount === 1 ? 'post' : 'posts'} found
+            </p>
           </div>
-          <PostSearch value={searchQuery} onChange={setSearchQuery} />
-          <TagList tags={tags} selectedTag={selectedTag} clickTag={clickTag} className={styles.tagList} />
+
           <div data-post-list>
             {resultCount > 0 ? (
               <PostList posts={visiblePosts} className={styles.postList} />

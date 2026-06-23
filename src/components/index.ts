@@ -1,5 +1,6 @@
 export * from './FloatingButton'
 export * from './Giscus'
+export * from './Hero'
 export * from './ProfileCard'
 export * from './Seo'
 export * from './Tag'

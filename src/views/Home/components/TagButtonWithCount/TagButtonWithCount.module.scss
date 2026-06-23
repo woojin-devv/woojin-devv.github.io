@@ -1,21 +1,32 @@
 .tagButton {
-  padding: 8px 12px;
-  border: 1px solid var(--line);
-  border-radius: 0;
+  padding: 9px 13px;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
   border-radius: 999px;
   color: var(--muted);
-  background: transparent;
+  background: color-mix(in srgb, var(--paper-raised) 46%, transparent);
   font-family: 'Fira Code', monospace;
   font-size: 0.6875rem;
   cursor: pointer;
   transition:
-    color 0.15s ease,
-    background 0.15s ease;
+    color 0.16s ease,
+    background 0.16s ease,
+    border-color 0.16s ease,
+    transform 0.16s ease;
 
-  &.active,
-  &:hover {
+  &.active {
     color: var(--inverse);
     background: var(--ink);
     border-color: var(--ink);
+  }
+
+  &:hover {
+    border-color: color-mix(in srgb, var(--ink) 22%, transparent);
+    background: color-mix(in srgb, var(--paper-raised) 70%, var(--soft));
+    transform: translateY(-1px);
+  }
+
+  &.active:hover {
+    color: var(--inverse);
+    background: var(--ink);
   }
 }

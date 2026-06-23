@@ -10,7 +10,12 @@ type TagButtonWithCountProps = {
 }
 
 export const TagButtonWithCount = ({ name, count, isSelected, onClick }: TagButtonWithCountProps) => (
-  <button onClick={onClick} className={clsx(styles.tagButton, { [styles.active]: isSelected })}>
+  <button
+    type="button"
+    onClick={onClick}
+    className={clsx(styles.tagButton, { [styles.active]: isSelected })}
+    aria-pressed={isSelected}
+  >
     <span>
       {name} ({count})
     </span>
