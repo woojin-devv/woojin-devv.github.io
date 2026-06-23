@@ -29,13 +29,19 @@
 }
 
 .cardImage {
-  display: none;
+  display: none !important;
+}
+
+.card figure > :not(figcaption) {
+  display: none !important;
 }
 
 .cardCaption {
   display: flex;
   flex: 1;
   flex-direction: column;
+  width: 100%;
+  min-width: 0;
   padding: 22px;
 }
 
