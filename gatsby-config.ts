@@ -47,18 +47,6 @@ const config: GatsbyConfig = {
       },
     },
     {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: 'Woojin Devlog',
-        short_name: 'Woojin',
-        start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#111111',
-        display: 'standalone',
-        icon: 'src/images/icon.png',
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: { name: 'contents', path: `${__dirname}/contents` },
     },

@@ -1,5 +1,7 @@
 import { Link } from 'gatsby'
 
+import { FaviconLinks } from '@/components'
+
 import * as styles from './NotFound.module.scss'
 
 const NotFoundPage = () => {
@@ -26,4 +28,9 @@ const NotFoundPage = () => {
 
 export default NotFoundPage
 
-export const Head = () => <title>Not found</title>
+export const Head = () => (
+  <>
+    <title>Not found</title>
+    <FaviconLinks />
+  </>
+)

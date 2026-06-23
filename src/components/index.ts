@@ -1,3 +1,4 @@
+export * from './FaviconLinks'
 export * from './FloatingButton'
 export * from './Giscus'
 export * from './Hero'

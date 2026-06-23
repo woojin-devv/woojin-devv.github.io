@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby'
 import { PropsWithChildren } from 'react'
 
+import { FaviconLinks } from './FaviconLinks'
+
 type SeoProps = {
   title?: string
   description?: string
@@ -52,6 +54,7 @@ export const Seo = ({ title, description, heroImage, pathname, children }: Props
   return (
     <>
       <title>{seo.title}</title>
+      <FaviconLinks />
       <link rel="canonical" href={seo.url} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />

@@ -1,26 +1,6 @@
 name: Bug Report
 description: Create a report to help us improve
 body:
-  - type: checkboxes
-    attributes:
-      label: Checklist
-      description: Following the guidelines can make you more likely to get responses.
-      options:
-        - label: >-
-            I have read and accepted the
-            [contributing guidelines](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md).
-          required: true
-
-  - type: dropdown
-    id: download
-    attributes:
-      label: How did you create the site?
-      options:
-        - Generated from `chirpy-starter`
-        - Built from `jekyll-theme-chirpy`
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Describe the bug
@@ -51,9 +31,8 @@ body:
     attributes:
       label: Environment
       value: |
-        - Ruby: <!-- run `ruby -v` -->
-        - Jekyll: <!-- run `bundle exec jekyll -v` -->
-        - Chirpy: <!-- run `bundle info jekyll-theme-chirpy` -->
+        - Node: <!-- run `node -v` -->
+        - npm: <!-- run `npm -v` -->
     validations:
       required: true
 

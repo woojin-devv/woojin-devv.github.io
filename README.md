@@ -29,6 +29,6 @@ heroImageAlt: "대표 이미지 설명"
 ---
 ```
 
-외부 대표 이미지는 `heroImage` 대신 `heroImageUrl`을 사용합니다. 기존 Jekyll 글을 다시 변환할 때는 `ruby scripts/migrate-jekyll-posts.rb`를 실행합니다.
+외부 대표 이미지는 `heroImage` 대신 `heroImageUrl`을 사용합니다.
 
 Giscus 댓글은 저장소 Actions 변수 또는 로컬 환경 변수 `GATSBY_GISCUS_REPO_ID`, `GATSBY_GISCUS_CATEGORY_ID`를 설정하면 활성화됩니다.

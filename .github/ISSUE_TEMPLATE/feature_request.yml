@@ -3,16 +3,6 @@ description: Suggest an idea for this project
 labels:
   - enhancement
 body:
-  - type: checkboxes
-    attributes:
-      label: Checklist
-      description: Following the guidelines can make you more likely to get responses.
-      options:
-        - label: >-
-            I have read and accepted the
-            [contributing guidelines](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md).
-          required: true
-
   - type: textarea
     attributes:
       label: Is your feature request related to a problem? Please describe

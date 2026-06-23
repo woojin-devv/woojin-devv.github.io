@@ -1,7 +1,5 @@
 import { Link } from 'gatsby'
 
-import packageImage from '../../../assets/package_img.png'
-import h1Image from '../../../assets/h1img.png'
 import * as styles from './Hero.module.scss'
 
 type HeroProps = {
@@ -16,7 +14,7 @@ export const Hero = ({ posts }: HeroProps) => {
       <div className={styles.heroCopy}>
         <p className={styles.eyebrow}>WOOJIN&apos;S ENGINEERING JOURNAL</p>
 
-        <img src={h1Image} alt="title img"></img>
+        <img src="/assets/h1img.png" alt="title img"></img>
 
         <p className={styles.heroDescription}>
           개발 과정에서 마주한 문제, 해결 방법, 학습 기록을 차분하게 정리하는 개인 개발 블로그입니다. Spring, React,
@@ -55,7 +53,7 @@ export const Hero = ({ posts }: HeroProps) => {
         <div className={styles.visualGlow} aria-hidden="true" />
         <figure className={styles.packageCard}>
           <img
-            src={packageImage}
+            src="/assets/package_img.png"
             alt="Developer starter kit package with Spring, React, Python, JavaScript and computer science objects"
           />
         </figure>
