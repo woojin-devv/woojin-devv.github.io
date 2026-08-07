@@ -15,6 +15,7 @@ const Post = ({ data, pageContext, location: { pathname } }: PageProps<Queries.P
   const { html, tableOfContents, frontmatter } = data.markdownRemark
   const { title, date, tags, heroImage, heroImageUrl, heroImageAlt } = frontmatter
   const localHeroImage = heroImage?.childImageSharp?.gatsbyImageData
+  const imageAlt = heroImageAlt ?? title
 
   useEffect(() => {
     const blocks = document.querySelectorAll('pre > code.language-mermaid')
@@ -39,9 +40,9 @@ const Post = ({ data, pageContext, location: { pathname } }: PageProps<Queries.P
         <p className={styles.date}>{date}</p>
         <TagList tags={tags} className={styles.tagList} />
         {localHeroImage ? (
-          <GatsbyImage image={localHeroImage} alt={heroImageAlt} className={styles.heroImage} objectFit="contain" />
+          <GatsbyImage image={localHeroImage} alt={imageAlt} className={styles.heroImage} objectFit="contain" />
         ) : heroImageUrl ? (
-          <img src={heroImageUrl} alt={heroImageAlt} className={styles.heroImage} />
+          <img src={heroImageUrl} alt={imageAlt} className={styles.heroImage} />
         ) : null}
         <div className={styles.contentWrapper}>
           <section className={styles.content} dangerouslySetInnerHTML={{ __html: getRefinedStringValue(html) }} />

@@ -15,16 +15,17 @@ type PostProps = {
   slug: string
   heroImage: IGatsbyImageData | undefined
   heroImageUrl?: string | null
-  heroImageAlt: string
+  heroImageAlt?: string | null
 }
 
 export const Post = ({ variants, title, description, date, tags, slug, heroImage, heroImageUrl, heroImageAlt }: PostProps) => {
   const hasHeroImage = Boolean(heroImage || heroImageUrl)
+  const imageAlt = heroImageAlt ?? title
   const renderImage = (className: string) =>
     heroImage ? (
-      <GatsbyImage image={heroImage} alt={heroImageAlt} className={className} />
+      <GatsbyImage image={heroImage} alt={imageAlt} className={className} />
     ) : heroImageUrl ? (
-      <img src={heroImageUrl} alt={heroImageAlt} className={className} loading="lazy" />
+      <img src={heroImageUrl} alt={imageAlt} className={className} loading="lazy" />
     ) : null
 
   return (
@@ -33,7 +34,7 @@ export const Post = ({ variants, title, description, date, tags, slug, heroImage
         {match(variants)
         .with('card', () => (
           <article className={styles.card}>
-            <figure className={clsx({ [styles.cardFigureWithoutImage]: !hasHeroImage })}>
+            <figure>
               {renderImage(styles.cardImage)}
               <figcaption className={styles.cardCaption}>
                 <Date date={date} className={styles.cardDate} />

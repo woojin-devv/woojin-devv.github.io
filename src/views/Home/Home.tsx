@@ -25,8 +25,8 @@ const Home = ({ data, location: { pathname, search } }: PageProps<Queries.HomeQu
   return (
     <Layout pathname={pathname}>
       <main className={styles.main}>
-        <Hero posts={allPosts} />
-        <section className={styles.wrapper} aria-labelledby="archive-title">
+        <Hero />
+        <section className={styles.wrapper} id="writing-archive" aria-labelledby="archive-title">
           <div className={styles.archiveHeader}>
             <div>
               <p className={styles.eyebrow}>Writing Archive</p>
