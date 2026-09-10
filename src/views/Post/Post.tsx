@@ -1,12 +1,10 @@
 import type { HeadProps, PageProps } from 'gatsby'
 import { GatsbyImage, getSrc } from 'gatsby-plugin-image'
-import { useEffect } from 'react'
 
-import { Giscus, ProfileCard, Seo } from '@/components'
-import Layout from '@/layouts'
+import { Seo } from '@/components'
 import { getRefinedStringValue } from '@/utils'
 
-import { TableOfContents, TagList } from './components'
+import { PostView } from './PostView'
 import * as styles from './Post.module.scss'
 
 // TODO: pageContext 값을 이용한 prev, next 컴포넌트 생성
@@ -17,43 +15,22 @@ const Post = ({ data, pageContext, location: { pathname } }: PageProps<Queries.P
   const localHeroImage = heroImage?.childImageSharp?.gatsbyImageData
   const imageAlt = heroImageAlt ?? title
 
-  useEffect(() => {
-    const blocks = document.querySelectorAll('pre > code.language-mermaid')
-    if (blocks.length === 0) return
-
-    void import('mermaid').then(({ default: mermaid }) => {
-      blocks.forEach((block) => {
-        const container = document.createElement('div')
-        container.className = 'mermaid'
-        container.textContent = block.textContent
-        block.parentElement?.replaceWith(container)
-      })
-      mermaid.initialize({ startOnLoad: false, theme: 'neutral' })
-      void mermaid.run({ querySelector: '.mermaid' })
-    })
-  }, [])
+  const hero = localHeroImage ? (
+    <GatsbyImage image={localHeroImage} alt={imageAlt} className={styles.heroImage} objectFit="contain" />
+  ) : heroImageUrl ? (
+    <img src={heroImageUrl} alt={imageAlt} className={styles.heroImage} />
+  ) : null
 
   return (
-    <Layout pathname={pathname}>
-      <main className={styles.wrapper}>
-        <h1 className={styles.title}>{title}</h1>
-        <p className={styles.date}>{date}</p>
-        <TagList tags={tags} className={styles.tagList} />
-        {localHeroImage ? (
-          <GatsbyImage image={localHeroImage} alt={imageAlt} className={styles.heroImage} objectFit="contain" />
-        ) : heroImageUrl ? (
-          <img src={heroImageUrl} alt={imageAlt} className={styles.heroImage} />
-        ) : null}
-        <div className={styles.contentWrapper}>
-          <section className={styles.content} dangerouslySetInnerHTML={{ __html: getRefinedStringValue(html) }} />
-          <TableOfContents html={getRefinedStringValue(tableOfContents)} />
-        </div>
-        <section className={styles.bio}>
-          <ProfileCard pathname={pathname} />
-        </section>
-        <Giscus />
-      </main>
-    </Layout>
+    <PostView
+      pathname={pathname}
+      title={getRefinedStringValue(title)}
+      date={getRefinedStringValue(date)}
+      tags={tags}
+      html={getRefinedStringValue(html)}
+      tableOfContents={getRefinedStringValue(tableOfContents)}
+      hero={hero}
+    />
   )
 }
 

@@ -1,6 +1,7 @@
 node_modules/
 .cache/
 public/
+storybook-static/
 src/gatsby-types.d.ts
 .DS_Store
 .idea/
