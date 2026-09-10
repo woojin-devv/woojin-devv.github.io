@@ -1,3 +1,4 @@
+import { Search, X } from 'lucide-react'
 import type { ChangeEvent } from 'react'
 
 import * as styles from './PostSearch.module.scss'
@@ -11,9 +12,7 @@ export const PostSearch = ({ value, onChange }: PostSearchProps) => (
   <div className={styles.search} role="search">
     <label htmlFor="post-search">Search writing</label>
     <div className={styles.inputWrapper}>
-      <span className={styles.searchIcon} aria-hidden="true">
-        ⌕
-      </span>
+      <Search className={styles.searchIcon} size={15} strokeWidth={1.8} aria-hidden="true" />
       <input
         id="post-search"
         type="search"
@@ -24,7 +23,7 @@ export const PostSearch = ({ value, onChange }: PostSearchProps) => (
       />
       {value && (
         <button type="button" onClick={() => onChange('')} aria-label="Clear search">
-          Clear
+          <X size={15} strokeWidth={1.8} aria-hidden="true" />
         </button>
       )}
     </div>

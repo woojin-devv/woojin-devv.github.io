@@ -1,3 +1,5 @@
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+
 import * as styles from './Pagination.module.scss'
 
 type PaginationProps = {
@@ -11,8 +13,13 @@ export const Pagination = ({ currentPage, totalPages, changePage }: PaginationPr
 
   return (
     <nav className={styles.pagination} aria-label="Post pagination">
-      <button type="button" onClick={() => changePage(currentPage - 1)} disabled={currentPage === 1}>
-        Prev
+      <button
+        type="button"
+        onClick={() => changePage(currentPage - 1)}
+        disabled={currentPage === 1}
+        aria-label="Previous page"
+      >
+        <ChevronLeft size={16} strokeWidth={1.8} aria-hidden="true" />
       </button>
       <ol>
         {Array.from({ length: totalPages }, (_, index) => {
@@ -33,8 +40,13 @@ export const Pagination = ({ currentPage, totalPages, changePage }: PaginationPr
           )
         })}
       </ol>
-      <button type="button" onClick={() => changePage(currentPage + 1)} disabled={currentPage === totalPages}>
-        Next
+      <button
+        type="button"
+        onClick={() => changePage(currentPage + 1)}
+        disabled={currentPage === totalPages}
+        aria-label="Next page"
+      >
+        <ChevronRight size={16} strokeWidth={1.8} aria-hidden="true" />
       </button>
     </nav>
   )

@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import { ExternalLink } from 'lucide-react'
 
 import { FaviconLinks } from '@/components'
 
@@ -20,7 +21,10 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Return home ↗</Link>
+        <Link to="/">
+          Return home
+          <ExternalLink size={15} strokeWidth={1.8} aria-hidden="true" />
+        </Link>
       </p>
     </main>
   )

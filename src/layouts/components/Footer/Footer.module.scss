@@ -13,6 +13,9 @@
   letter-spacing: 0.08em;
 
   a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     justify-self: end;
     color: var(--ink);
     text-decoration: none;
