@@ -1,8 +1,9 @@
 import clsx from 'clsx'
 import { Link } from 'gatsby'
+import { Moon, Sun } from 'lucide-react'
 import { match } from 'ts-pattern'
 
-import { useTheme } from '@/contexts'
+import { Theme, useTheme } from '@/contexts'
 import { reactCss } from '@/utils'
 
 import * as styles from './Header.module.scss'
@@ -13,7 +14,7 @@ type HeaderProps = {
 }
 
 export const Header = ({ pathname }: HeaderProps) => {
-  const { toggleDarkMode } = useTheme()
+  const { theme, toggleDarkMode } = useTheme()
   const { isPost, progressWidth } = useScrollIndicator(pathname)
 
   return (
@@ -26,15 +27,22 @@ export const Header = ({ pathname }: HeaderProps) => {
           </h1>
         </Link>
         <nav className={styles.headerButtons} aria-label="Main navigation">
-          <Link to="/">Writing</Link>
-          <Link to="/guestbook/" className={styles.iconLink}>
-            <span className={styles.desktopLabel}>Guestbook</span>
-            <span className={styles.mobileLabel}>GB</span>
+          <Link to="/" className={styles.desktopOnly}>Writing</Link>
+          <Link to="/calendar/" className={styles.iconLink}>
+            <span className={styles.desktopLabel}>Calendar</span>
+            <span className={styles.mobileLabel}>CAL</span>
           </Link>
-          <a href="/rss.xml">RSS</a>
-          <button className={styles.iconButton} onClick={toggleDarkMode}>
-            <span className={styles.desktopLabel}>Theme</span>
-            <span className={styles.mobileLabel}>DM</span>
+          <a href="/rss.xml" className={styles.desktopOnly}>RSS</a>
+          <button
+            className={styles.iconButton}
+            onClick={toggleDarkMode}
+            aria-label={theme === Theme.DARK ? 'Use light theme' : 'Use dark theme'}
+          >
+            {theme === Theme.DARK ? (
+              <Sun size={16} strokeWidth={1.8} aria-hidden="true" />
+            ) : (
+              <Moon size={16} strokeWidth={1.8} aria-hidden="true" />
+            )}
           </button>
         </nav>
       </div>
