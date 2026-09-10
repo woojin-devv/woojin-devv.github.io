@@ -1,4 +1,3 @@
-import type { KeyboardEvent, MouseEvent } from 'react'
 import { useCallback, useMemo, useState } from 'react'
 
 import { TAGS } from '../constants'
@@ -9,12 +8,7 @@ export const useTag = (totalCount: number, group: Queries.HomeQuery['allMarkdown
     [group, totalCount]
   )
   const [selectedTag, setSelectedTag] = useState<string>(TAGS.ALL)
-  const clickTag = useCallback(({ target }: MouseEvent<HTMLElement> | KeyboardEvent<HTMLElement>) => {
-    if (!(target instanceof HTMLElement)) return
-    const $tagItem = target.closest('li')
-    if (!$tagItem) return
-    $tagItem?.dataset.tag && setSelectedTag($tagItem.dataset.tag)
-  }, [])
+  const clickTag = useCallback((tag: string) => setSelectedTag(tag), [])
 
   return { tags, selectedTag, clickTag }
 }
