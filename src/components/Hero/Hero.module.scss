@@ -30,13 +30,62 @@
     border-radius: 50% 50% 16px 16px;
     background: rgba(120, 169, 66, 0.2);
   }
+}
 
-  img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 1;
-    border-radius: 45% 45% 22px 22px;
-    object-fit: cover;
+.image,
+.imagePlaceholder {
+  border-radius: 45% 45% 22px 22px;
+}
+
+.image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.24s ease-out;
+
+  &.loaded {
+    opacity: 1;
+  }
+}
+
+.imagePlaceholder {
+  position: absolute;
+  inset: 12px;
+  overflow: hidden;
+  background: #e2ded3;
+  opacity: 1;
+  transition: opacity 0.24s ease-out;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 32%, rgba(255, 255, 255, 0.58) 48%, transparent 64%);
+    transform: translateX(-100%);
+    animation: skeleton-shimmer 1.35s ease-in-out infinite;
+  }
+
+  &.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+[dark-mode] .imagePlaceholder {
+  background: #292b25;
+
+  &::after {
+    background: linear-gradient(105deg, transparent 32%, rgba(255, 255, 255, 0.08) 48%, transparent 64%);
+  }
+}
+
+@keyframes skeleton-shimmer {
+  to {
+    transform: translateX(100%);
   }
 }
 
@@ -60,9 +109,25 @@
     width: min(82vw, 440px);
     padding: 8px;
     border-radius: 46% 46% 20px 20px;
+  }
 
-    img {
-      border-radius: 45% 45% 15px 15px;
-    }
+  .image,
+  .imagePlaceholder {
+    border-radius: 45% 45% 15px 15px;
+  }
+
+  .imagePlaceholder {
+    inset: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image,
+  .imagePlaceholder {
+    transition: none;
+  }
+
+  .imagePlaceholder::after {
+    animation: none;
   }
 }
