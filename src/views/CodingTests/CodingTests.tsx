@@ -7,6 +7,7 @@ import codingTestData from '../../data/coding-tests.json'
 import Layout from '../../layouts/Layout'
 
 import * as styles from './CodingTests.module.scss'
+import { ActivityHeatmap } from './components/ActivityHeatmap'
 
 type CodingTest = {
   id: string
@@ -25,6 +26,7 @@ type CodingTestData = {
   repository: string
   commit: string
   syncedAt: string
+  generatedAt: string
   totalCount: number
   tests: CodingTest[]
 }
@@ -99,18 +101,16 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
     <Layout pathname={pathname}>
       <main className={styles.main}>
         <header className={styles.pageHeader}>
-          <div>
+          <div className={styles.headline}>
             <p className={styles.eyebrow}>Problem solving archive</p>
             <h1>Coding tests</h1>
           </div>
-          <div className={styles.summary}>
-            <strong>{data.totalCount}</strong>
-            <span>solved problems</span>
-            <a href={`https://github.com/${data.repository}`} target="_blank" rel="noreferrer">
-              <FolderGit2 size={15} strokeWidth={1.8} aria-hidden="true" />
-              Source repository
-            </a>
-          </div>
+          <ActivityHeatmap
+            generatedAt={data.generatedAt}
+            repository={data.repository}
+            tests={data.tests}
+            totalCount={data.totalCount}
+          />
         </header>
 
         <section className={styles.archive} aria-labelledby="coding-test-list-heading">

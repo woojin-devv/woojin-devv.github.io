@@ -47,7 +47,7 @@ const getCommitDates = () => {
   const dates = new Map()
   const output = execFileSync(
     'git',
-    ['-c', 'core.quotepath=false', '-C', sourceRoot, 'log', '--format=@@%aI', '--name-only', '--diff-filter=AM'],
+    ['-c', 'core.quotepath=false', '-C', sourceRoot, 'log', '--reverse', '--format=@@%aI', '--name-status', '-M'],
     { encoding: 'utf8' }
   )
   let currentDate = ''
@@ -55,9 +55,19 @@ const getCommitDates = () => {
   output.split('\n').forEach((line) => {
     if (line.startsWith('@@')) {
       currentDate = line.slice(2)
-    } else if (line && currentDate && !dates.has(line)) {
-      dates.set(line, currentDate)
+      return
     }
+
+    if (!line || !currentDate) return
+
+    const [status, ...paths] = line.split('\t')
+    const isRename = status.startsWith('R') || status.startsWith('C')
+    const filePath = paths.at(-1)
+
+    if (!filePath || dates.has(filePath)) return
+
+    const previousPath = isRename ? paths[0] : null
+    dates.set(filePath, (previousPath && dates.get(previousPath)) || currentDate)
   })
 
   return dates
@@ -117,7 +127,7 @@ const tests = walk(sourceRoot)
   .sort((a, b) => new Date(b.solvedAt || 0).getTime() - new Date(a.solvedAt || 0).getTime() || a.title.localeCompare(b.title, 'ko'))
 
 const source = getSourceInfo()
-const payload = { repository, ...source, totalCount: tests.length, tests }
+const payload = { repository, ...source, generatedAt: new Date().toISOString(), totalCount: tests.length, tests }
 
 mkdirSync(path.dirname(outputPath), { recursive: true })
 writeFileSync(outputPath, `${JSON.stringify(payload, null, 2)}\n`)

@@ -1,7 +1,8 @@
 {
   "repository": "woojin-devv/coding-test-notes",
-  "commit": "d1fe3642a8667425b02891e089ce45132b30e79e",
-  "syncedAt": "2026-09-12T09:14:03+09:00",
+  "commit": "e9f140c1f418505a412f16503925ca12b4533d86",
+  "syncedAt": "2026-09-12T09:30:35+09:00",
+  "generatedAt": "2026-09-12T00:34:38.738Z",
   "totalCount": 351,
   "tests": [
     {
@@ -61,20 +62,6 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12952.%E2%80%85N%EF%BC%8DQueen"
     },
     {
-      "id": "프로그래머스/2/43165. 타겟 넘버",
-      "title": "타겟 넘버",
-      "platform": "Programmers",
-      "level": "Level 2",
-      "difficulty": null,
-      "category": "깊이／너비 우선 탐색（DFS／BFS）",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": "2026-09-11T13:35:33+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/43165.%E2%80%85%ED%83%80%EA%B2%9F%E2%80%85%EB%84%98%EB%B2%84"
-    },
-    {
       "id": "프로그래머스/5/131534. 상품을 구매한 회원 비율 구하기",
       "title": "상품을 구매한 회원 비율 구하기",
       "platform": "Programmers",
@@ -101,20 +88,6 @@
       "solvedAt": "2026-09-10T23:37:19+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/301646",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/301646.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%ED%98%95%EC%A7%88%EC%9D%84%E2%80%85%EA%B0%80%EC%A7%80%EB%8A%94%E2%80%85%EB%8C%80%EC%9E%A5%EA%B7%A0%E2%80%85%EC%B0%BE%EA%B8%B0"
-    },
-    {
-      "id": "프로그래머스/4/131537. 오프라인／온라인 판매 데이터 통합하기",
-      "title": "오프라인/온라인 판매 데이터 통합하기",
-      "platform": "Programmers",
-      "level": "Level 4",
-      "difficulty": null,
-      "category": "SELECT",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-09-10T13:07:38+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131537",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131537.%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EF%BC%8F%EC%98%A8%EB%9D%BC%EC%9D%B8%E2%80%85%ED%8C%90%EB%A7%A4%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%ED%86%B5%ED%95%A9%ED%95%98%EA%B8%B0"
     },
     {
       "id": "프로그래머스/2/151137. 자동차 종류 별 특정 옵션이 포함된 자동차 수 구하기",
@@ -187,20 +160,6 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/284531.%E2%80%85%EB%85%B8%EC%84%A0%EB%B3%84%E2%80%85%ED%8F%89%EA%B7%A0%E2%80%85%EC%97%AD%E2%80%85%EC%82%AC%EC%9D%B4%E2%80%85%EA%B1%B0%EB%A6%AC%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0"
     },
     {
-      "id": "프로그래머스/3/131123. 즐겨찾기가 가장 많은 식당 정보 출력하기",
-      "title": "즐겨찾기가 가장 많은 식당 정보 출력하기",
-      "platform": "Programmers",
-      "level": "Level 3",
-      "difficulty": null,
-      "category": "GROUP BY",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-09-09T17:17:06+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131123",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/131123.%E2%80%85%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0%EA%B0%80%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
       "id": "프로그래머스/2/132202. 진료과별 총 예약 횟수 출력하기",
       "title": "진료과별 총 예약 횟수 출력하기",
       "platform": "Programmers",
@@ -215,20 +174,6 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/132202.%E2%80%85%EC%A7%84%EB%A3%8C%EA%B3%BC%EB%B3%84%E2%80%85%EC%B4%9D%E2%80%85%EC%98%88%EC%95%BD%E2%80%85%ED%9A%9F%EC%88%98%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
     },
     {
-      "id": "프로그래머스/2/131530. 가격대 별 상품 개수 구하기",
-      "title": "가격대 별 상품 개수 구하기",
-      "platform": "Programmers",
-      "level": "Level 2",
-      "difficulty": null,
-      "category": "GROUP BY",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-09-09T15:13:47+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131530",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131530.%E2%80%85%EA%B0%80%EA%B2%A9%EB%8C%80%E2%80%85%EB%B3%84%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EA%B0%9C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0"
-    },
-    {
       "id": "프로그래머스/3/43164. 여행경로",
       "title": "여행경로",
       "platform": "Programmers",
@@ -241,34 +186,6 @@
       "solvedAt": "2026-09-08T14:30:47+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/43164",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/43164.%E2%80%85%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C"
-    },
-    {
-      "id": "프로그래머스/3/59042. 없어진 기록 찾기",
-      "title": "없어진 기록 찾기",
-      "platform": "Programmers",
-      "level": "Level 3",
-      "difficulty": null,
-      "category": "JOIN",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-09-08T13:59:56+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59042",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/59042.%E2%80%85%EC%97%86%EC%96%B4%EC%A7%84%E2%80%85%EA%B8%B0%EB%A1%9D%E2%80%85%EC%B0%BE%EA%B8%B0"
-    },
-    {
-      "id": "프로그래머스/4/59045. 보호소에서 중성화한 동물",
-      "title": "보호소에서 중성화한 동물",
-      "platform": "Programmers",
-      "level": "Level 4",
-      "difficulty": null,
-      "category": "JOIN",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-09-08T13:59:21+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59045",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59045.%E2%80%85%EB%B3%B4%ED%98%B8%EC%86%8C%EC%97%90%EC%84%9C%E2%80%85%EC%A4%91%EC%84%B1%ED%99%94%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC"
     },
     {
       "id": "프로그래머스/2/131533. 상품 별 오프라인 매출 구하기",
@@ -325,20 +242,6 @@
       "solvedAt": "2026-08-22T17:15:26+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59410",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59410.%E2%80%85NULL%E2%80%85%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "프로그래머스/2/59041. 동명 동물 수 찾기",
-      "title": "동명 동물 수 찾기",
-      "platform": "Programmers",
-      "level": "Level 2",
-      "difficulty": null,
-      "category": "GROUP BY",
-      "languages": [
-        "SQL"
-      ],
-      "solvedAt": "2026-08-22T17:07:03+09:00",
-      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59041",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59041.%E2%80%85%EB%8F%99%EB%AA%85%E2%80%85%EB%8F%99%EB%AC%BC%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0"
     },
     {
       "id": "프로그래머스/2/59047. 이름에 el이 들어가는 동물 찾기",
@@ -411,6 +314,20 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131116.%E2%80%85%EC%8B%9D%ED%92%88%EB%B6%84%EB%A5%98%EB%B3%84%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%B9%84%EC%8B%BC%E2%80%85%EC%8B%9D%ED%92%88%EC%9D%98%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0"
     },
     {
+      "id": "프로그래머스/4/59045. 보호소에서 중성화한 동물",
+      "title": "보호소에서 중성화한 동물",
+      "platform": "Programmers",
+      "level": "Level 4",
+      "difficulty": null,
+      "category": "JOIN",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-20T21:36:39+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59045",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/59045.%E2%80%85%EB%B3%B4%ED%98%B8%EC%86%8C%EC%97%90%EC%84%9C%E2%80%85%EC%A4%91%EC%84%B1%ED%99%94%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC"
+    },
+    {
       "id": "프로그래머스/3/151139. 대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기",
       "title": "대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기",
       "platform": "Programmers",
@@ -453,6 +370,20 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/157343.%E2%80%85%ED%8A%B9%EC%A0%95%E2%80%85%EC%98%B5%EC%85%98%EC%9D%B4%E2%80%85%ED%8F%AC%ED%95%A8%EB%90%9C%E2%80%85%EC%9E%90%EB%8F%99%EC%B0%A8%E2%80%85%EB%A6%AC%EC%8A%A4%ED%8A%B8%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0"
     },
     {
+      "id": "프로그래머스/2/131530. 가격대 별 상품 개수 구하기",
+      "title": "가격대 별 상품 개수 구하기",
+      "platform": "Programmers",
+      "level": "Level 2",
+      "difficulty": null,
+      "category": "GROUP BY",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-17T14:05:57+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131530",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/131530.%E2%80%85%EA%B0%80%EA%B2%A9%EB%8C%80%E2%80%85%EB%B3%84%E2%80%85%EC%83%81%ED%92%88%E2%80%85%EA%B0%9C%EC%88%98%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0"
+    },
+    {
       "id": "프로그래머스/3/144855. 카테고리 별 도서 판매량 집계하기",
       "title": "카테고리 별 도서 판매량 집계하기",
       "platform": "Programmers",
@@ -465,6 +396,20 @@
       "solvedAt": "2026-08-17T13:29:15+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/144855",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/144855.%E2%80%85%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%E2%80%85%EB%B3%84%E2%80%85%EB%8F%84%EC%84%9C%E2%80%85%ED%8C%90%EB%A7%A4%EB%9F%89%E2%80%85%EC%A7%91%EA%B3%84%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "프로그래머스/3/131123. 즐겨찾기가 가장 많은 식당 정보 출력하기",
+      "title": "즐겨찾기가 가장 많은 식당 정보 출력하기",
+      "platform": "Programmers",
+      "level": "Level 3",
+      "difficulty": null,
+      "category": "GROUP BY",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-17T13:07:25+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131123",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/131123.%E2%80%85%EC%A6%90%EA%B2%A8%EC%B0%BE%EA%B8%B0%EA%B0%80%E2%80%85%EA%B0%80%EC%9E%A5%E2%80%85%EB%A7%8E%EC%9D%80%E2%80%85%EC%8B%9D%EB%8B%B9%E2%80%85%EC%A0%95%EB%B3%B4%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
     },
     {
       "id": "프로그래머스/3/164671. 조회수가 가장 많은 중고거래 게시판의 첨부파일 조회하기",
@@ -645,6 +590,20 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/59044.%E2%80%85%EC%98%A4%EB%9E%9C%E2%80%85%EA%B8%B0%EA%B0%84%E2%80%85%EB%B3%B4%ED%98%B8%ED%95%9C%E2%80%85%EB%8F%99%EB%AC%BC%EF%BC%881%EF%BC%89"
     },
     {
+      "id": "프로그래머스/3/59042. 없어진 기록 찾기",
+      "title": "없어진 기록 찾기",
+      "platform": "Programmers",
+      "level": "Level 3",
+      "difficulty": null,
+      "category": "JOIN",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-15T13:00:35+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59042",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/59042.%E2%80%85%EC%97%86%EC%96%B4%EC%A7%84%E2%80%85%EA%B8%B0%EB%A1%9D%E2%80%85%EC%B0%BE%EA%B8%B0"
+    },
+    {
       "id": "프로그래머스/4/131124. 그룹별 조건에 맞는 식당 목록 출력하기",
       "title": "그룹별 조건에 맞는 식당 목록 출력하기",
       "platform": "Programmers",
@@ -685,6 +644,20 @@
       "solvedAt": "2026-08-14T22:03:30+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131117",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131117.%E2%80%855%EC%9B%94%E2%80%85%EC%8B%9D%ED%92%88%EB%93%A4%EC%9D%98%E2%80%85%EC%B4%9D%EB%A7%A4%EC%B6%9C%E2%80%85%EC%A1%B0%ED%9A%8C%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "프로그래머스/4/131537. 오프라인／온라인 판매 데이터 통합하기",
+      "title": "오프라인/온라인 판매 데이터 통합하기",
+      "platform": "Programmers",
+      "level": "Level 4",
+      "difficulty": null,
+      "category": "SELECT",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-14T21:52:00+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/131537",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/4/131537.%E2%80%85%EC%98%A4%ED%94%84%EB%9D%BC%EC%9D%B8%EF%BC%8F%EC%98%A8%EB%9D%BC%EC%9D%B8%E2%80%85%ED%8C%90%EB%A7%A4%E2%80%85%EB%8D%B0%EC%9D%B4%ED%84%B0%E2%80%85%ED%86%B5%ED%95%A9%ED%95%98%EA%B8%B0"
     },
     {
       "id": "프로그래머스/2/131536. 재구매가 일어난 상품과 회원 리스트 구하기",
@@ -755,6 +728,20 @@
       "solvedAt": "2026-08-12T21:38:24+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59046",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59046.%E2%80%85%EB%A3%A8%EC%8B%9C%EC%99%80%E2%80%85%EC%97%98%EB%9D%BC%E2%80%85%EC%B0%BE%EA%B8%B0"
+    },
+    {
+      "id": "프로그래머스/2/59041. 동명 동물 수 찾기",
+      "title": "동명 동물 수 찾기",
+      "platform": "Programmers",
+      "level": "Level 2",
+      "difficulty": null,
+      "category": "GROUP BY",
+      "languages": [
+        "SQL"
+      ],
+      "solvedAt": "2026-08-12T21:33:11+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/59041",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/59041.%E2%80%85%EB%8F%99%EB%AA%85%E2%80%85%EB%8F%99%EB%AC%BC%E2%80%85%EC%88%98%E2%80%85%EC%B0%BE%EA%B8%B0"
     },
     {
       "id": "codetree/trail4/정수 사각형 최솟값의 최대",
@@ -1507,6 +1494,20 @@
       "solvedAt": "2026-07-16T18:45:31+09:00",
       "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/12900",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/12900.%E2%80%852%E2%80%85x%E2%80%85n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81"
+    },
+    {
+      "id": "프로그래머스/2/43165. 타겟 넘버",
+      "title": "타겟 넘버",
+      "platform": "Programmers",
+      "level": "Level 2",
+      "difficulty": null,
+      "category": "깊이／너비 우선 탐색（DFS／BFS）",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-07-16T18:45:10+09:00",
+      "problemUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/43165.%E2%80%85%ED%83%80%EA%B2%9F%E2%80%85%EB%84%98%EB%B2%84"
     },
     {
       "id": "프로그래머스/2/12924. 숫자의 표현",
@@ -2737,1681 +2738,6 @@
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%97%B0%EC%86%8D%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%8B%A8%ED%95%98%EA%B8%B0"
     },
     {
-      "id": "codetree/trail2/007",
-      "title": "[개념]007",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-007",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/007"
-    },
-    {
-      "id": "codetree/trail2/1부터 특정 수까지의 합",
-      "title": "[개념]1부터 특정 수까지의 합",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-from-1-to-a-certain-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/1%EB%B6%80%ED%84%B0%20%ED%8A%B9%EC%A0%95%20%EC%88%98%EA%B9%8C%EC%A7%80%EC%9D%98%20%ED%95%A9"
-    },
-    {
-      "id": "codetree/trail2/1부터 특정 수까지의 합 2",
-      "title": "[개념]1부터 특정 수까지의 합 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-from-1-to-a-certain-number-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/1%EB%B6%80%ED%84%B0%20%ED%8A%B9%EC%A0%95%20%EC%88%98%EA%B9%8C%EC%A7%80%EC%9D%98%20%ED%95%A9%202"
-    },
-    {
-      "id": "codetree/trail1/2줄 출력",
-      "title": "[개념]2줄 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-two-lines",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/2%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/2진수로 변환하기",
-      "title": "[개념]2진수로 변환하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / Notation",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-convert-to-binary",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/2%EC%A7%84%EC%88%98%EB%A1%9C%20%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/각 자리 숫자의 제곱",
-      "title": "[개념]각 자리 숫자의 제곱",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-square-of-each-digit",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B0%81%20%EC%9E%90%EB%A6%AC%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%A0%9C%EA%B3%B1"
-    },
-    {
-      "id": "codetree/trail3/괄호 문자열",
-      "title": "[개념]괄호 문자열",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-stack-apply-string",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EA%B4%84%ED%98%B8%20%EB%AC%B8%EC%9E%90%EC%97%B4"
-    },
-    {
-      "id": "codetree/trail2/괄호 쌍 만들어주기 3",
-      "title": "[개념]괄호 쌍 만들어주기 3",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-pair-parentheses-3",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B4%84%ED%98%B8%20%EC%8C%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EA%B8%B0%203"
-    },
-    {
-      "id": "codetree/trail2/국영수 순이지",
-      "title": "[개념]국영수 순이지",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-korean-english-math-order",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B5%AD%EC%98%81%EC%88%98%20%EC%88%9C%EC%9D%B4%EC%A7%80"
-    },
-    {
-      "id": "codetree/trail3/그래프",
-      "title": "[개념]그래프",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-concept",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EA%B7%B8%EB%9E%98%ED%94%84"
-    },
-    {
-      "id": "codetree/trail0/기본 자료형 퀴즈",
-      "title": "[개념]기본 자료형 퀴즈",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 기본 자료형",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-simple-data-types",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EA%B8%B0%EB%B3%B8%20%EC%9E%90%EB%A3%8C%ED%98%95%20%ED%80%B4%EC%A6%88"
-    },
-    {
-      "id": "codetree/trail3/노드 만들어보기",
-      "title": "[개념]노드 만들어보기",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 배열, 연결 리스트 / 단일 연결 리스트",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-node-definition",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%85%B8%EB%93%9C%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/단어 정렬",
-      "title": "[개념]단어 정렬",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sorting-words",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%8B%A8%EC%96%B4%20%EC%A0%95%EB%A0%AC"
-    },
-    {
-      "id": "codetree/trail1/단어 출력",
-      "title": "[개념]단어 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-word",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%A8%EC%96%B4%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail1/달에서 무게 구하기",
-      "title": "[개념]달에서 무게 구하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 소수점 맞춰 출력",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-weight-on-the-moon",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%AC%EC%97%90%EC%84%9C%20%EB%AC%B4%EA%B2%8C%20%EA%B5%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/동적 배열의 이해",
-      "title": "[개념]동적 배열의 이해",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 배열, 연결 리스트 / Dynamic Array",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dynamic-array-concept",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%20%EB%B0%B0%EC%97%B4%EC%9D%98%20%EC%9D%B4%ED%95%B4"
-    },
-    {
-      "id": "codetree/trail3/동적계획법에 대한 이해",
-      "title": "[개념]동적계획법에 대한 이해",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / DP / 동적계획법",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dynamic-programming-concept",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%9D%B4%ED%95%B4"
-    },
-    {
-      "id": "codetree/trail2/두 선분",
-      "title": "[개념]두 선분",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 케이스별로 나누기 / 겹치는 경우",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-two-lines",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%84%A0%EB%B6%84"
-    },
-    {
-      "id": "codetree/trail2/두 정수 값 교환하기",
-      "title": "[개념]두 정수 값 교환하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-to-exchange-two-integer-values",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%A0%95%EC%88%98%20%EA%B0%92%20%EA%B5%90%ED%99%98%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/따옴표 출력",
-      "title": "[개념]따옴표 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-quote",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%94%B0%EC%98%B4%ED%91%9C%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/문자열 정렬",
-      "title": "[개념]문자열 정렬",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-string-sort",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%A0%95%EB%A0%AC"
-    },
-    {
-      "id": "codetree/trail1/문장 출력",
-      "title": "[개념]문장 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-sentence",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%AC%B8%EC%9E%A5%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/반복 출력하기",
-      "title": "[개념]반복 출력하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeated-output",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B0%98%EB%B3%B5%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/반복 출력하기 2",
-      "title": "[개념]반복 출력하기 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeated-output-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B0%98%EB%B3%B5%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%202"
-    },
-    {
-      "id": "codetree/trail1/배열 채우고 출력하기",
-      "title": "[개념]배열 채우고 출력하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-filling-array-and-print",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B0%B0%EC%97%B4%20%EC%B1%84%EC%9A%B0%EA%B3%A0%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/배열과 스택",
-      "title": "[개념]배열과 스택",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-array-and-stack",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%8A%A4%ED%83%9D"
-    },
-    {
-      "id": "codetree/trail3/배열의 연산",
-      "title": "[개념]배열의 연산",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 배열, 연결 리스트 / 배열",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-array-operation",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B0%B0%EC%97%B4%EC%9D%98%20%EC%97%B0%EC%82%B0"
-    },
-    {
-      "id": "codetree/trail1/변수 값 복사하기",
-      "title": "[개념]변수 값 복사하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 변수값 동시에 복사",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-copying-variable-values",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail0/변수 퀴즈",
-      "title": "[개념]변수 퀴즈",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 변수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-type-variable-overview",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%B3%80%EC%88%98%20%ED%80%B4%EC%A6%88"
-    },
-    {
-      "id": "codetree/trail2/별 찍는 것을 5번 반복하기",
-      "title": "[개념]별 찍는 것을 5번 반복하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeat-shooting-the-stars-five-times",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B3%84%20%EC%B0%8D%EB%8A%94%20%EA%B2%83%EC%9D%84%205%EB%B2%88%20%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/블럭쌓는 명령2",
-      "title": "[개념]블럭쌓는 명령2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-block-stacking-commands2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B8%94%EB%9F%AD%EC%8C%93%EB%8A%94%20%EB%AA%85%EB%A0%B92"
-    },
-    {
-      "id": "codetree/trail1/세 정수형 변수 선언",
-      "title": "[개념]세 정수형 변수 선언",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 출력 형식",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-declaration-of-three-natural-numbers",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%84%B8%20%EC%A0%95%EC%88%98%ED%98%95%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8"
-    },
-    {
-      "id": "codetree/trail1/숫자 2개 출력",
-      "title": "[개념]숫자 2개 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-two-numbers",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%88%AB%EC%9E%90%202%EA%B0%9C%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/숫자 차례로 출력하기",
-      "title": "[개념]숫자 차례로 출력하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-to-output-numerically",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%AB%EC%9E%90%20%EC%B0%A8%EB%A1%80%EB%A1%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/숫자 출력하기",
-      "title": "[개념]숫자 출력하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-one-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%88%AB%EC%9E%90%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/스택",
-      "title": "[개념]스택",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-stack-concept",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%8A%A4%ED%83%9D"
-    },
-    {
-      "id": "codetree/trail2/십진수로 변환하기",
-      "title": "[개념]십진수로 변환하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / Notation",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-convert-to-decimal",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%8B%AD%EC%A7%84%EC%88%98%EB%A1%9C%20%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail0/연산자 퀴즈",
-      "title": "[개념]연산자 퀴즈",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 연산자",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-operators",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%97%B0%EC%82%B0%EC%9E%90%20%ED%80%B4%EC%A6%88"
-    },
-    {
-      "id": "codetree/trail2/연속되는 수 2",
-      "title": "[개념]연속되는 수 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-continuous-number2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%202"
-    },
-    {
-      "id": "codetree/trail2/오름 내림차순 정렬",
-      "title": "[개념]오름 내림차순 정렬",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-inc-dec-sorting",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%98%A4%EB%A6%84%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%20%EC%A0%95%EB%A0%AC"
-    },
-    {
-      "id": "codetree/trail1/원소 10개의 합",
-      "title": "[개념]원소 10개의 합",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-of-10-elements",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9B%90%EC%86%8C%2010%EA%B0%9C%EC%9D%98%20%ED%95%A9"
-    },
-    {
-      "id": "codetree/trail3/이진 트리",
-      "title": "[개념]이진 트리",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 트리 / 이진 트리 개념",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-binary-tree-introduction",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%A7%84%20%ED%8A%B8%EB%A6%AC"
-    },
-    {
-      "id": "codetree/trail3/이진탐색?",
-      "title": "[개념]이진탐색?",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 이진탐색 / 이진탐색",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-binary-search",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89%3F"
-    },
-    {
-      "id": "codetree/trail3/인접 리스트로 그래프 만들기",
-      "title": "[개념]인접 리스트로 그래프 만들기",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-using-adjust-list",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A1%9C%20%EA%B7%B8%EB%9E%98%ED%94%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/인접 행렬로 그래프 만들기",
-      "title": "[개념]인접 행렬로 그래프 만들기",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-using-adjust-graph",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%ED%96%89%EB%A0%AC%EB%A1%9C%20%EA%B7%B8%EB%9E%98%ED%94%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/일렬로 서있는 소 2",
-      "title": "[개념]일렬로 서있는 소 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-cattle-in-a-rowing-up-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9D%BC%EB%A0%AC%EB%A1%9C%20%EC%84%9C%EC%9E%88%EB%8A%94%20%EC%86%8C%202"
-    },
-    {
-      "id": "codetree/trail1/입력받아 계산",
-      "title": "[개념]입력받아 계산",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 입출력 / 정수 입력",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-input-calculate",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9E%85%EB%A0%A5%EB%B0%9B%EC%95%84%20%EA%B3%84%EC%82%B0"
-    },
-    {
-      "id": "codetree/trail1/정수 선언하고 뺄셈",
-      "title": "[개념]정수 선언하고 뺄셈",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 변수와 자료형",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-define-numbers-and-substract",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%A0%95%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B3%A0%20%EB%BA%84%EC%85%88"
-    },
-    {
-      "id": "codetree/trail2/정수의 최솟값",
-      "title": "[개념]정수의 최솟값",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-minimum-value-of-an-integer",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A0%95%EC%88%98%EC%9D%98%20%EC%B5%9C%EC%86%9F%EA%B0%92"
-    },
-    {
-      "id": "codetree/trail2/줄 세우기",
-      "title": "[개념]줄 세우기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-line-up-students",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A4%84%20%EC%84%B8%EC%9A%B0%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/짝수만 2로 나누기",
-      "title": "[개념]짝수만 2로 나누기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-divide-even-numbers-by-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A7%9D%EC%88%98%EB%A7%8C%202%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/짝수이면서 합이 5의 배수인 수",
-      "title": "[개념]짝수이면서 합이 5의 배수인 수",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-an-even-number-with-a-multiple-of-5-in-the-sum",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A7%9D%EC%88%98%EC%9D%B4%EB%A9%B4%EC%84%9C%20%ED%95%A9%EC%9D%B4%205%EC%9D%98%20%EB%B0%B0%EC%88%98%EC%9D%B8%20%EC%88%98"
-    },
-    {
-      "id": "codetree/trail2/체크판위에서 2",
-      "title": "[개념]체크판위에서 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-on-the-checkboard-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B2%B4%ED%81%AC%ED%8C%90%EC%9C%84%EC%97%90%EC%84%9C%202"
-    },
-    {
-      "id": "codetree/trail2/총점 비교",
-      "title": "[개념]총점 비교",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-compare-total-points",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B4%9D%EC%A0%90%20%EB%B9%84%EA%B5%90"
-    },
-    {
-      "id": "codetree/trail2/최고의 13위치",
-      "title": "[개념]최고의 13위치",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-best-place-of-13",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EA%B3%A0%EC%9D%98%2013%EC%9C%84%EC%B9%98"
-    },
-    {
-      "id": "codetree/trail4/최고의 33위치",
-      "title": "[개념]최고의 33위치",
-      "platform": "CodeTree",
-      "level": "Trail 4",
-      "difficulty": "쉬움",
-      "category": "Trail 4 / Simulation / 격자 안에서 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-best-place-of-33",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EC%B5%9C%EA%B3%A0%EC%9D%98%2033%EC%9C%84%EC%B9%98"
-    },
-    {
-      "id": "codetree/trail2/최대로 겹치는 구간",
-      "title": "[개념]최대로 겹치는 구간",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-maximum-overlapped-segments",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84"
-    },
-    {
-      "id": "codetree/trail0/출력 입문 퀴즈",
-      "title": "[개념]출력 입문 퀴즈",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 출력 입문",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-output-basics",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%B6%9C%EB%A0%A5%20%EC%9E%85%EB%AC%B8%20%ED%80%B4%EC%A6%88"
-    },
-    {
-      "id": "codetree/trail2/출력결과 84",
-      "title": "[개념]출력결과 84",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 변수의 영역",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-reading-84",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2084"
-    },
-    {
-      "id": "codetree/trail2/코드네임",
-      "title": "[개념]코드네임",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-code-name",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%BD%94%EB%93%9C%EB%84%A4%EC%9E%84"
-    },
-    {
-      "id": "codetree/trail2/키를 기준으로 정렬",
-      "title": "[개념]키를 기준으로 정렬",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sort-by-height",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%82%A4%EB%A5%BC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EB%A0%AC"
-    },
-    {
-      "id": "codetree/trail3/트리",
-      "title": "[개념]트리",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 트리 / 트리",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-tree-introduction",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%ED%8A%B8%EB%A6%AC"
-    },
-    {
-      "id": "codetree/trail1/특정 수 도달하기",
-      "title": "[개념]특정 수 도달하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-reaching-specific-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%ED%8A%B9%EC%A0%95%20%EC%88%98%20%EB%8F%84%EB%8B%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail4/피보나치 수",
-      "title": "[개념]피보나치 수",
-      "platform": "CodeTree",
-      "level": "Trail 4",
-      "difficulty": "쉬움",
-      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-fibonacci-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98"
-    },
-    {
-      "id": "codetree/trail2/함수를 이용한 369 게임",
-      "title": "[개념]함수를 이용한 369 게임",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-369-games-using-functions",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20369%20%EA%B2%8C%EC%9E%84"
-    },
-    {
-      "id": "codetree/trail2/함수를 이용한 소수 판별",
-      "title": "[개념]함수를 이용한 소수 판별",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-decimal-decisions-using-functions",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%86%8C%EC%88%98%20%ED%8C%90%EB%B3%84"
-    },
-    {
-      "id": "codetree/trail2/함수를 이용한 윤년 판별",
-      "title": "[개념]함수를 이용한 윤년 판별",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-tell-the-function-using-a-leap-year",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%9C%A4%EB%85%84%20%ED%8C%90%EB%B3%84"
-    },
-    {
-      "id": "codetree/trail2/함수를 이용해 직사각형 만들기",
-      "title": "[개념]함수를 이용해 직사각형 만들기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-create-a-rectangle-using-a-function",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%B4%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/BFS",
-      "title": "[개념]BFS",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / BFS 탐색",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-bfs-code",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/BFS"
-    },
-    {
-      "id": "codetree/trail2/Date to Date",
-      "title": "[개념]Date to Date",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 시뮬레이션 I / 날짜와 시간 계산",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-date-to-date",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Date%20to%20Date"
-    },
-    {
-      "id": "codetree/trail3/DFS",
-      "title": "[개념]DFS",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / DFS",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dfs-code",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/DFS"
-    },
-    {
-      "id": "codetree/trail2/Next Level",
-      "title": "[개념]Next Level",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-next-level",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Next%20Level"
-    },
-    {
-      "id": "codetree/trail2/palindrome 여부 판단하기",
-      "title": "[개념]palindrome 여부 판단하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-determine-whether-palindrome-is-present",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/palindrome%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%8B%A8%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/Time to Time",
-      "title": "[개념]Time to Time",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / 날짜와 시간 계산",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-time-to-time",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Time%20to%20Time"
-    },
-    {
-      "id": "codetree/trail2/2개 이상의 알파벳",
-      "title": "[챌린지]2개 이상의 알파벳",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-more-than-one-alphabet",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/2%EA%B0%9C%20%EC%9D%B4%EC%83%81%EC%9D%98%20%EC%95%8C%ED%8C%8C%EB%B2%B3"
-    },
-    {
-      "id": "codetree/trail0/2줄 출력",
-      "title": "[챌린지]2줄 출력",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 출력 입문",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-output-basics-1",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/2%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/개인정보",
-      "title": "[챌린지]개인정보",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-personal-info",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4"
-    },
-    {
-      "id": "codetree/trail4/계단 오르기",
-      "title": "[챌린지]계단 오르기",
-      "platform": "CodeTree",
-      "level": "Trail 4",
-      "difficulty": "쉬움",
-      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-climbing-stairs",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/도시 방문",
-      "title": "[챌린지]도시 방문",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / DFS",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-dfs-graph",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%84%EC%8B%9C%20%EB%B0%A9%EB%AC%B8"
-    },
-    {
-      "id": "codetree/trail2/두 개의 동일한 수열",
-      "title": "[챌린지]두 개의 동일한 수열",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-two-equal-series",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EA%B0%9C%EC%9D%98%20%EB%8F%99%EC%9D%BC%ED%95%9C%20%EC%88%98%EC%97%B4"
-    },
-    {
-      "id": "codetree/trail2/두 수의 거듭제곱",
-      "title": "[챌린지]두 수의 거듭제곱",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-two-numbers-of-squares",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%88%98%EC%9D%98%20%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1"
-    },
-    {
-      "id": "codetree/trail2/두 정수에 대한 연산값",
-      "title": "[챌린지]두 정수에 대한 연산값",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-operational-values-for-two-integers",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%A0%95%EC%88%98%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%97%B0%EC%82%B0%EA%B0%92"
-    },
-    {
-      "id": "codetree/trail1/두줄 출력",
-      "title": "[챌린지]두줄 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-print-two-sentences-introduce",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%91%90%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail0/문자 변경하기",
-      "title": "[챌린지]문자 변경하기",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 변수",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-type-variable-overview-1",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%AC%B8%EC%9E%90%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/변수 값 복사하기 2",
-      "title": "[챌린지]변수 값 복사하기 2",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 변수값 동시에 복사",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-copying-variable-values-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0%202"
-    },
-    {
-      "id": "codetree/trail0/변수 값 복사하기 3",
-      "title": "[챌린지]변수 값 복사하기 3",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 기본 자료형",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-simple-data-types-1",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0%203"
-    },
-    {
-      "id": "codetree/trail1/변수 선언하기",
-      "title": "[챌린지]변수 선언하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 변수와 자료형",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-declaring-variables",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/변수 출력하기",
-      "title": "[챌린지]변수 출력하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 출력 형식",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-outputing-variables",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/변수 출력하기 2",
-      "title": "[챌린지]변수 출력하기 2",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 출력 형식",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-outputing-variables-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%202"
-    },
-    {
-      "id": "codetree/trail3/복잡복잡 그래프 (2)",
-      "title": "[챌린지]복잡복잡 그래프 (2)",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "보통",
-      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-graph-concept-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B3%B5%EC%9E%A1%EB%B3%B5%EC%9E%A1%20%EA%B7%B8%EB%9E%98%ED%94%84%20(2)"
-    },
-    {
-      "id": "codetree/trail4/사각형 채우기",
-      "title": "[챌린지]사각형 채우기",
-      "platform": "CodeTree",
-      "level": "Trail 4",
-      "difficulty": "쉬움",
-      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-fill",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/사는 지역",
-      "title": "[챌린지]사는 지역",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-where-live",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%82%AC%EB%8A%94%20%EC%A7%80%EC%97%AD"
-    },
-    {
-      "id": "codetree/trail0/사칙연산 연습",
-      "title": "[챌린지]사칙연산 연습",
-      "platform": "CodeTree",
-      "level": "Trail 0",
-      "difficulty": "쉬움",
-      "category": "Trail 0 / 기본 / 연산자",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-operators-1",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0%20%EC%97%B0%EC%8A%B5"
-    },
-    {
-      "id": "codetree/trail2/사칙연산 함수",
-      "title": "[챌린지]사칙연산 함수",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-quadratic-operations-function",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0%20%ED%95%A8%EC%88%98"
-    },
-    {
-      "id": "codetree/trail2/상품 코드",
-      "title": "[챌린지]상품 코드",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-product-code",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%83%81%ED%92%88%20%EC%BD%94%EB%93%9C"
-    },
-    {
-      "id": "codetree/trail3/섬 방문",
-      "title": "[챌린지]섬 방문",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / DFS",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-dfs-forest",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%84%AC%20%EB%B0%A9%EB%AC%B8"
-    },
-    {
-      "id": "codetree/trail1/소수점 반올림하기",
-      "title": "[챌린지]소수점 반올림하기",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 소수점 맞춰 출력",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rounding-decimal-points",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%86%8C%EC%88%98%EC%A0%90%20%EB%B0%98%EC%98%AC%EB%A6%BC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/순서를 바꾸었을 때 같은 단어인지 판별하기",
-      "title": "[챌린지]순서를 바꾸었을 때 같은 단어인지 판별하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-determine-same-word",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%9C%EC%84%9C%EB%A5%BC%20%EB%B0%94%EA%BE%B8%EC%97%88%EC%9D%84%20%EB%95%8C%20%EA%B0%99%EC%9D%80%20%EB%8B%A8%EC%96%B4%EC%9D%B8%EC%A7%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/숫자로 이루어진 사각형",
-      "title": "[챌린지]숫자로 이루어진 사각형",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-with-a-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%AB%EC%9E%90%EB%A1%9C%20%EC%9D%B4%EB%A3%A8%EC%96%B4%EC%A7%84%20%EC%82%AC%EA%B0%81%ED%98%95"
-    },
-    {
-      "id": "codetree/trail2/십진수와 이진수 2",
-      "title": "[챌린지]십진수와 이진수 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / Notation",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-decimal-and-binary-number-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%8B%AD%EC%A7%84%EC%88%98%EC%99%80%20%EC%9D%B4%EC%A7%84%EC%88%98%202"
-    },
-    {
-      "id": "codetree/trail2/연속되는 수 3",
-      "title": "[챌린지]연속되는 수 3",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-continuous-number3",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%203"
-    },
-    {
-      "id": "codetree/trail2/연속되는 수 4",
-      "title": "[챌린지]연속되는 수 4",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-continuous-number4",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%204"
-    },
-    {
-      "id": "codetree/trail2/왔다 갔던 구역 2",
-      "title": "[챌린지]왔다 갔던 구역 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-area-been-to-and-from2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%99%94%EB%8B%A4%20%EA%B0%94%EB%8D%98%20%EA%B5%AC%EC%97%AD%202"
-    },
-    {
-      "id": "codetree/trail2/원점으로부터의 거리",
-      "title": "[챌린지]원점으로부터의 거리",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-distance-from-origin",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9B%90%EC%A0%90%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0%EC%9D%98%20%EA%B1%B0%EB%A6%AC"
-    },
-    {
-      "id": "codetree/trail2/이상한 진수 2",
-      "title": "[챌린지]이상한 진수 2",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-awkward-digits-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9D%B4%EC%83%81%ED%95%9C%20%EC%A7%84%EC%88%98%202"
-    },
-    {
-      "id": "codetree/trail3/이웃 동네",
-      "title": "[챌린지]이웃 동네",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / BFS 탐색",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-bfs-order",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%9B%83%20%EB%8F%99%EB%84%A4"
-    },
-    {
-      "id": "codetree/trail3/인접 행렬 해독기",
-      "title": "[챌린지]인접 행렬 해독기",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-decode-adjust-array",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%ED%96%89%EB%A0%AC%20%ED%95%B4%EB%8F%85%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail3/인접한 자료구조",
-      "title": "[챌린지]인접한 자료구조",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "보통",
-      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-adjust-ds",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%ED%95%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0"
-    },
-    {
-      "id": "codetree/trail1/입력받아 계산 4",
-      "title": "[챌린지]입력받아 계산 4",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 입출력 / 정수 입력",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-input-calculate-4",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9E%85%EB%A0%A5%EB%B0%9B%EC%95%84%20%EA%B3%84%EC%82%B0%204"
-    },
-    {
-      "id": "codetree/trail2/재귀함수를 이용한 별 출력",
-      "title": "[챌린지]재귀함수를 이용한 별 출력",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-star-output-with-recursive-function",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%B3%84%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/재귀함수의 꽃",
-      "title": "[챌린지]재귀함수의 꽃",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-the-flower-of-the-recursive-function",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EC%9D%98%20%EA%BD%83"
-    },
-    {
-      "id": "codetree/trail2/절댓값으로 변경",
-      "title": "[챌린지]절댓값으로 변경",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-find-the-absolute-value",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A0%88%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD"
-    },
-    {
-      "id": "codetree/trail1/점수 입출력",
-      "title": "[챌린지]점수 입출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 입출력 / 정수 입력",
-      "languages": [
-        "JavaScript"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-enter-int-and-print-score",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%A0%90%EC%88%98%20%EC%9E%85%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail3/정렬된 배열",
-      "title": "[챌린지]정렬된 배열",
-      "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "보통",
-      "category": "Trail 3 / 정렬 / 거품 정렬",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-already-sorted-bubble",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EB%B0%B0%EC%97%B4"
-    },
-    {
-      "id": "codetree/trail2/최대공약수 구하기",
-      "title": "[챌린지]최대공약수 구하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-find-the-greatest-common-divisor",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail2/최대로 겹치는 지점",
-      "title": "[챌린지]최대로 겹치는 지점",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-overlapped-points",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%A7%80%EC%A0%90"
-    },
-    {
-      "id": "codetree/trail2/출력결과 14",
-      "title": "[챌린지]출력결과 14",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201534",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2014"
-    },
-    {
-      "id": "codetree/trail2/출력결과 20",
-      "title": "[챌린지]출력결과 20",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "어려움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201544",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2020"
-    },
-    {
-      "id": "codetree/trail2/출력결과 22",
-      "title": "[챌린지]출력결과 22",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201547",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2022"
-    },
-    {
-      "id": "codetree/trail2/출력결과 46",
-      "title": "[챌린지]출력결과 46",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201720",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2046"
-    },
-    {
-      "id": "codetree/trail2/출력결과 51",
-      "title": "[챌린지]출력결과 51",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201727",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2051"
-    },
-    {
-      "id": "codetree/trail2/출력결과 56",
-      "title": "[챌린지]출력결과 56",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201732",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2056"
-    },
-    {
-      "id": "codetree/trail2/출력결과 65",
-      "title": "[챌린지]출력결과 65",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201819",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2065"
-    },
-    {
-      "id": "codetree/trail2/출력결과 66",
-      "title": "[챌린지]출력결과 66",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201820",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2066"
-    },
-    {
       "id": "codetree/trail2/출력결과 67",
       "title": "[챌린지]출력결과 67",
       "platform": "CodeTree",
@@ -4419,126 +2745,9 @@
       "difficulty": "쉬움",
       "category": "Trail 2 / 함수 / 값을 반환하는 함수",
       "languages": [],
-      "solvedAt": null,
+      "solvedAt": "2026-06-06T21:36:10+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201821",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2067"
-    },
-    {
-      "id": "codetree/trail2/출력결과 72",
-      "title": "[챌린지]출력결과 72",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201827",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2072"
-    },
-    {
-      "id": "codetree/trail2/출력결과 75",
-      "title": "[챌린지]출력결과 75",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / Call by value / Call by reference",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201830",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2075"
-    },
-    {
-      "id": "codetree/trail2/출력결과 80",
-      "title": "[챌린지]출력결과 80",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201835",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2080"
-    },
-    {
-      "id": "codetree/trail2/출력결과 81",
-      "title": "[챌린지]출력결과 81",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201838",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2081"
-    },
-    {
-      "id": "codetree/trail2/출력결과 83",
-      "title": "[챌린지]출력결과 83",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201840",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2083"
-    },
-    {
-      "id": "codetree/trail2/키, 몸무게를 기준으로 정렬",
-      "title": "[챌린지]키, 몸무게를 기준으로 정렬",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-sort-by-height-and-weight",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%82%A4%2C%20%EB%AA%B8%EB%AC%B4%EA%B2%8C%EB%A5%BC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EB%A0%AC"
-    },
-    {
-      "id": "codetree/trail2/폭탄 해제",
-      "title": "[챌린지]폭탄 해제",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 객체",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-bomb-removal",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%8F%AD%ED%83%84%20%ED%95%B4%EC%A0%9C"
-    },
-    {
-      "id": "codetree/trail1/한줄 출력",
-      "title": "[챌린지]한줄 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-print-one-line",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%ED%95%9C%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail2/함수를 이용한 온전수 판별",
-      "title": "[챌린지]함수를 이용한 온전수 판별",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-determining-the-whole-number-using-a-function",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%98%A8%EC%A0%84%EC%88%98%20%ED%8C%90%EB%B3%84"
     },
     {
       "id": "codetree/trail2/함수를 이용한 합과 소수 판별",
@@ -4550,9 +2759,125 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-06-06T21:34:18+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-use-functions-to-determine-sums-and-decimals",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%95%A9%EA%B3%BC%20%EC%86%8C%EC%88%98%20%ED%8C%90%EB%B3%84"
+    },
+    {
+      "id": "codetree/trail2/출력결과 66",
+      "title": "[챌린지]출력결과 66",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-06-06T21:23:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201820",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2066"
+    },
+    {
+      "id": "codetree/trail2/출력결과 22",
+      "title": "[챌린지]출력결과 22",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-06-06T21:23:18+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201547",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2022"
+    },
+    {
+      "id": "codetree/trail2/두 선분",
+      "title": "[개념]두 선분",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 케이스별로 나누기 / 겹치는 경우",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-05T22:58:41+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-two-lines",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%84%A0%EB%B6%84"
+    },
+    {
+      "id": "codetree/trail2/출력결과 84",
+      "title": "[개념]출력결과 84",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 변수의 영역",
+      "languages": [],
+      "solvedAt": "2026-06-05T22:53:06+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-reading-84",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2084"
+    },
+    {
+      "id": "codetree/trail4/사각형 채우기",
+      "title": "[챌린지]사각형 채우기",
+      "platform": "CodeTree",
+      "level": "Trail 4",
+      "difficulty": "쉬움",
+      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-04T16:27:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-fill",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EC%82%AC%EA%B0%81%ED%98%95%20%EC%B1%84%EC%9A%B0%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail4/계단 오르기",
+      "title": "[챌린지]계단 오르기",
+      "platform": "CodeTree",
+      "level": "Trail 4",
+      "difficulty": "쉬움",
+      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-04T09:16:42+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-climbing-stairs",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EA%B3%84%EB%8B%A8%20%EC%98%A4%EB%A5%B4%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail4/피보나치 수",
+      "title": "[개념]피보나치 수",
+      "platform": "CodeTree",
+      "level": "Trail 4",
+      "difficulty": "쉬움",
+      "category": "Trail 4 / DP I / subproblem을 그대로 합치면 되는 DP",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-04T08:38:35+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-fibonacci-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%20%EC%88%98"
+    },
+    {
+      "id": "codetree/trail3/동적계획법 적용",
+      "title": "[테스트]동적계획법 적용",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / DP / 동적계획법",
+      "languages": [],
+      "solvedAt": "2026-06-04T08:25:40+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-apply-dynamic-programming",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95%20%EC%A0%81%EC%9A%A9"
+    },
+    {
+      "id": "codetree/trail3/동적계획법에 대한 이해",
+      "title": "[개념]동적계획법에 대한 이해",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / DP / 동적계획법",
+      "languages": [],
+      "solvedAt": "2026-06-04T08:23:10+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dynamic-programming-concept",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%9D%B4%ED%95%B4"
     },
     {
       "id": "codetree/trail4/행복한 수열의 개수",
@@ -4564,21 +2889,153 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-06-03T17:45:10+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-number-of-happy-sequence",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%ED%96%89%EB%B3%B5%ED%95%9C%20%EC%88%98%EC%97%B4%EC%9D%98%20%EA%B0%9C%EC%88%98"
     },
     {
-      "id": "codetree/trail3/횟수 세기",
-      "title": "[챌린지]횟수 세기",
+      "id": "codetree/trail4/최고의 33위치",
+      "title": "[개념]최고의 33위치",
+      "platform": "CodeTree",
+      "level": "Trail 4",
+      "difficulty": "쉬움",
+      "category": "Trail 4 / Simulation / 격자 안에서 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-03T16:47:31+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-best-place-of-33",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail4/%EC%B5%9C%EA%B3%A0%EC%9D%98%2033%EC%9C%84%EC%B9%98"
+    },
+    {
+      "id": "codetree/trail2/이상한 진수 2",
+      "title": "[챌린지]이상한 진수 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-02T17:44:11+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-awkward-digits-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9D%B4%EC%83%81%ED%95%9C%20%EC%A7%84%EC%88%98%202"
+    },
+    {
+      "id": "codetree/trail2/체크판위에서 2",
+      "title": "[개념]체크판위에서 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-02T17:09:36+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-on-the-checkboard-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B2%B4%ED%81%AC%ED%8C%90%EC%9C%84%EC%97%90%EC%84%9C%202"
+    },
+    {
+      "id": "codetree/trail2/최고의 13위치",
+      "title": "[개념]최고의 13위치",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-02T10:30:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-best-place-of-13",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EA%B3%A0%EC%9D%98%2013%EC%9C%84%EC%B9%98"
+    },
+    {
+      "id": "codetree/trail2/출력결과 56",
+      "title": "[챌린지]출력결과 56",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-06-01T22:10:16+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201732",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2056"
+    },
+    {
+      "id": "codetree/trail2/일렬로 서있는 소 2",
+      "title": "[개념]일렬로 서있는 소 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-01T16:54:59+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-cattle-in-a-rowing-up-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9D%BC%EB%A0%AC%EB%A1%9C%20%EC%84%9C%EC%9E%88%EB%8A%94%20%EC%86%8C%202"
+    },
+    {
+      "id": "codetree/trail2/괄호 쌍 만들어주기 3",
+      "title": "[개념]괄호 쌍 만들어주기 3",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 완전탐색 I / 자리 수 단위로 완전탐색",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-06-01T16:43:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-pair-parentheses-3",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B4%84%ED%98%B8%20%EC%8C%8D%20%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A3%BC%EA%B8%B0%203"
+    },
+    {
+      "id": "codetree/trail3/배열과 스택",
+      "title": "[개념]배열과 스택",
       "platform": "CodeTree",
       "level": "Trail 3",
       "difficulty": "쉬움",
-      "category": "Trail 3 / 이진탐색 / 이진탐색",
+      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
       "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-binary-count",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%ED%9A%9F%EC%88%98%20%EC%84%B8%EA%B8%B0"
+      "solvedAt": "2026-06-01T15:43:20+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-array-and-stack",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B0%B0%EC%97%B4%EA%B3%BC%20%EC%8A%A4%ED%83%9D"
+    },
+    {
+      "id": "codetree/trail3/이웃 동네",
+      "title": "[챌린지]이웃 동네",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / BFS 탐색",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:30:31+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-bfs-order",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%9B%83%20%EB%8F%99%EB%84%A4"
+    },
+    {
+      "id": "codetree/trail3/BFS",
+      "title": "[개념]BFS",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / BFS 탐색",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:29:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-bfs-code",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/BFS"
+    },
+    {
+      "id": "codetree/trail3/DFS 행렬",
+      "title": "[테스트]DFS 행렬",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "보통",
+      "category": "Trail 3 / 그래프 탐색 / DFS",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:28:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-dfs-using-adjust-array",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/DFS%20%ED%96%89%EB%A0%AC"
     },
     {
       "id": "codetree/trail3/DFS 추론",
@@ -4588,50 +3045,249 @@
       "difficulty": "보통",
       "category": "Trail 3 / 그래프 탐색 / DFS",
       "languages": [],
-      "solvedAt": null,
+      "solvedAt": "2026-06-01T15:27:48+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-dfs-for-adjust-list",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/DFS%20%EC%B6%94%EB%A1%A0"
     },
     {
-      "id": "codetree/trail2/Top K 숫자 구하기",
-      "title": "[챌린지]Top K 숫자 구하기",
-      "platform": "CodeTree",
-      "level": "Trail 2",
-      "difficulty": "쉬움",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
-      "languages": [
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-kth-number",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Top%20K%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/다양하게 출력",
-      "title": "[테스트]다양하게 출력",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 기본 출력",
-      "languages": [
-        "JavaScript",
-        "Python"
-      ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-print-in-variety",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%A4%EC%96%91%ED%95%98%EA%B2%8C%20%EC%B6%9C%EB%A0%A5"
-    },
-    {
-      "id": "codetree/trail3/동적계획법 적용",
-      "title": "[테스트]동적계획법 적용",
+      "id": "codetree/trail3/섬 방문",
+      "title": "[챌린지]섬 방문",
       "platform": "CodeTree",
       "level": "Trail 3",
       "difficulty": "쉬움",
-      "category": "Trail 3 / DP / 동적계획법",
+      "category": "Trail 3 / 그래프 탐색 / DFS",
       "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-apply-dynamic-programming",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95%20%EC%A0%81%EC%9A%A9"
+      "solvedAt": "2026-06-01T15:26:59+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-dfs-forest",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%84%AC%20%EB%B0%A9%EB%AC%B8"
+    },
+    {
+      "id": "codetree/trail3/도시 방문",
+      "title": "[챌린지]도시 방문",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / DFS",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:25:51+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-dfs-graph",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%84%EC%8B%9C%20%EB%B0%A9%EB%AC%B8"
+    },
+    {
+      "id": "codetree/trail3/DFS",
+      "title": "[개념]DFS",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / DFS",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:25:15+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dfs-code",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/DFS"
+    },
+    {
+      "id": "codetree/trail3/인접 리스트 해독기",
+      "title": "[테스트]인접 리스트 해독기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "languages": [],
+      "solvedAt": "2026-06-01T15:19:34+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-decode-adjust-list",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%ED%95%B4%EB%8F%85%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/인접한 자료구조",
+      "title": "[챌린지]인접한 자료구조",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "보통",
+      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "languages": [],
+      "solvedAt": "2026-05-30T15:41:54+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-adjust-ds",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%ED%95%9C%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0"
+    },
+    {
+      "id": "codetree/trail3/인접 행렬 해독기",
+      "title": "[챌린지]인접 행렬 해독기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "languages": [],
+      "solvedAt": "2026-05-30T15:39:59+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-decode-adjust-array",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%ED%96%89%EB%A0%AC%20%ED%95%B4%EB%8F%85%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/인접 리스트로 그래프 만들기",
+      "title": "[개념]인접 리스트로 그래프 만들기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "languages": [],
+      "solvedAt": "2026-05-30T15:38:34+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-using-adjust-list",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%A1%9C%20%EA%B7%B8%EB%9E%98%ED%94%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/인접 행렬로 그래프 만들기",
+      "title": "[개념]인접 행렬로 그래프 만들기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "languages": [],
+      "solvedAt": "2026-05-30T13:06:10+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-using-adjust-graph",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%ED%96%89%EB%A0%AC%EB%A1%9C%20%EA%B7%B8%EB%9E%98%ED%94%84%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/복잡복잡 그래프",
+      "title": "[테스트]복잡복잡 그래프",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
+      "languages": [],
+      "solvedAt": "2026-05-30T13:04:02+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-graph-concept-1",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B3%B5%EC%9E%A1%EB%B3%B5%EC%9E%A1%20%EA%B7%B8%EB%9E%98%ED%94%84"
+    },
+    {
+      "id": "codetree/trail3/복잡복잡 그래프 (2)",
+      "title": "[챌린지]복잡복잡 그래프 (2)",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "보통",
+      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
+      "languages": [],
+      "solvedAt": "2026-05-30T13:03:18+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-graph-concept-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B3%B5%EC%9E%A1%EB%B3%B5%EC%9E%A1%20%EA%B7%B8%EB%9E%98%ED%94%84%20(2)"
+    },
+    {
+      "id": "codetree/trail3/그래프",
+      "title": "[개념]그래프",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
+      "languages": [],
+      "solvedAt": "2026-05-30T13:02:52+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-graph-concept",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EA%B7%B8%EB%9E%98%ED%94%84"
+    },
+    {
+      "id": "codetree/trail1/변수 값 복사하기 2",
+      "title": "[챌린지]변수 값 복사하기 2",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 변수값 동시에 복사",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-29T22:21:34+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-copying-variable-values-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0%202"
+    },
+    {
+      "id": "codetree/trail1/변수 값 복사하기",
+      "title": "[개념]변수 값 복사하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 변수값 동시에 복사",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-29T22:20:11+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-copying-variable-values",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/노드 만들어보기",
+      "title": "[개념]노드 만들어보기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 배열, 연결 리스트 / 단일 연결 리스트",
+      "languages": [],
+      "solvedAt": "2026-05-28T12:06:53+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-node-definition",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%85%B8%EB%93%9C%20%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/출력결과 51",
+      "title": "[챌린지]출력결과 51",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-28T12:01:08+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201727",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2051"
+    },
+    {
+      "id": "codetree/trail2/최소공배수 구하기",
+      "title": "[테스트]최소공배수 구하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-28T11:56:03+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-find-the-least-common-multiple",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/연속되는 수 4",
+      "title": "[챌린지]연속되는 수 4",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-28T10:29:04+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-continuous-number4",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%204"
+    },
+    {
+      "id": "codetree/trail2/연속되는 수 3",
+      "title": "[챌린지]연속되는 수 3",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-28T10:23:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-continuous-number3",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%203"
+    },
+    {
+      "id": "codetree/trail2/연속되는 수 2",
+      "title": "[개념]연속되는 수 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 II / 최장 연속 부분 수열",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-28T09:18:49+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-continuous-number2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%97%B0%EC%86%8D%EB%90%98%EB%8A%94%20%EC%88%98%202"
     },
     {
       "id": "codetree/trail2/두 정수에 대한 연산값 2",
@@ -4643,47 +3299,233 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-05-27T16:01:15+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-operational-values-for-two-integers-2",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%A0%95%EC%88%98%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%97%B0%EC%82%B0%EA%B0%92%202"
     },
     {
-      "id": "codetree/trail3/모양 예측하기",
-      "title": "[테스트]모양 예측하기",
+      "id": "codetree/trail2/2개 이상의 알파벳",
+      "title": "[챌린지]2개 이상의 알파벳",
       "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "쉬움",
-      "category": "Trail 3 / 트리 / 이진 트리 개념",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-binary-tree-shape",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%AA%A8%EC%96%91%20%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0"
-    },
-    {
-      "id": "codetree/trail1/변수 출력하기 3",
-      "title": "[테스트]변수 출력하기 3",
-      "platform": "CodeTree",
-      "level": "Trail 1",
-      "difficulty": "쉬움",
-      "category": "Trail 1 / 출력 / 출력 형식",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
       "languages": [
-        "JavaScript"
+        "Python"
       ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-outputing-variables-3",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%203"
+      "solvedAt": "2026-05-27T15:51:48+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-more-than-one-alphabet",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/2%EA%B0%9C%20%EC%9D%B4%EC%83%81%EC%9D%98%20%EC%95%8C%ED%8C%8C%EB%B2%B3"
     },
     {
-      "id": "codetree/trail3/복잡복잡 그래프",
-      "title": "[테스트]복잡복잡 그래프",
+      "id": "codetree/trail2/중앙값 계산 2",
+      "title": "[테스트]중앙값 계산 2",
       "platform": "CodeTree",
-      "level": "Trail 3",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-27T15:37:41+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-get-median-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A4%91%EC%95%99%EA%B0%92%20%EA%B3%84%EC%82%B0%202"
+    },
+    {
+      "id": "codetree/trail2/왔다 갔던 구역 2",
+      "title": "[챌린지]왔다 갔던 구역 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-27T15:23:15+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-area-been-to-and-from2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%99%94%EB%8B%A4%20%EA%B0%94%EB%8D%98%20%EA%B5%AC%EC%97%AD%202"
+    },
+    {
+      "id": "codetree/trail2/최대로 겹치는 지점",
+      "title": "[챌린지]최대로 겹치는 지점",
+      "platform": "CodeTree",
+      "level": "Trail 2",
       "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 정의",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-graph-concept-1",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B3%B5%EC%9E%A1%EB%B3%B5%EC%9E%A1%20%EA%B7%B8%EB%9E%98%ED%94%84"
+      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-27T10:40:58+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-maximum-overlapped-points",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EC%A7%80%EC%A0%90"
+    },
+    {
+      "id": "codetree/trail2/최대로 겹치는 구간",
+      "title": "[개념]최대로 겹치는 구간",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-27T10:37:27+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-maximum-overlapped-segments",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EB%A1%9C%20%EA%B2%B9%EC%B9%98%EB%8A%94%20%EA%B5%AC%EA%B0%84"
+    },
+    {
+      "id": "codetree/trail2/블럭쌓는 명령2",
+      "title": "[개념]블럭쌓는 명령2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 I / 구간 칠하기",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-27T09:09:19+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-block-stacking-commands2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B8%94%EB%9F%AD%EC%8C%93%EB%8A%94%20%EB%AA%85%EB%A0%B92"
+    },
+    {
+      "id": "codetree/trail2/십진수와 이진수 2",
+      "title": "[챌린지]십진수와 이진수 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 I / Notation",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-26T15:42:42+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-decimal-and-binary-number-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%8B%AD%EC%A7%84%EC%88%98%EC%99%80%20%EC%9D%B4%EC%A7%84%EC%88%98%202"
+    },
+    {
+      "id": "codetree/trail2/십진수로 변환하기",
+      "title": "[개념]십진수로 변환하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 I / Notation",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-26T15:33:16+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-convert-to-decimal",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%8B%AD%EC%A7%84%EC%88%98%EB%A1%9C%20%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/2진수로 변환하기",
+      "title": "[개념]2진수로 변환하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 I / Notation",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-26T10:30:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-convert-to-binary",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/2%EC%A7%84%EC%88%98%EB%A1%9C%20%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/원점으로부터의 거리",
+      "title": "[챌린지]원점으로부터의 거리",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-26T08:57:26+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-distance-from-origin",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9B%90%EC%A0%90%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0%EC%9D%98%20%EA%B1%B0%EB%A6%AC"
+    },
+    {
+      "id": "codetree/trail2/키, 몸무게를 기준으로 정렬",
+      "title": "[챌린지]키, 몸무게를 기준으로 정렬",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-26T08:50:11+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-sort-by-height-and-weight",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%82%A4%2C%20%EB%AA%B8%EB%AC%B4%EA%B2%8C%EB%A5%BC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EB%A0%AC"
+    },
+    {
+      "id": "codetree/trail2/개인정보",
+      "title": "[챌린지]개인정보",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T16:32:09+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-personal-info",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4"
+    },
+    {
+      "id": "codetree/trail2/줄 세우기",
+      "title": "[개념]줄 세우기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T16:24:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-line-up-students",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A4%84%20%EC%84%B8%EC%9A%B0%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/총점 비교",
+      "title": "[개념]총점 비교",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T16:17:13+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-compare-total-points",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B4%9D%EC%A0%90%20%EB%B9%84%EA%B5%90"
+    },
+    {
+      "id": "codetree/trail2/국영수 순이지",
+      "title": "[개념]국영수 순이지",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T16:07:29+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-korean-english-math-order",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B5%AD%EC%98%81%EC%88%98%20%EC%88%9C%EC%9D%B4%EC%A7%80"
+    },
+    {
+      "id": "codetree/trail2/키를 기준으로 정렬",
+      "title": "[개념]키를 기준으로 정렬",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T15:59:29+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sort-by-height",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%82%A4%EB%A5%BC%20%EA%B8%B0%EC%A4%80%EC%9C%BC%EB%A1%9C%20%EC%A0%95%EB%A0%AC"
     },
     {
       "id": "codetree/trail2/비오는 날",
@@ -4695,21 +3537,617 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-05-25T15:54:33+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-rainy-day",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B9%84%EC%98%A4%EB%8A%94%20%EB%82%A0"
     },
     {
-      "id": "codetree/trail3/인접 리스트 해독기",
-      "title": "[테스트]인접 리스트 해독기",
+      "id": "codetree/trail2/사는 지역",
+      "title": "[챌린지]사는 지역",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T15:50:16+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-where-live",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%82%AC%EB%8A%94%20%EC%A7%80%EC%97%AD"
+    },
+    {
+      "id": "codetree/trail2/상품 코드",
+      "title": "[챌린지]상품 코드",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T15:43:14+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-product-code",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%83%81%ED%92%88%20%EC%BD%94%EB%93%9C"
+    },
+    {
+      "id": "codetree/trail2/폭탄 해제",
+      "title": "[챌린지]폭탄 해제",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T15:39:09+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-bomb-removal",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%8F%AD%ED%83%84%20%ED%95%B4%EC%A0%9C"
+    },
+    {
+      "id": "codetree/trail2/코드네임",
+      "title": "[개념]코드네임",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-25T15:35:45+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-code-name",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%BD%94%EB%93%9C%EB%84%A4%EC%9E%84"
+    },
+    {
+      "id": "codetree/trail2/순서를 바꾸었을 때 같은 단어인지 판별하기",
+      "title": "[챌린지]순서를 바꾸었을 때 같은 단어인지 판별하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T18:47:37+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-determine-same-word",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%9C%EC%84%9C%EB%A5%BC%20%EB%B0%94%EA%BE%B8%EC%97%88%EC%9D%84%20%EB%95%8C%20%EA%B0%99%EC%9D%80%20%EB%8B%A8%EC%96%B4%EC%9D%B8%EC%A7%80%20%ED%8C%90%EB%B3%84%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/출력결과 81",
+      "title": "[챌린지]출력결과 81",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
+      "languages": [],
+      "solvedAt": "2026-05-24T18:01:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201838",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2081"
+    },
+    {
+      "id": "codetree/trail2/출력결과 83",
+      "title": "[챌린지]출력결과 83",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-24T17:58:53+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201840",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2083"
+    },
+    {
+      "id": "codetree/trail2/출력결과 65",
+      "title": "[챌린지]출력결과 65",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [],
+      "solvedAt": "2026-05-24T17:54:29+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201819",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2065"
+    },
+    {
+      "id": "codetree/trail2/절댓값으로 변경",
+      "title": "[챌린지]절댓값으로 변경",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:52:42+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-find-the-absolute-value",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A0%88%EB%8C%93%EA%B0%92%EC%9C%BC%EB%A1%9C%20%EB%B3%80%EA%B2%BD"
+    },
+    {
+      "id": "codetree/trail2/두 정수에 대한 연산값",
+      "title": "[챌린지]두 정수에 대한 연산값",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:51:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-operational-values-for-two-integers",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%A0%95%EC%88%98%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%97%B0%EC%82%B0%EA%B0%92"
+    },
+    {
+      "id": "codetree/trail2/출력결과 75",
+      "title": "[챌린지]출력결과 75",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [],
+      "solvedAt": "2026-05-24T17:50:00+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201830",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2075"
+    },
+    {
+      "id": "codetree/trail2/palindrome 여부 판단하기",
+      "title": "[개념]palindrome 여부 판단하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:47:36+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-determine-whether-palindrome-is-present",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/palindrome%20%EC%97%AC%EB%B6%80%20%ED%8C%90%EB%8B%A8%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/짝수만 2로 나누기",
+      "title": "[개념]짝수만 2로 나누기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:43:52+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-divide-even-numbers-by-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A7%9D%EC%88%98%EB%A7%8C%202%EB%A1%9C%20%EB%82%98%EB%88%84%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/두 정수 값 교환하기",
+      "title": "[개념]두 정수 값 교환하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / Call by value / Call by reference",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:38:02+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-to-exchange-two-integer-values",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%A0%95%EC%88%98%20%EA%B0%92%20%EA%B5%90%ED%99%98%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/함수를 이용한 온전수 판별",
+      "title": "[챌린지]함수를 이용한 온전수 판별",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:34:46+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-determining-the-whole-number-using-a-function",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%98%A8%EC%A0%84%EC%88%98%20%ED%8C%90%EB%B3%84"
+    },
+    {
+      "id": "codetree/trail2/출력결과 20",
+      "title": "[챌린지]출력결과 20",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "어려움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-24T17:26:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201544",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2020"
+    },
+    {
+      "id": "codetree/trail2/출력결과 80",
+      "title": "[챌린지]출력결과 80",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-24T17:25:17+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201835",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2080"
+    },
+    {
+      "id": "codetree/trail2/Date to Date",
+      "title": "[개념]Date to Date",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 시뮬레이션 I / 날짜와 시간 계산",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T17:05:26+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-date-to-date",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Date%20to%20Date"
+    },
+    {
+      "id": "codetree/trail2/Time to Time",
+      "title": "[개념]Time to Time",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 시뮬레이션 I / 날짜와 시간 계산",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-24T16:58:41+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-time-to-time",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Time%20to%20Time"
+    },
+    {
+      "id": "codetree/trail0/사칙연산 연습",
+      "title": "[챌린지]사칙연산 연습",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 연산자",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:42:29+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-operators-1",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0%20%EC%97%B0%EC%8A%B5"
+    },
+    {
+      "id": "codetree/trail0/연산자 퀴즈",
+      "title": "[개념]연산자 퀴즈",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 연산자",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:40:48+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-operators",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%97%B0%EC%82%B0%EC%9E%90%20%ED%80%B4%EC%A6%88"
+    },
+    {
+      "id": "codetree/trail0/변수 값 복사하기 3",
+      "title": "[챌린지]변수 값 복사하기 3",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 기본 자료형",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:40:14+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-simple-data-types-1",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%B3%80%EC%88%98%20%EA%B0%92%20%EB%B3%B5%EC%82%AC%ED%95%98%EA%B8%B0%203"
+    },
+    {
+      "id": "codetree/trail0/기본 자료형 퀴즈",
+      "title": "[개념]기본 자료형 퀴즈",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 기본 자료형",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:39:07+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-simple-data-types",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EA%B8%B0%EB%B3%B8%20%EC%9E%90%EB%A3%8C%ED%98%95%20%ED%80%B4%EC%A6%88"
+    },
+    {
+      "id": "codetree/trail0/문자 변경하기",
+      "title": "[챌린지]문자 변경하기",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 변수",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:38:18+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-type-variable-overview-1",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%AC%B8%EC%9E%90%20%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail0/변수 퀴즈",
+      "title": "[개념]변수 퀴즈",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 변수",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:37:48+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-type-variable-overview",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EB%B3%80%EC%88%98%20%ED%80%B4%EC%A6%88"
+    },
+    {
+      "id": "codetree/trail0/2줄 출력",
+      "title": "[챌린지]2줄 출력",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 출력 입문",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:37:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-output-basics-1",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/2%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail0/출력 입문 퀴즈",
+      "title": "[개념]출력 입문 퀴즈",
+      "platform": "CodeTree",
+      "level": "Trail 0",
+      "difficulty": "쉬움",
+      "category": "Trail 0 / 기본 / 출력 입문",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:36:31+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/nl-pre-output-basics",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail0/%EC%B6%9C%EB%A0%A5%20%EC%9E%85%EB%AC%B8%20%ED%80%B4%EC%A6%88"
+    },
+    {
+      "id": "codetree/trail3/정렬된 배열",
+      "title": "[챌린지]정렬된 배열",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "보통",
+      "category": "Trail 3 / 정렬 / 거품 정렬",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:34:03+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-already-sorted-bubble",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%A0%95%EB%A0%AC%EB%90%9C%20%EB%B0%B0%EC%97%B4"
+    },
+    {
+      "id": "codetree/trail3/횟수 세기",
+      "title": "[챌린지]횟수 세기",
       "platform": "CodeTree",
       "level": "Trail 3",
       "difficulty": "쉬움",
-      "category": "Trail 3 / 그래프 탐색 / Graph 구현",
+      "category": "Trail 3 / 이진탐색 / 이진탐색",
       "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-decode-adjust-list",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B8%EC%A0%91%20%EB%A6%AC%EC%8A%A4%ED%8A%B8%20%ED%95%B4%EB%8F%85%EA%B8%B0"
+      "solvedAt": "2026-05-23T22:32:07+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-binary-count",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%ED%9A%9F%EC%88%98%20%EC%84%B8%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/이진탐색?",
+      "title": "[개념]이진탐색?",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 이진탐색 / 이진탐색",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:29:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-binary-search",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89%3F"
+    },
+    {
+      "id": "codetree/trail3/모양 예측하기",
+      "title": "[테스트]모양 예측하기",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 트리 / 이진 트리 개념",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:26:42+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-binary-tree-shape",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%AA%A8%EC%96%91%20%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail3/이진 트리",
+      "title": "[개념]이진 트리",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 트리 / 이진 트리 개념",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:22:29+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-binary-tree-introduction",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%9D%B4%EC%A7%84%20%ED%8A%B8%EB%A6%AC"
+    },
+    {
+      "id": "codetree/trail3/트리",
+      "title": "[개념]트리",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 트리 / 트리",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:17:54+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-tree-introduction",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%ED%8A%B8%EB%A6%AC"
+    },
+    {
+      "id": "codetree/trail3/괄호 문자열",
+      "title": "[개념]괄호 문자열",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:15:05+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-stack-apply-string",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EA%B4%84%ED%98%B8%20%EB%AC%B8%EC%9E%90%EC%97%B4"
+    },
+    {
+      "id": "codetree/trail3/스택",
+      "title": "[개념]스택",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 스택, 큐, 덱 / Stack",
+      "languages": [],
+      "solvedAt": "2026-05-23T22:11:06+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-stack-concept",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EC%8A%A4%ED%83%9D"
+    },
+    {
+      "id": "codetree/trail1/입력받아 계산 4",
+      "title": "[챌린지]입력받아 계산 4",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 입출력 / 정수 입력",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:06:48+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-input-calculate-4",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9E%85%EB%A0%A5%EB%B0%9B%EC%95%84%20%EA%B3%84%EC%82%B0%204"
+    },
+    {
+      "id": "codetree/trail1/점수 입출력",
+      "title": "[챌린지]점수 입출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 입출력 / 정수 입력",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:05:14+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-enter-int-and-print-score",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%A0%90%EC%88%98%20%EC%9E%85%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/입력받아 계산",
+      "title": "[개념]입력받아 계산",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 입출력 / 정수 입력",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T22:03:16+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-input-calculate",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9E%85%EB%A0%A5%EB%B0%9B%EC%95%84%20%EA%B3%84%EC%82%B0"
+    },
+    {
+      "id": "codetree/trail1/소수점 반올림하기",
+      "title": "[챌린지]소수점 반올림하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 소수점 맞춰 출력",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:59:23+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rounding-decimal-points",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%86%8C%EC%88%98%EC%A0%90%20%EB%B0%98%EC%98%AC%EB%A6%BC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/달에서 무게 구하기",
+      "title": "[개념]달에서 무게 구하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 소수점 맞춰 출력",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:58:38+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-weight-on-the-moon",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%AC%EC%97%90%EC%84%9C%20%EB%AC%B4%EA%B2%8C%20%EA%B5%AC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/변수 출력하기 3",
+      "title": "[테스트]변수 출력하기 3",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 출력 형식",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:53:55+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-outputing-variables-3",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%203"
+    },
+    {
+      "id": "codetree/trail1/변수 출력하기 2",
+      "title": "[챌린지]변수 출력하기 2",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 출력 형식",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:53:09+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-outputing-variables-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%202"
+    },
+    {
+      "id": "codetree/trail1/변수 출력하기",
+      "title": "[챌린지]변수 출력하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 출력 형식",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:52:32+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-outputing-variables",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/세 정수형 변수 선언",
+      "title": "[개념]세 정수형 변수 선언",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 출력 형식",
+      "languages": [
+        "JavaScript"
+      ],
+      "solvedAt": "2026-05-23T21:51:49+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-declaration-of-three-natural-numbers",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%84%B8%20%EC%A0%95%EC%88%98%ED%98%95%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8"
+    },
+    {
+      "id": "codetree/trail2/각 자리 숫자의 제곱",
+      "title": "[개념]각 자리 숫자의 제곱",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:39:14+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-square-of-each-digit",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EA%B0%81%20%EC%9E%90%EB%A6%AC%20%EC%88%AB%EC%9E%90%EC%9D%98%20%EC%A0%9C%EA%B3%B1"
+    },
+    {
+      "id": "codetree/trail2/1부터 특정 수까지의 합 2",
+      "title": "[개념]1부터 특정 수까지의 합 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:32:39+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-from-1-to-a-certain-number-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/1%EB%B6%80%ED%84%B0%20%ED%8A%B9%EC%A0%95%20%EC%88%98%EA%B9%8C%EC%A7%80%EC%9D%98%20%ED%95%A9%202"
     },
     {
       "id": "codetree/trail2/재귀함수를 이용한 별 출력 2",
@@ -4721,9 +4159,313 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-05-23T21:29:03+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-star-output-with-recursive-function-2",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%B3%84%20%EC%B6%9C%EB%A0%A5%202"
+    },
+    {
+      "id": "codetree/trail2/재귀함수의 꽃",
+      "title": "[챌린지]재귀함수의 꽃",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:27:22+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-the-flower-of-the-recursive-function",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EC%9D%98%20%EA%BD%83"
+    },
+    {
+      "id": "codetree/trail2/재귀함수를 이용한 별 출력",
+      "title": "[챌린지]재귀함수를 이용한 별 출력",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:22:27+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-star-output-with-recursive-function",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%B3%84%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail2/숫자 차례로 출력하기",
+      "title": "[개념]숫자 차례로 출력하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:21:04+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-to-output-numerically",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%AB%EC%9E%90%20%EC%B0%A8%EB%A1%80%EB%A1%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/반복 출력하기 2",
+      "title": "[개념]반복 출력하기 2",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 재귀함수 / 값을 반환하지 않는 재귀함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T21:17:26+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeated-output-2",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B0%98%EB%B3%B5%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%202"
+    },
+    {
+      "id": "codetree/trail2/사칙연산 함수",
+      "title": "[챌린지]사칙연산 함수",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T20:39:36+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-quadratic-operations-function",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0%20%ED%95%A8%EC%88%98"
+    },
+    {
+      "id": "codetree/trail2/두 수의 거듭제곱",
+      "title": "[챌린지]두 수의 거듭제곱",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T20:35:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-two-numbers-of-squares",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EC%88%98%EC%9D%98%20%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1"
+    },
+    {
+      "id": "codetree/trail2/출력결과 14",
+      "title": "[챌린지]출력결과 14",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-23T20:33:35+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201534",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2014"
+    },
+    {
+      "id": "codetree/trail2/함수를 이용한 윤년 판별",
+      "title": "[개념]함수를 이용한 윤년 판별",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T20:32:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-tell-the-function-using-a-leap-year",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%9C%A4%EB%85%84%20%ED%8C%90%EB%B3%84"
+    },
+    {
+      "id": "codetree/trail2/함수를 이용한 소수 판별",
+      "title": "[개념]함수를 이용한 소수 판별",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T19:27:34+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-decimal-decisions-using-functions",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EC%86%8C%EC%88%98%20%ED%8C%90%EB%B3%84"
+    },
+    {
+      "id": "codetree/trail2/숫자로 이루어진 사각형",
+      "title": "[챌린지]숫자로 이루어진 사각형",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-23T19:21:58+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-rectangle-with-a-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%88%AB%EC%9E%90%EB%A1%9C%20%EC%9D%B4%EB%A3%A8%EC%96%B4%EC%A7%84%20%EC%82%AC%EA%B0%81%ED%98%95"
+    },
+    {
+      "id": "codetree/trail2/Next Level",
+      "title": "[개념]Next Level",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T14:43:38+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-next-level",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Next%20Level"
+    },
+    {
+      "id": "codetree/trail2/007",
+      "title": "[개념]007",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 객체",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T14:20:13+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-007",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/007"
+    },
+    {
+      "id": "codetree/trail2/두 개의 동일한 수열",
+      "title": "[챌린지]두 개의 동일한 수열",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:37:57+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-two-equal-series",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%91%90%20%EA%B0%9C%EC%9D%98%20%EB%8F%99%EC%9D%BC%ED%95%9C%20%EC%88%98%EC%97%B4"
+    },
+    {
+      "id": "codetree/trail2/Top K 숫자 구하기",
+      "title": "[챌린지]Top K 숫자 구하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:34:48+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-kth-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/Top%20K%20%EC%88%AB%EC%9E%90%20%EA%B5%AC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/단어 정렬",
+      "title": "[개념]단어 정렬",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:33:30+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sorting-words",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%8B%A8%EC%96%B4%20%EC%A0%95%EB%A0%AC"
+    },
+    {
+      "id": "codetree/trail2/문자열 정렬",
+      "title": "[개념]문자열 정렬",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:23:03+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-string-sort",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%A0%95%EB%A0%AC"
+    },
+    {
+      "id": "codetree/trail2/오름 내림차순 정렬",
+      "title": "[개념]오름 내림차순 정렬",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:21:30+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-inc-dec-sorting",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%98%A4%EB%A6%84%20%EB%82%B4%EB%A6%BC%EC%B0%A8%EC%88%9C%20%EC%A0%95%EB%A0%AC"
+    },
+    {
+      "id": "codetree/trail2/출력결과 46",
+      "title": "[챌린지]출력결과 46",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-22T12:14:42+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201720",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2046"
+    },
+    {
+      "id": "codetree/trail2/함수를 이용한 369 게임",
+      "title": "[개념]함수를 이용한 369 게임",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "보통",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-22T12:12:30+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-369-games-using-functions",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20369%20%EA%B2%8C%EC%9E%84"
+    },
+    {
+      "id": "codetree/trail1/특정 수 도달하기",
+      "title": "[개념]특정 수 도달하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:21:39+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-reaching-specific-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%ED%8A%B9%EC%A0%95%20%EC%88%98%20%EB%8F%84%EB%8B%AC%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/배열 채우고 출력하기",
+      "title": "[개념]배열 채우고 출력하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:15:12+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-filling-array-and-print",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B0%B0%EC%97%B4%20%EC%B1%84%EC%9A%B0%EA%B3%A0%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/원소 10개의 합",
+      "title": "[개념]원소 10개의 합",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 1차원 배열 / 한 줄에 여러 개 입력",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:11:38+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-of-10-elements",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%9B%90%EC%86%8C%2010%EA%B0%9C%EC%9D%98%20%ED%95%A9"
     },
     {
       "id": "codetree/trail1/정수 선언하고 곱 출력",
@@ -4736,27 +4478,256 @@
         "JavaScript",
         "Python"
       ],
-      "solvedAt": null,
+      "solvedAt": "2026-05-21T22:05:07+09:00",
       "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-Declare-an-integer-and-print-the-multiplication",
       "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%A0%95%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B3%A0%20%EA%B3%B1%20%EC%B6%9C%EB%A0%A5"
     },
     {
-      "id": "codetree/trail2/중앙값 계산 2",
-      "title": "[테스트]중앙값 계산 2",
+      "id": "codetree/trail1/변수 선언하기",
+      "title": "[챌린지]변수 선언하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 변수와 자료형",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:04:05+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-declaring-variables",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/정수 선언하고 뺄셈",
+      "title": "[개념]정수 선언하고 뺄셈",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 변수와 자료형",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:02:36+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-define-numbers-and-substract",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%A0%95%EC%88%98%20%EC%84%A0%EC%96%B8%ED%95%98%EA%B3%A0%20%EB%BA%84%EC%85%88"
+    },
+    {
+      "id": "codetree/trail1/다양하게 출력",
+      "title": "[테스트]다양하게 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:01:31+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-print-in-variety",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%A4%EC%96%91%ED%95%98%EA%B2%8C%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/두줄 출력",
+      "title": "[챌린지]두줄 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:01:01+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-print-two-sentences-introduce",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%91%90%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/한줄 출력",
+      "title": "[챌린지]한줄 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:00:37+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-print-one-line",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%ED%95%9C%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/숫자 2개 출력",
+      "title": "[개념]숫자 2개 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T22:00:07+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-two-numbers",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%88%AB%EC%9E%90%202%EA%B0%9C%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/숫자 출력하기",
+      "title": "[개념]숫자 출력하기",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:58:43+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-one-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EC%88%AB%EC%9E%90%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail1/2줄 출력",
+      "title": "[개념]2줄 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:58:07+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-two-lines",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/2%EC%A4%84%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/따옴표 출력",
+      "title": "[개념]따옴표 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:57:15+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-quote",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%94%B0%EC%98%B4%ED%91%9C%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/문장 출력",
+      "title": "[개념]문장 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:56:41+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-sentence",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%AC%B8%EC%9E%A5%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail1/단어 출력",
+      "title": "[개념]단어 출력",
+      "platform": "CodeTree",
+      "level": "Trail 1",
+      "difficulty": "쉬움",
+      "category": "Trail 1 / 출력 / 기본 출력",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:56:21+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-print-word",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail1/%EB%8B%A8%EC%96%B4%20%EC%B6%9C%EB%A0%A5"
+    },
+    {
+      "id": "codetree/trail3/동적 배열의 이해",
+      "title": "[개념]동적 배열의 이해",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 배열, 연결 리스트 / Dynamic Array",
+      "languages": [],
+      "solvedAt": "2026-05-21T21:54:49+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-dynamic-array-concept",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%8F%99%EC%A0%81%20%EB%B0%B0%EC%97%B4%EC%9D%98%20%EC%9D%B4%ED%95%B4"
+    },
+    {
+      "id": "codetree/trail3/배열의 연산",
+      "title": "[개념]배열의 연산",
+      "platform": "CodeTree",
+      "level": "Trail 3",
+      "difficulty": "쉬움",
+      "category": "Trail 3 / 배열, 연결 리스트 / 배열",
+      "languages": [],
+      "solvedAt": "2026-05-21T21:50:56+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-array-operation",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/%EB%B0%B0%EC%97%B4%EC%9D%98%20%EC%97%B0%EC%82%B0"
+    },
+    {
+      "id": "codetree/trail2/짝수이면서 합이 5의 배수인 수",
+      "title": "[개념]짝수이면서 합이 5의 배수인 수",
       "platform": "CodeTree",
       "level": "Trail 2",
-      "difficulty": "보통",
-      "category": "Trail 2 / 정렬 / 일반 정렬",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-get-median-2",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A4%91%EC%95%99%EA%B0%92%20%EA%B3%84%EC%82%B0%202"
+      "solvedAt": "2026-05-21T21:42:08+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-an-even-number-with-a-multiple-of-5-in-the-sum",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A7%9D%EC%88%98%EC%9D%B4%EB%A9%B4%EC%84%9C%20%ED%95%A9%EC%9D%B4%205%EC%9D%98%20%EB%B0%B0%EC%88%98%EC%9D%B8%20%EC%88%98"
     },
     {
-      "id": "codetree/trail2/최소공배수 구하기",
-      "title": "[테스트]최소공배수 구하기",
+      "id": "codetree/trail2/정수의 최솟값",
+      "title": "[개념]정수의 최솟값",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:38:38+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-minimum-value-of-an-integer",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%A0%95%EC%88%98%EC%9D%98%20%EC%B5%9C%EC%86%9F%EA%B0%92"
+    },
+    {
+      "id": "codetree/trail2/1부터 특정 수까지의 합",
+      "title": "[개념]1부터 특정 수까지의 합",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:30:09+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-sum-from-1-to-a-certain-number",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/1%EB%B6%80%ED%84%B0%20%ED%8A%B9%EC%A0%95%20%EC%88%98%EA%B9%8C%EC%A7%80%EC%9D%98%20%ED%95%A9"
+    },
+    {
+      "id": "codetree/trail2/출력결과 72",
+      "title": "[챌린지]출력결과 72",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [],
+      "solvedAt": "2026-05-21T21:27:06+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-reading-k201827",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B6%9C%EB%A0%A5%EA%B2%B0%EA%B3%BC%2072"
+    },
+    {
+      "id": "codetree/trail2/최대공약수 구하기",
+      "title": "[챌린지]최대공약수 구하기",
       "platform": "CodeTree",
       "level": "Trail 2",
       "difficulty": "쉬움",
@@ -4764,21 +4735,51 @@
       "languages": [
         "Python"
       ],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-find-the-least-common-multiple",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0"
+      "solvedAt": "2026-05-21T21:19:50+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/challenge-find-the-greatest-common-divisor",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%20%EA%B5%AC%ED%95%98%EA%B8%B0"
     },
     {
-      "id": "codetree/trail3/DFS 행렬",
-      "title": "[테스트]DFS 행렬",
+      "id": "codetree/trail2/함수를 이용해 직사각형 만들기",
+      "title": "[개념]함수를 이용해 직사각형 만들기",
       "platform": "CodeTree",
-      "level": "Trail 3",
-      "difficulty": "보통",
-      "category": "Trail 3 / 그래프 탐색 / DFS",
-      "languages": [],
-      "solvedAt": null,
-      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/test-dfs-using-adjust-array",
-      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail3/DFS%20%ED%96%89%EB%A0%AC"
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:12:19+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-create-a-rectangle-using-a-function",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%ED%95%A8%EC%88%98%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%B4%20%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%20%EB%A7%8C%EB%93%A4%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/반복 출력하기",
+      "title": "[개념]반복 출력하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:10:11+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeated-output",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B0%98%EB%B3%B5%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0"
+    },
+    {
+      "id": "codetree/trail2/별 찍는 것을 5번 반복하기",
+      "title": "[개념]별 찍는 것을 5번 반복하기",
+      "platform": "CodeTree",
+      "level": "Trail 2",
+      "difficulty": "쉬움",
+      "category": "Trail 2 / 함수 / 값을 반환하지 않는 함수",
+      "languages": [
+        "Python"
+      ],
+      "solvedAt": "2026-05-21T21:08:54+09:00",
+      "problemUrl": "https://www.codetree.ai/trails/complete/curated-cards/intro-repeat-shooting-the-stars-five-times",
+      "repositoryUrl": "https://github.com/woojin-devv/coding-test-notes/tree/main/codetree/trail2/%EB%B3%84%20%EC%B0%8D%EB%8A%94%20%EA%B2%83%EC%9D%84%205%EB%B2%88%20%EB%B0%98%EB%B3%B5%ED%95%98%EA%B8%B0"
     }
   ]
 }
