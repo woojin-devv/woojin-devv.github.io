@@ -27,7 +27,10 @@ type CodingTestData = {
   totalCount: number
   tests: Array<{
     category: string | null
+    difficulty: string | null
     languages: string[]
+    level: string | null
+    platform: string
     solvedAt: string | null
     reviewCount: number
     lastReviewedAt: string | null

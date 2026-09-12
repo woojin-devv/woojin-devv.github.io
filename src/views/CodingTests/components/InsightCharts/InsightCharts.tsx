@@ -21,7 +21,10 @@ import * as styles from './InsightCharts.module.scss'
 
 type InsightTest = {
   category: string | null
+  difficulty: string | null
   languages: string[]
+  level: string | null
+  platform: string
 }
 
 type InsightChartsProps = {
@@ -35,6 +38,8 @@ type CountItem = {
 
 const LANGUAGE_COLORS = ['var(--ink)', '#ff9d50', 'var(--faint)', 'var(--line)']
 const TYPE_LIMIT = 8
+const PROGRAMMERS_LEVELS = Array.from({ length: 6 }, (_, index) => `Level ${index}`)
+const CODETREE_DIFFICULTIES = ['쉬움', '보통', '어려움']
 
 const countValues = (values: string[]) =>
   [...values.reduce<Map<string, number>>((counts, value) => {
@@ -58,16 +63,44 @@ const tooltipStyle = {
 }
 
 export const InsightCharts = ({ tests }: InsightChartsProps) => {
-  const { languageTotal, languages, problemTypes } = useMemo(() => {
+  const {
+    codeTreeDifficulties,
+    codeTreeTotal,
+    languageTotal,
+    languages,
+    problemTypes,
+    programmerLevels,
+    programmersTotal,
+  } = useMemo(() => {
     const languageItems = countValues(tests.flatMap((test) => test.languages))
     const typeItems = countValues(
       tests.flatMap((test) => test.category ? [getProblemType(test.category)] : [])
     ).slice(0, TYPE_LIMIT)
+    const programmers = tests.filter((test) => test.platform === 'Programmers')
+    const codeTree = tests.filter((test) => test.platform === 'CodeTree')
+    const programmerLevelCounts = new Map(
+      countValues(programmers.flatMap((test) => test.level ? [test.level] : []))
+        .map(({ label, count }) => [label, count])
+    )
+    const codeTreeDifficultyCounts = new Map(
+      countValues(codeTree.flatMap((test) => test.difficulty ? [test.difficulty] : []))
+        .map(({ label, count }) => [label, count])
+    )
 
     return {
+      codeTreeDifficulties: CODETREE_DIFFICULTIES.map((label) => ({
+        label,
+        count: codeTreeDifficultyCounts.get(label) || 0,
+      })),
+      codeTreeTotal: codeTree.length,
       languages: languageItems,
       languageTotal: languageItems.reduce((sum, language) => sum + language.count, 0),
       problemTypes: typeItems,
+      programmerLevels: PROGRAMMERS_LEVELS.map((label) => ({
+        label: label.replace('Level ', 'Lv.'),
+        count: programmerLevelCounts.get(label) || 0,
+      })),
+      programmersTotal: programmers.length,
     }
   }, [tests])
 
@@ -175,6 +208,78 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 />
                 <Bar dataKey="count" fill="#ff9d50" radius={[0, 2, 2, 0]} maxBarSize={12}>
                   <LabelList dataKey="count" position="right" fill="var(--ink)" fontSize={11} />
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </article>
+
+        <article className={styles.chartCard}>
+          <div className={styles.cardHeader}>
+            <div>
+              <span>Programmers level</span>
+              <h3>레벨별 풀이 수</h3>
+            </div>
+            <strong>{programmersTotal} solved</strong>
+          </div>
+
+          <div
+            className={styles.levelChart}
+            role="img"
+            aria-label={programmerLevels.map((level) => `${level.label} ${level.count}문제`).join(', ')}
+          >
+            <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 420, height: 230 }}>
+              <BarChart accessibilityLayer data={programmerLevels} margin={{ top: 18, right: 8, bottom: 0, left: -20 }}>
+                <XAxis
+                  dataKey="label"
+                  axisLine={false}
+                  tickLine={false}
+                  tick={{ fill: 'var(--muted)', fontSize: 11 }}
+                />
+                <YAxis allowDecimals={false} axisLine={false} tickLine={false} tick={{ fill: 'var(--faint)', fontSize: 10 }} />
+                <Tooltip
+                  cursor={{ fill: 'var(--soft)', opacity: 0.55 }}
+                  contentStyle={tooltipStyle}
+                  formatter={(value) => [`${value}문제`, '풀이 수']}
+                />
+                <Bar dataKey="count" fill="#ff9d50" radius={[2, 2, 0, 0]} maxBarSize={34}>
+                  <LabelList dataKey="count" position="top" fill="var(--ink)" fontSize={11} />
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </article>
+
+        <article className={styles.chartCard}>
+          <div className={styles.cardHeader}>
+            <div>
+              <span>CodeTree difficulty</span>
+              <h3>난이도별 풀이 수</h3>
+            </div>
+            <strong>{codeTreeTotal} solved</strong>
+          </div>
+
+          <div
+            className={styles.levelChart}
+            role="img"
+            aria-label={codeTreeDifficulties.map((difficulty) => `${difficulty.label} ${difficulty.count}문제`).join(', ')}
+          >
+            <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 420, height: 230 }}>
+              <BarChart accessibilityLayer data={codeTreeDifficulties} margin={{ top: 18, right: 8, bottom: 0, left: -20 }}>
+                <XAxis
+                  dataKey="label"
+                  axisLine={false}
+                  tickLine={false}
+                  tick={{ fill: 'var(--muted)', fontSize: 11 }}
+                />
+                <YAxis allowDecimals={false} axisLine={false} tickLine={false} tick={{ fill: 'var(--faint)', fontSize: 10 }} />
+                <Tooltip
+                  cursor={{ fill: 'var(--soft)', opacity: 0.55 }}
+                  contentStyle={tooltipStyle}
+                  formatter={(value) => [`${value}문제`, '풀이 수']}
+                />
+                <Bar dataKey="count" fill="var(--ink)" radius={[2, 2, 0, 0]} maxBarSize={54}>
+                  <LabelList dataKey="count" position="top" fill="var(--ink)" fontSize={11} />
                 </Bar>
               </BarChart>
             </ResponsiveContainer>

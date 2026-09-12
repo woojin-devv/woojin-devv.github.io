@@ -152,6 +152,11 @@
   height: 266px;
 }
 
+.levelChart {
+  width: 100%;
+  height: 230px;
+}
+
 .radarCard {
   grid-column: 1 / -1;
 }
@@ -188,6 +193,10 @@
   .barChart {
     height: 280px;
     margin-left: -12px;
+  }
+
+  .levelChart {
+    margin-left: -6px;
   }
 
   .radarChart {
