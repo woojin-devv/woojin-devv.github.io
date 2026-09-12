@@ -1,5 +1,6 @@
 import type { HeadProps, PageProps } from 'gatsby'
-import { ExternalLink, FolderGit2, Search } from 'lucide-react'
+import { Link } from 'gatsby'
+import { BarChart3, ExternalLink, FolderGit2, Search } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 
 import { Seo } from '@/components'
@@ -7,8 +8,6 @@ import codingTestData from '../../data/coding-tests.json'
 import Layout from '../../layouts/Layout'
 
 import * as styles from './CodingTests.module.scss'
-import { ActivityHeatmap } from './components/ActivityHeatmap'
-import { InsightCharts } from './components/InsightCharts'
 
 type CodingTest = {
   id: string
@@ -106,17 +105,15 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
             <p className={styles.eyebrow}>Problem solving archive</p>
             <h1>Coding tests</h1>
           </div>
-          <ActivityHeatmap
-            generatedAt={data.generatedAt}
-            repository={data.repository}
-            tests={data.tests}
-            totalCount={data.totalCount}
-          />
+          <div className={styles.pageSummary}>
+            <p><strong>{data.totalCount}</strong> solved problems</p>
+            <Link to="/statistics/">
+              통계 보기 <BarChart3 size={15} strokeWidth={1.8} aria-hidden="true" />
+            </Link>
+          </div>
         </header>
 
         <section className={styles.archive} aria-labelledby="coding-test-list-heading">
-          <InsightCharts tests={data.tests} />
-
           <div className={styles.controls}>
             <label className={styles.search}>
               <span>Search problems</span>

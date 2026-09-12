@@ -19,7 +19,42 @@
 }
 
 .headline {
-  margin-bottom: 50px;
+  margin-bottom: 42px;
+}
+
+.pageSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.875rem;
+
+    strong {
+      margin-right: 5px;
+      color: var(--ink);
+      font-family: 'Fira Code', monospace;
+      font-size: 1.25rem;
+    }
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    color: var(--ink);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+  }
 }
 
 .eyebrow {
@@ -329,6 +364,12 @@
 
   .headline {
     margin-bottom: 34px;
+  }
+
+  .pageSummary {
+    align-items: start;
+    flex-direction: column;
+    gap: 16px;
   }
 
   .archive {

@@ -83,40 +83,31 @@
   min-height: 214px;
 }
 
-.donut {
+.donutWrap {
   position: relative;
   flex: 0 0 154px;
   width: 154px;
   height: 154px;
-  border-radius: 50%;
+}
 
-  &::after {
-    position: absolute;
-    inset: 27px;
-    border-radius: inherit;
-    background: var(--paper-raised);
-    content: '';
+.donutCenter {
+  position: absolute;
+  pointer-events: none;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  text-align: center;
+
+  strong {
+    font-size: 0.875rem;
+    font-weight: 600;
   }
 
-  > div {
-    position: absolute;
-    z-index: 1;
-    inset: 0;
-    display: grid;
-    place-content: center;
-    text-align: center;
-
-    strong {
-      font-size: 0.875rem;
-      font-weight: 600;
-    }
-
-    span {
-      margin-top: 3px;
-      color: var(--muted);
-      font-family: 'Fira Code', monospace;
-      font-size: 0.6875rem;
-    }
+  span {
+    margin-top: 3px;
+    color: var(--muted);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.6875rem;
   }
 }
 
@@ -157,63 +148,17 @@
 }
 
 .barChart {
-  display: grid;
-  gap: 14px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-  li {
-    display: grid;
-    grid-template-columns: 24px minmax(0, 1fr);
-    gap: 10px;
-    align-items: end;
-
-    > div {
-      min-width: 0;
-    }
-  }
+  width: 100%;
+  height: 266px;
 }
 
-.rank {
-  padding-bottom: 1px;
-  color: var(--faint);
-  font-family: 'Fira Code', monospace;
-  font-size: 0.5625rem;
+.radarCard {
+  grid-column: 1 / -1;
 }
 
-.barLabel {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 6px;
-
-  span {
-    overflow: hidden;
-    font-size: 0.75rem;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  strong {
-    font-family: 'Fira Code', monospace;
-    font-size: 0.6875rem;
-    font-weight: 600;
-  }
-}
-
-.barTrack {
-  display: block;
-  height: 5px;
-  background: var(--soft);
-
-  i {
-    display: block;
-    width: var(--bar-width);
-    height: 100%;
-    background: #ff9d50;
-  }
+.radarChart {
+  width: 100%;
+  height: 360px;
 }
 
 @media (max-width: 900px) {
@@ -238,6 +183,16 @@
   .languageChart {
     align-items: start;
     flex-direction: column;
+  }
+
+  .barChart {
+    height: 280px;
+    margin-left: -12px;
+  }
+
+  .radarChart {
+    height: 320px;
+    margin-left: -4px;
   }
 
   .languageLegend {

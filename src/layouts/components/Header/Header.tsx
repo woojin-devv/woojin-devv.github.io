@@ -32,6 +32,10 @@ export const Header = ({ pathname }: HeaderProps) => {
             <span className={styles.desktopLabel}>Coding</span>
             <span className={styles.mobileLabel}>CODE</span>
           </Link>
+          <Link to="/statistics/" className={styles.iconLink}>
+            <span className={styles.desktopLabel}>Statistics</span>
+            <span className={styles.mobileLabel}>STAT</span>
+          </Link>
           <Link to="/calendar/" className={styles.iconLink}>
             <span className={styles.desktopLabel}>Calendar</span>
             <span className={styles.mobileLabel}>CAL</span>
