@@ -30,6 +30,7 @@ jobs:
         with:
           repository: woojin-devv/coding-test-notes
           path: external/coding-test-notes
+          fetch-depth: 0
           persist-credentials: false
       - uses: actions/setup-node@v4
         with:
