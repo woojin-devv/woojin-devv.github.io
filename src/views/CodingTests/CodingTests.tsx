@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { BarChart3, ExternalLink, FolderGit2, Search } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 
-import { Seo } from '@/components'
+import { Select, Seo } from '@/components'
 import codingTestData from '../../data/coding-tests.json'
 import Layout from '../../layouts/Layout'
 
@@ -154,21 +154,29 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
                 })}
               </div>
               <div className={styles.selectFilters}>
-                <label className={styles.selectFilter}>
-                  <span>Level</span>
-                  <select value={level} onChange={(event) => setLevel(event.target.value)}>
-                    {levels.map((item) => <option key={item}>{item}</option>)}
-                  </select>
-                </label>
-                <label className={styles.selectFilter}>
-                  <span>Review</span>
-                  <select value={review} onChange={(event) => setReview(event.target.value)}>
-                    <option value="All">All</option>
-                    <option value="1">1회독</option>
-                    <option value="2">2회독</option>
-                    <option value="3+">3회독 이상</option>
-                  </select>
-                </label>
+                <div className={styles.selectFilter}>
+                  <span id="level-filter-label">Level</span>
+                  <Select
+                    ariaLabelledBy="level-filter-label"
+                    value={level}
+                    onValueChange={setLevel}
+                    options={levels.map((item) => ({ label: item, value: item }))}
+                  />
+                </div>
+                <div className={styles.selectFilter}>
+                  <span id="review-filter-label">Review</span>
+                  <Select
+                    ariaLabelledBy="review-filter-label"
+                    value={review}
+                    onValueChange={setReview}
+                    options={[
+                      { label: 'All', value: 'All' },
+                      { label: '1회독', value: '1' },
+                      { label: '2회독', value: '2' },
+                      { label: '3회독 이상', value: '3+' },
+                    ]}
+                  />
+                </div>
               </div>
             </div>
           </div>

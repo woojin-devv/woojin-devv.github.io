@@ -176,17 +176,6 @@
     letter-spacing: 0.16em;
     text-transform: uppercase;
   }
-
-  select {
-    height: 38px;
-    padding: 0 12px;
-    border: 1px solid var(--line);
-    border-radius: 0;
-    color: var(--ink);
-    background: var(--paper);
-    font: inherit;
-    font-size: 0.75rem;
-  }
 }
 
 .listHeader {
