@@ -160,7 +160,11 @@ const tests = walk(sourceRoot)
       repositoryUrl: `https://github.com/${repository}/tree/main/${encodedPath}`,
     }
   })
-  .sort((a, b) => new Date(b.solvedAt || 0).getTime() - new Date(a.solvedAt || 0).getTime() || a.title.localeCompare(b.title, 'ko'))
+  .sort((a, b) =>
+    new Date(b.lastReviewedAt || b.solvedAt || 0).getTime()
+    - new Date(a.lastReviewedAt || a.solvedAt || 0).getTime()
+    || a.title.localeCompare(b.title, 'ko')
+  )
 
 const source = getSourceInfo()
 const payload = { repository, ...source, generatedAt: new Date().toISOString(), totalCount: tests.length, tests }

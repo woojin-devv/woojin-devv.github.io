@@ -6,7 +6,10 @@ import * as styles from './ActivityHeatmap.module.scss'
 type ActivityHeatmapProps = {
   generatedAt: string
   repository: string
-  tests: Array<{ solvedAt: string | null }>
+  tests: Array<{
+    reviews?: Array<{ round: number; date: string }>
+    solvedAt: string | null
+  }>
   totalCount: number
 }
 
@@ -43,9 +46,13 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
   const heatmapViewportRef = useRef<HTMLDivElement>(null)
   const { activeDays, days, months, periodCount } = useMemo(() => {
     const counts = tests.reduce<Record<string, number>>((result, test) => {
-      if (!test.solvedAt) return result
-      const date = test.solvedAt.slice(0, 10)
-      result[date] = (result[date] || 0) + 1
+      const activityDates = test.reviews?.length
+        ? test.reviews.map((review) => review.date)
+        : test.solvedAt ? [test.solvedAt.slice(0, 10)] : []
+
+      activityDates.forEach((date) => {
+        result[date] = (result[date] || 0) + 1
+      })
       return result
     }, {})
     const todayKey = toSeoulDateKey(generatedAt)
@@ -134,7 +141,7 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
       </div>
 
       <div className={styles.activityFooter}>
-        <p>최근 1년간 <strong>{periodCount}</strong>문제</p>
+        <p>최근 1년간 <strong>{periodCount}</strong>회 풀이</p>
         <div className={styles.legend} aria-label="풀이 수 색상 범례">
           <span>적음</span>
           {[0, 1, 2, 3, 4].map((level) => <i key={level} data-level={level} />)}

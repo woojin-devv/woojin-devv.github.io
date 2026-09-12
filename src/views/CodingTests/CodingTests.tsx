@@ -200,7 +200,14 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
                         <p>{test.platform}{test.level ? ` · ${test.level}` : ''}</p>
                         <h3>{test.title}</h3>
                       </div>
-                      {test.solvedAt && <time dateTime={test.solvedAt}>{formatDate(test.solvedAt)}</time>}
+                      {(test.lastReviewedAt || test.solvedAt) && (
+                        <time
+                          dateTime={test.lastReviewedAt || test.solvedAt || undefined}
+                          title={test.reviewCount > 1 ? '마지막 풀이일' : '최초 풀이일'}
+                        >
+                          {formatDate(test.lastReviewedAt || test.solvedAt)}
+                        </time>
+                      )}
                     </div>
                     <div className={styles.problemMeta}>
                       <span className={styles.reviewBadge} title={test.lastReviewedAt ? `마지막 학습일 ${formatDate(test.lastReviewedAt)}` : undefined}>

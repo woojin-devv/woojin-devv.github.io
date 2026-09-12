@@ -16,7 +16,12 @@ const tests = [
   '2026-09-09T14:00:00+09:00',
   '2026-09-09T15:00:00+09:00',
   '2026-09-09T16:00:00+09:00',
-].map((solvedAt) => ({ solvedAt }))
+].map((solvedAt) => ({
+  solvedAt,
+  reviews: [{ round: 1, date: solvedAt.slice(0, 10) }],
+}))
+
+tests[0].reviews.push({ round: 2, date: '2026-09-12' })
 
 const meta = {
   title: 'Coding Tests/ActivityHeatmap',
