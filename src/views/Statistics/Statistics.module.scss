@@ -49,6 +49,10 @@
   > section:first-of-type {
     margin-top: 12px;
   }
+
+  > section + section {
+    margin-top: 64px;
+  }
 }
 
 .codingHeader {
@@ -79,4 +83,10 @@
 
   .intro { margin: 28px 0 0; }
   .sections { padding: 36px 0 72px; }
+
+  .codingSection {
+    > section + section {
+      margin-top: 48px;
+    }
+  }
 }
