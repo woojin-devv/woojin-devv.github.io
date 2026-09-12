@@ -1,5 +1,5 @@
 import { FolderGit2 } from 'lucide-react'
-import { useMemo } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 
 import * as styles from './ActivityHeatmap.module.scss'
 
@@ -40,6 +40,7 @@ const getLevel = (count: number) => {
 }
 
 export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: ActivityHeatmapProps) => {
+  const heatmapViewportRef = useRef<HTMLDivElement>(null)
   const { activeDays, days, months, periodCount } = useMemo(() => {
     const counts = tests.reduce<Record<string, number>>((result, test) => {
       if (!test.solvedAt) return result
@@ -56,11 +57,14 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
       const count = counts[date] || 0
       return { date, count, level: getLevel(count), isFuture: date > todayKey }
     })
+    const seenMonths = new Set<string>()
     const monthLabels = heatmapDays.reduce<Array<{ label: string; week: number }>>((labels, day, index) => {
       const dayOfMonth = Number(day.date.slice(8, 10))
+      const month = day.date.slice(0, 7)
       const week = Math.floor(index / 7)
-      if (dayOfMonth <= 7 && !labels.some((label) => label.week === week)) {
+      if (dayOfMonth <= 7 && !seenMonths.has(month)) {
         labels.push({ label: `${Number(day.date.slice(5, 7))}월`, week })
+        seenMonths.add(month)
       }
       return labels
     }, [])
@@ -72,6 +76,13 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
       periodCount: heatmapDays.reduce((sum, day) => sum + (day.isFuture ? 0 : day.count), 0),
     }
   }, [generatedAt, tests])
+
+  useEffect(() => {
+    const viewport = heatmapViewportRef.current
+    if (!viewport) return
+
+    viewport.scrollLeft = viewport.scrollWidth - viewport.clientWidth
+  }, [days])
 
   return (
     <section className={styles.activity} aria-labelledby="activity-heading">
@@ -90,7 +101,12 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
         </div>
       </div>
 
-      <div className={styles.heatmapViewport} tabIndex={0} aria-label="최근 1년 문제 풀이 활동 히트맵">
+      <div
+        ref={heatmapViewportRef}
+        className={styles.heatmapViewport}
+        tabIndex={0}
+        aria-label="최근 1년 문제 풀이 활동 히트맵"
+      >
         <div className={styles.heatmapInner}>
           <div className={styles.months} aria-hidden="true">
             {months.map(({ label, week }) => (
