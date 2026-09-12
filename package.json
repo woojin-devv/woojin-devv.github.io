@@ -6,6 +6,7 @@
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
+    "sync-coding-tests": "node scripts/sync-coding-tests.mjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "serve": "gatsby serve",

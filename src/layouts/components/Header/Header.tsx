@@ -28,6 +28,10 @@ export const Header = ({ pathname }: HeaderProps) => {
         </Link>
         <nav className={styles.headerButtons} aria-label="Main navigation">
           <Link to="/" className={styles.desktopOnly}>Writing</Link>
+          <Link to="/coding-tests/" className={styles.iconLink}>
+            <span className={styles.desktopLabel}>Coding</span>
+            <span className={styles.mobileLabel}>CODE</span>
+          </Link>
           <Link to="/calendar/" className={styles.iconLink}>
             <span className={styles.desktopLabel}>Calendar</span>
             <span className={styles.mobileLabel}>CAL</span>
