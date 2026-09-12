@@ -16,12 +16,17 @@ const tests = [
   '2026-09-09T14:00:00+09:00',
   '2026-09-09T15:00:00+09:00',
   '2026-09-09T16:00:00+09:00',
-].map((solvedAt) => ({
+].map((solvedAt, index) => ({
+  title: `샘플 알고리즘 문제 ${index + 1}`,
+  platform: index % 3 === 0 ? 'Programmers' : 'CodeTree',
+  level: index % 3 === 0 ? 'Level 2' : 'Trail 2',
   solvedAt,
-  reviews: [{ round: 1, date: solvedAt.slice(0, 10) }],
+  problemUrl: 'https://example.com/problem',
+  repositoryUrl: 'https://github.com/woojin-devv/coding-test-notes',
+  reviews: [{ round: 1, date: solvedAt.slice(0, 10), occurredAt: solvedAt }],
 }))
 
-tests[0].reviews.push({ round: 2, date: '2026-09-12' })
+tests[0].reviews.push({ round: 2, date: '2026-09-12', occurredAt: '2026-09-12T18:00:00+09:00' })
 
 const meta = {
   title: 'Coding Tests/ActivityHeatmap',

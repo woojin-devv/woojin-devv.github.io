@@ -1,5 +1,5 @@
-import { FolderGit2 } from 'lucide-react'
-import { useEffect, useMemo, useRef } from 'react'
+import { ExternalLink, FolderGit2, X } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 import * as styles from './ActivityHeatmap.module.scss'
 
@@ -7,8 +7,13 @@ type ActivityHeatmapProps = {
   generatedAt: string
   repository: string
   tests: Array<{
-    reviews?: Array<{ round: number; date: string }>
+    level: string | null
+    platform: string
+    problemUrl: string | null
+    repositoryUrl: string
+    reviews?: Array<{ round: number; date: string; occurredAt?: string }>
     solvedAt: string | null
+    title: string
   }>
   totalCount: number
 }
@@ -18,6 +23,17 @@ type HeatmapDay = {
   date: string
   isFuture: boolean
   level: number
+}
+
+type ActivityEntry = {
+  date: string
+  level: string | null
+  occurredAt: string
+  platform: string
+  problemUrl: string | null
+  repositoryUrl: string
+  round: number
+  title: string
 }
 
 const DAY_IN_MS = 24 * 60 * 60 * 1000
@@ -34,6 +50,15 @@ const toSeoulDateKey = (value: Date | string) =>
 
 const shiftDate = (date: Date, days: number) => new Date(date.getTime() + days * DAY_IN_MS)
 
+const formatSelectedDate = (date: string) =>
+  new Intl.DateTimeFormat('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    weekday: 'short',
+  }).format(new Date(`${date}T12:00:00+09:00`))
+
 const getLevel = (count: number) => {
   if (count === 0) return 0
   if (count === 1) return 1
@@ -44,17 +69,36 @@ const getLevel = (count: number) => {
 
 export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: ActivityHeatmapProps) => {
   const heatmapViewportRef = useRef<HTMLDivElement>(null)
-  const { activeDays, days, months, periodCount } = useMemo(() => {
-    const counts = tests.reduce<Record<string, number>>((result, test) => {
-      const activityDates = test.reviews?.length
-        ? test.reviews.map((review) => review.date)
-        : test.solvedAt ? [test.solvedAt.slice(0, 10)] : []
+  const [selectedDate, setSelectedDate] = useState<string | null>(null)
+  const { activeDays, activitiesByDate, days, months, periodCount } = useMemo(() => {
+    const activities = tests.reduce<Record<string, ActivityEntry[]>>((result, test) => {
+      const reviews = test.reviews?.length
+        ? test.reviews
+        : test.solvedAt ? [{ round: 1, date: test.solvedAt.slice(0, 10), occurredAt: test.solvedAt }] : []
 
-      activityDates.forEach((date) => {
-        result[date] = (result[date] || 0) + 1
+      reviews.forEach((review) => {
+        const entry: ActivityEntry = {
+          date: review.date,
+          level: test.level,
+          occurredAt: review.occurredAt || `${review.date}T00:00:00+09:00`,
+          platform: test.platform,
+          problemUrl: test.problemUrl,
+          repositoryUrl: test.repositoryUrl,
+          round: review.round,
+          title: test.title,
+        }
+        if (!result[review.date]) result[review.date] = []
+        result[review.date].push(entry)
       })
+
       return result
     }, {})
+    Object.values(activities).forEach((entries) => {
+      entries.sort((a, b) => new Date(b.occurredAt).getTime() - new Date(a.occurredAt).getTime())
+    })
+    const counts = Object.fromEntries(
+      Object.entries(activities).map(([date, entries]) => [date, entries.length])
+    )
     const todayKey = toSeoulDateKey(generatedAt)
     const today = new Date(`${todayKey}T12:00:00+09:00`)
     const lastSaturday = shiftDate(today, 6 - today.getUTCDay())
@@ -77,12 +121,15 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
     }, [])
 
     return {
+      activitiesByDate: activities,
       days: heatmapDays,
       months: monthLabels,
       activeDays: heatmapDays.filter((day) => !day.isFuture && day.count > 0).length,
       periodCount: heatmapDays.reduce((sum, day) => sum + (day.isFuture ? 0 : day.count), 0),
     }
   }, [generatedAt, tests])
+
+  const selectedActivities = selectedDate ? activitiesByDate[selectedDate] || [] : []
 
   useEffect(() => {
     const viewport = heatmapViewportRef.current
@@ -126,13 +173,18 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
             </div>
             <div className={styles.grid}>
               {days.map((day) => (
-                <span
+                <button
                   key={day.date}
+                  type="button"
                   className={styles.cell}
                   data-level={day.level}
                   data-future={day.isFuture || undefined}
+                  data-selected={selectedDate === day.date || undefined}
+                  disabled={day.isFuture || day.count === 0}
+                  onClick={() => setSelectedDate(day.date)}
                   title={`${day.date} · ${day.count}문제`}
                   aria-label={`${day.date}, ${day.count}문제 해결`}
+                  aria-pressed={selectedDate === day.date}
                 />
               ))}
             </div>
@@ -148,6 +200,42 @@ export const ActivityHeatmap = ({ generatedAt, repository, tests, totalCount }: 
           <span>많음</span>
         </div>
       </div>
+
+      {selectedDate && (
+        <div className={styles.dateDetails} aria-live="polite">
+          <div className={styles.dateDetailsHeader}>
+            <div>
+              <p>Selected date</p>
+              <h3>{formatSelectedDate(selectedDate)}</h3>
+              <span>{selectedActivities.length}회 풀이</span>
+            </div>
+            <button type="button" onClick={() => setSelectedDate(null)} aria-label="선택한 날짜 닫기">
+              <X size={16} strokeWidth={1.8} aria-hidden="true" />
+            </button>
+          </div>
+
+          <ol className={styles.dateProblemList}>
+            {selectedActivities.map((activity) => (
+              <li key={`${activity.repositoryUrl}-${activity.round}-${activity.occurredAt}`}>
+                <div>
+                  <span>{activity.platform}{activity.level ? ` · ${activity.level}` : ''} · {activity.round}회독</span>
+                  <strong>{activity.title}</strong>
+                </div>
+                <div className={styles.dateProblemLinks}>
+                  {activity.problemUrl && (
+                    <a href={activity.problemUrl} target="_blank" rel="noreferrer">
+                      문제 <ExternalLink size={13} strokeWidth={1.8} aria-hidden="true" />
+                    </a>
+                  )}
+                  <a href={activity.repositoryUrl} target="_blank" rel="noreferrer">
+                    풀이 <ExternalLink size={13} strokeWidth={1.8} aria-hidden="true" />
+                  </a>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
     </section>
   )
 }

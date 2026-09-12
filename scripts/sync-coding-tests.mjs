@@ -136,13 +136,24 @@ const tests = walk(sourceRoot)
     const inferredReviews = (solutionDates.get(directoryPath) || []).map((date, index) => ({
       round: index + 1,
       date: date.slice(0, 10),
+      occurredAt: date,
     }))
     const savedReviewsByRound = new Map(savedReviews.map((review) => [review.round, review]))
     const reviewCount = Math.max(1, inferredReviews.length, ...savedReviews.map((review) => review.round))
-    const reviews = Array.from({ length: reviewCount }, (_, index) =>
-      savedReviewsByRound.get(index + 1) || inferredReviews[index]
-    ).filter(Boolean)
+    const reviews = Array.from({ length: reviewCount }, (_, index) => {
+      const inferredReview = inferredReviews[index]
+      const savedReview = savedReviewsByRound.get(index + 1)
+
+      if (!savedReview) return inferredReview
+
+      return {
+        ...inferredReview,
+        ...savedReview,
+        occurredAt: savedReview.occurredAt || inferredReview?.occurredAt || `${savedReview.date}T00:00:00+09:00`,
+      }
+    }).filter(Boolean)
     const lastReviewedAt = reviews.at(-1)?.date || solvedAt?.slice(0, 10) || null
+    const lastActivityAt = reviews.at(-1)?.occurredAt || solvedAt || null
 
     return {
       id: directoryPath,
@@ -155,14 +166,15 @@ const tests = walk(sourceRoot)
       solvedAt,
       reviewCount,
       lastReviewedAt,
+      lastActivityAt,
       reviews,
       problemUrl: markdownLink?.[2] || problemLink || null,
       repositoryUrl: `https://github.com/${repository}/tree/main/${encodedPath}`,
     }
   })
   .sort((a, b) =>
-    new Date(b.lastReviewedAt || b.solvedAt || 0).getTime()
-    - new Date(a.lastReviewedAt || a.solvedAt || 0).getTime()
+    new Date(b.lastActivityAt || b.lastReviewedAt || b.solvedAt || 0).getTime()
+    - new Date(a.lastActivityAt || a.lastReviewedAt || a.solvedAt || 0).getTime()
     || a.title.localeCompare(b.title, 'ko')
   )
 

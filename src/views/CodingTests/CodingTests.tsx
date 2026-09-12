@@ -20,7 +20,8 @@ type CodingTest = {
   solvedAt: string | null
   reviewCount: number
   lastReviewedAt: string | null
-  reviews: Array<{ round: number; date: string }>
+  lastActivityAt?: string | null
+  reviews: Array<{ round: number; date: string; occurredAt?: string }>
   problemUrl: string | null
   repositoryUrl: string
 }

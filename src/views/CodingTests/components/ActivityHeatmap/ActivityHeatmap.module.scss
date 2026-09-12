@@ -124,15 +124,34 @@
 }
 
 .cell {
+  appearance: none;
   width: 12px;
   height: 12px;
+  padding: 0;
   border-radius: 2px;
+  cursor: pointer;
 
   &[data-level='1'] { background: color-mix(in srgb, #ff9d50 30%, var(--soft)); }
   &[data-level='2'] { background: color-mix(in srgb, #ff9d50 52%, var(--soft)); }
   &[data-level='3'] { background: color-mix(in srgb, #ff9d50 74%, var(--soft)); }
   &[data-level='4'] { background: #ff9d50; }
   &[data-future='true'] { opacity: 0.28; }
+
+  &[data-selected='true'] {
+    outline: 2px solid var(--ink);
+    outline-offset: 2px;
+  }
+
+  &:not(:disabled):hover,
+  &:not(:disabled):focus-visible {
+    border-color: var(--ink);
+    outline: 2px solid color-mix(in srgb, var(--ink) 35%, transparent);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    cursor: default;
+  }
 }
 
 .activityFooter {
@@ -176,6 +195,133 @@
   }
 }
 
+.dateDetails {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.dateDetailsHeader {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+
+  > div {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  p {
+    flex-basis: 100%;
+    margin: 0;
+    color: var(--muted);
+    font-family: 'Fira Code', monospace;
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+  }
+
+  span {
+    color: var(--faint);
+    font-size: 0.6875rem;
+  }
+
+  > button {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    background: transparent;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--ink);
+      color: var(--ink);
+      outline: none;
+    }
+  }
+}
+
+.dateProblemList {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 14px 16px;
+    background: var(--soft);
+  }
+
+  li > div:first-child {
+    display: grid;
+    gap: 5px;
+    min-width: 0;
+
+    span {
+      color: var(--muted);
+      font-family: 'Fira Code', monospace;
+      font-size: 0.625rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    strong {
+      overflow: hidden;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.dateProblemLinks {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 30px;
+    padding: 0 10px;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.6875rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--ink);
+      color: var(--ink);
+      outline: none;
+    }
+  }
+}
+
 @media (max-width: 640px) {
   .activity {
     padding: 22px 18px;
@@ -195,5 +341,20 @@
     align-items: start;
     flex-direction: column;
     gap: 10px;
+  }
+
+  .dateProblemList li {
+    align-items: start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .dateProblemLinks {
+    width: 100%;
+
+    a {
+      justify-content: center;
+      flex: 1;
+    }
   }
 }
