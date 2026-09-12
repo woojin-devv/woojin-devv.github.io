@@ -5,6 +5,7 @@ import Layout from '@/layouts'
 import codingTestData from '../../data/coding-tests.json'
 import { ActivityHeatmap } from '../CodingTests/components/ActivityHeatmap'
 import { InsightCharts } from '../CodingTests/components/InsightCharts'
+import { ReviewInsights } from '../CodingTests/components/ReviewInsights'
 
 import * as styles from './Statistics.module.scss'
 import { WritingInsights } from './components/WritingInsights'
@@ -28,6 +29,9 @@ type CodingTestData = {
     category: string | null
     languages: string[]
     solvedAt: string | null
+    reviewCount: number
+    lastReviewedAt: string | null
+    reviews: Array<{ round: number; date: string }>
   }>
 }
 
@@ -60,6 +64,7 @@ const Statistics = ({ data, location: { pathname } }: PageProps<StatisticsData>)
               totalCount={coding.totalCount}
             />
             <InsightCharts tests={coding.tests} />
+            <ReviewInsights generatedAt={coding.generatedAt} tests={coding.tests} />
           </section>
         </div>
       </main>

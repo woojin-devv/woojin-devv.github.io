@@ -110,6 +110,16 @@ const tests = walk(sourceRoot)
       .map((entry) => entry.name)
     const languages = [...new Set(solutionFiles.map((file) => languageNames[path.extname(file).toLowerCase()]).filter(Boolean))]
     const encodedPath = directoryPath.split('/').map(encodeURIComponent).join('/')
+    const solvedAt = commitDates.get(relativePath) || null
+    const reviewPath = path.join(path.dirname(readmePath), 'review.json')
+    const storedReviews = existsSync(reviewPath)
+      ? JSON.parse(readFileSync(reviewPath, 'utf8')).reviews
+      : []
+    const reviews = (Array.isArray(storedReviews) ? storedReviews : [])
+      .filter((review) => Number.isInteger(review?.round) && review.round > 0 && /^\d{4}-\d{2}-\d{2}$/.test(review?.date))
+      .sort((a, b) => a.round - b.round)
+    const reviewCount = Math.max(1, ...reviews.map((review) => review.round))
+    const lastReviewedAt = reviews.at(-1)?.date || solvedAt?.slice(0, 10) || null
 
     return {
       id: directoryPath,
@@ -119,7 +129,10 @@ const tests = walk(sourceRoot)
       difficulty,
       category,
       languages,
-      solvedAt: commitDates.get(relativePath) || null,
+      solvedAt,
+      reviewCount,
+      lastReviewedAt,
+      reviews,
       problemUrl: markdownLink?.[2] || problemLink || null,
       repositoryUrl: `https://github.com/${repository}/tree/main/${encodedPath}`,
     }

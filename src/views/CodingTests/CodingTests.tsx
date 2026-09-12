@@ -18,6 +18,9 @@ type CodingTest = {
   category: string | null
   languages: string[]
   solvedAt: string | null
+  reviewCount: number
+  lastReviewedAt: string | null
+  reviews: Array<{ round: number; date: string }>
   problemUrl: string | null
   repositoryUrl: string
 }
@@ -49,6 +52,7 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
   const [query, setQuery] = useState('')
   const [platform, setPlatform] = useState('All')
   const [level, setLevel] = useState('All')
+  const [review, setReview] = useState('All')
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
 
   const platforms = useMemo(() => ['All', ...new Set(data.tests.map((test) => test.platform))], [])
@@ -70,19 +74,21 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
       data.tests.filter((test) => {
         const matchesPlatform = platform === 'All' || test.platform === platform
         const matchesLevel = level === 'All' || test.level === level
+        const matchesReview = review === 'All'
+          || (review === '3+' ? test.reviewCount >= 3 : test.reviewCount === Number(review))
         const searchable = [test.title, test.category, test.difficulty, ...test.languages]
           .filter(Boolean)
           .join(' ')
           .toLocaleLowerCase('ko')
 
-        return matchesPlatform && matchesLevel && (!normalizedQuery || searchable.includes(normalizedQuery))
+        return matchesPlatform && matchesLevel && matchesReview && (!normalizedQuery || searchable.includes(normalizedQuery))
       }),
-    [level, normalizedQuery, platform]
+    [level, normalizedQuery, platform, review]
   )
 
   useEffect(() => {
     setVisibleCount(PAGE_SIZE)
-  }, [level, normalizedQuery, platform])
+  }, [level, normalizedQuery, platform, review])
 
   useEffect(() => {
     if (!levels.includes(level)) setLevel('All')
@@ -147,12 +153,23 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
                   )
                 })}
               </div>
-              <label className={styles.levelFilter}>
-                <span>Level</span>
-                <select value={level} onChange={(event) => setLevel(event.target.value)}>
-                  {levels.map((item) => <option key={item}>{item}</option>)}
-                </select>
-              </label>
+              <div className={styles.selectFilters}>
+                <label className={styles.selectFilter}>
+                  <span>Level</span>
+                  <select value={level} onChange={(event) => setLevel(event.target.value)}>
+                    {levels.map((item) => <option key={item}>{item}</option>)}
+                  </select>
+                </label>
+                <label className={styles.selectFilter}>
+                  <span>Review</span>
+                  <select value={review} onChange={(event) => setReview(event.target.value)}>
+                    <option value="All">All</option>
+                    <option value="1">1회독</option>
+                    <option value="2">2회독</option>
+                    <option value="3+">3회독 이상</option>
+                  </select>
+                </label>
+              </div>
             </div>
           </div>
 
@@ -178,6 +195,9 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
                       {test.solvedAt && <time dateTime={test.solvedAt}>{formatDate(test.solvedAt)}</time>}
                     </div>
                     <div className={styles.problemMeta}>
+                      <span className={styles.reviewBadge} title={test.lastReviewedAt ? `마지막 학습일 ${formatDate(test.lastReviewedAt)}` : undefined}>
+                        {test.reviewCount}회독
+                      </span>
                       {test.difficulty && <span>{test.difficulty}</span>}
                       {test.category && <span>{test.category}</span>}
                       {test.languages.map((language) => <span key={language}>{language}</span>)}
