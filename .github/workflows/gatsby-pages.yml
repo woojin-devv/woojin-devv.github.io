@@ -3,6 +3,11 @@ name: Deploy Gatsby to GitHub Pages
 on:
   push:
     branches: [master]
+  repository_dispatch:
+    types: [coding-tests-updated]
+  schedule:
+    # 매일 오전 3시(Asia/Seoul)에 누락된 코딩테스트 기록을 동기화합니다.
+    - cron: '0 18 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,12 +23,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout blog
+        uses: actions/checkout@v4
+      - name: Checkout coding test notes
+        uses: actions/checkout@v4
+        with:
+          repository: woojin-devv/coding-test-notes
+          path: external/coding-test-notes
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Sync coding test notes
+        run: npm run sync-coding-tests
       - run: npm run build
         env:
           GATSBY_GISCUS_REPO_ID: ${{ vars.GATSBY_GISCUS_REPO_ID }}

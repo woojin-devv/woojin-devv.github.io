@@ -2,6 +2,7 @@ node_modules/
 .cache/
 public/
 storybook-static/
+external/
 src/gatsby-types.d.ts
 .DS_Store
 .idea/
