@@ -43,18 +43,20 @@ const languageNames = {
   '.ts': 'TypeScript',
 }
 
-const getCommitDates = () => {
+const getCommitHistory = () => {
   const dates = new Map()
+  const solutionCommits = new Map()
   const output = execFileSync(
     'git',
-    ['-c', 'core.quotepath=false', '-C', sourceRoot, 'log', '--reverse', '--format=@@%aI', '--name-status', '-M'],
+    ['-c', 'core.quotepath=false', '-C', sourceRoot, 'log', '--reverse', '--format=@@%H\t%aI', '--name-status', '-M'],
     { encoding: 'utf8' }
   )
+  let currentCommit = ''
   let currentDate = ''
 
   output.split('\n').forEach((line) => {
     if (line.startsWith('@@')) {
-      currentDate = line.slice(2)
+      ;[currentCommit, currentDate] = line.slice(2).split('\t')
       return
     }
 
@@ -64,13 +66,26 @@ const getCommitDates = () => {
     const isRename = status.startsWith('R') || status.startsWith('C')
     const filePath = paths.at(-1)
 
-    if (!filePath || dates.has(filePath)) return
+    if (!filePath) return
 
     const previousPath = isRename ? paths[0] : null
-    dates.set(filePath, (previousPath && dates.get(previousPath)) || currentDate)
+    if (!dates.has(filePath)) {
+      dates.set(filePath, (previousPath && dates.get(previousPath)) || currentDate)
+    }
+
+    if (!languageNames[path.extname(filePath).toLowerCase()]) return
+
+    const directory = path.posix.dirname(filePath)
+    if (!solutionCommits.has(directory)) solutionCommits.set(directory, new Map())
+    solutionCommits.get(directory).set(currentCommit, currentDate)
   })
 
-  return dates
+  return {
+    dates,
+    solutionDates: new Map(
+      [...solutionCommits].map(([directory, commits]) => [directory, [...commits.values()]])
+    ),
+  }
 }
 
 const getSourceInfo = () => ({
@@ -78,7 +93,7 @@ const getSourceInfo = () => ({
   syncedAt: execFileSync('git', ['-C', sourceRoot, 'show', '-s', '--format=%cI', 'HEAD'], { encoding: 'utf8' }).trim(),
 })
 
-const commitDates = getCommitDates()
+const { dates: commitDates, solutionDates } = getCommitHistory()
 
 const tests = walk(sourceRoot)
   .filter((filePath) => path.basename(filePath).toLowerCase() === 'readme.md')
@@ -115,10 +130,18 @@ const tests = walk(sourceRoot)
     const storedReviews = existsSync(reviewPath)
       ? JSON.parse(readFileSync(reviewPath, 'utf8')).reviews
       : []
-    const reviews = (Array.isArray(storedReviews) ? storedReviews : [])
+    const savedReviews = (Array.isArray(storedReviews) ? storedReviews : [])
       .filter((review) => Number.isInteger(review?.round) && review.round > 0 && /^\d{4}-\d{2}-\d{2}$/.test(review?.date))
       .sort((a, b) => a.round - b.round)
-    const reviewCount = Math.max(1, ...reviews.map((review) => review.round))
+    const inferredReviews = (solutionDates.get(directoryPath) || []).map((date, index) => ({
+      round: index + 1,
+      date: date.slice(0, 10),
+    }))
+    const savedReviewsByRound = new Map(savedReviews.map((review) => [review.round, review]))
+    const reviewCount = Math.max(1, inferredReviews.length, ...savedReviews.map((review) => review.round))
+    const reviews = Array.from({ length: reviewCount }, (_, index) =>
+      savedReviewsByRound.get(index + 1) || inferredReviews[index]
+    ).filter(Boolean)
     const lastReviewedAt = reviews.at(-1)?.date || solvedAt?.slice(0, 10) || null
 
     return {
