@@ -29,8 +29,8 @@ export const Header = ({ pathname }: HeaderProps) => {
         <nav className={styles.headerButtons} aria-label="Main navigation">
           <Link to="/" className={styles.desktopOnly}>Writing</Link>
           <Link to="/coding-tests/" className={styles.iconLink}>
-            <span className={styles.desktopLabel}>Coding</span>
-            <span className={styles.mobileLabel}>CODE</span>
+            <span className={styles.desktopLabel}>Algorithm</span>
+            <span className={styles.mobileLabel}>ALGO</span>
           </Link>
           <Link to="/statistics/" className={styles.iconLink}>
             <span className={styles.desktopLabel}>Statistics</span>
