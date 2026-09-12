@@ -8,6 +8,7 @@ import Layout from '../../layouts/Layout'
 
 import * as styles from './CodingTests.module.scss'
 import { ActivityHeatmap } from './components/ActivityHeatmap'
+import { InsightCharts } from './components/InsightCharts'
 
 type CodingTest = {
   id: string
@@ -114,6 +115,8 @@ const CodingTests = ({ location: { pathname } }: PageProps) => {
         </header>
 
         <section className={styles.archive} aria-labelledby="coding-test-list-heading">
+          <InsightCharts tests={data.tests} />
+
           <div className={styles.controls}>
             <label className={styles.search}>
               <span>Search problems</span>
