@@ -20,9 +20,9 @@ DFS와 BFS는 단순히 탐색 코드를 외우는 것보다, **어떤 값을 �
 |    1 | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)         |   DFS / BFS    | 연결된 영역 탐색, 영역별 합 구하기             |   ✅   |
 |    2 | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |   DFS / BFS    | 간선을 하나 끊고 연결된 노드 수 세기           |   ✅   |
 |    3 | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)            | DFS + 백트래킹 | 숫자 배치, 방문 복구, 중복 제거                |   ✅   |
-|    4 | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)         |      BFS       | 인접 리스트, 시작점에서 각 노드까지의 최단거리 |   ⬜   |
+|    4 | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)         |      BFS       | 인접 리스트, 시작점에서 각 노드까지의 최단거리 |   ✅   |
 |    5 | [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)            |      BFS       | 단어를 탐색 상태로 다루기, 최소 변환 횟수      |   ⬜   |
-|    6 | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199)         |      BFS       | 미끄러지는 이동 구현, 최소 이동 횟수           |   ⬜   |
+|    6 | [리코쳇 로봇](https://school.programmers.co.kr/learn/courses/30/lessons/169199)         |      BFS       | 미끄러지는 이동 구현, 최소 이동 횟수           |   ✅   |
 |    7 | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)          | DFS + 백트래킹 | 조건에 맞는 사용자 선택, 결과 집합의 중복 제거 |   ⬜   |
 |    8 | [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)             | DFS + 백트래킹 | 화살 배분, 최적 결과와 동점 조건 처리          |   ⬜   |
 

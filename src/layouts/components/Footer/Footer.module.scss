@@ -16,10 +16,22 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    justify-self: end;
     color: var(--ink);
     text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: color-mix(in srgb, var(--highlight) 62%, var(--ink));
+    }
   }
+}
+
+.footerLinks {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  gap: 20px;
 }
 
 .footerMark {
@@ -37,5 +49,20 @@
 
   .copyRight {
     display: none;
+  }
+
+  .footerLinks {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footerLinks {
+    justify-self: start;
+    flex-wrap: wrap;
   }
 }
