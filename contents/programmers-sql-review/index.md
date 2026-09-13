@@ -79,28 +79,28 @@ ORDER BY TO_NUMBER(TO_CHAR(DATETIME, 'HH24')) ASC
 - 핵심 키워드: 그룹별 최댓값, 원본 행 조회, 서브쿼리
 
 ### 문제 요약
-
-<!-- 어떤 그룹마다 어떤 값이 가장 큰 행을 찾아야 하는지 적는다. -->
-
-### 처음 작성한 쿼리
-
-```sql
--- 오답 쿼리
-
-```
-
-### 틀린 이유
-
-<!-- GROUP BY 결과의 MAX 값과 원본 행의 다른 컬럼이 같은 행에서 나온다는 보장이 있는지 확인한다. -->
-
-- 놓친 조건:
-- 잘못 이해한 부분:
-- 실행 결과와 기대 결과의 차이:
+- 서브쿼리에서 FOOD_TYPE 별로 MAX FAVORITES를 구한 다음, 해당 쿼리랑 조인해서 나머지 컬럼 값들을 붙임. 
 
 ### 수정한 쿼리
 
 ```sql
--- 정답 쿼리
+SELECT RI.FOOD_TYPE, 
+       RI.REST_ID, 
+       RI.REST_NAME,
+       RI.FAVORITES
+       
+FROM REST_INFO RI
+JOIN (
+    SELECT FOOD_TYPE, 
+       MAX(FAVORITES) AS FAVORITES
+    FROM REST_INFO
+    GROUP BY FOOD_TYPE
+     ) A
+
+ON RI.FOOD_TYPE = A.FOOD_TYPE 
+WHERE RI.FAVORITES = A.FAVORITES
+ORDER BY RI.FOOD_TYPE DESC;
+
 
 ```
 
