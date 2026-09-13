@@ -1,7 +1,7 @@
 ---
 title: "[python] heapq 내장 모듈로 힙 자료구조 사용하기 "
 description: ""
-date: 2026-7-16
+date: 2026-07-16
 slug: "/python-heapq/"
 tags: ["python", "algorithm"]
 ---
