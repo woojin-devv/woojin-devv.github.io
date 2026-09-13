@@ -70,8 +70,6 @@ ORDER BY TO_NUMBER(TO_CHAR(DATETIME, 'HH24')) ASC
 - Oracle에서 24시간 형식의 시간을 추출할 때는 `TO_CHAR(날짜, 'HH24')`를 사용한다.
 - 출력 범위와 정렬 조건을 마지막에 확인한다.
 
----
-
 ## 2. 즐겨찾기가 가장 많은 식당 정보 출력하기
 
 - 난이도: `Lv. 3`
@@ -110,7 +108,6 @@ ORDER BY RI.FOOD_TYPE DESC;
 - 집계 결과를 서브쿼리로 만든 뒤 원본 테이블과 연결하는 방식을 고려한다.
 - 다시 풀 날짜: `YYYY-MM-DD`
 
----
 
 ## 3. 자동차 대여 기록에서 대여중 / 대여 가능 여부 구분하기
 
@@ -157,47 +154,51 @@ ORDER BY CAR_ID DESC
 - `MAX(CASE WHEN 조건 THEN 1 ELSE 0 END)` 패턴으로 그룹 내 조건 충족 여부를 판별할 수 있다.
 - 행별 조건과 그룹별 최종 상태를 구분해서 생각한다.
 
----
-
 ## 4. 노선별 평균 역 사이 거리 조회하기
 
-- 난이도: `Lv. 2`
-- 유형: `GROUP BY`
-- 핵심 키워드: SUM, AVG, ROUND, 문자열 포맷
+* 난이도: `Lv. 2`
+* 유형: `GROUP BY`
+* 핵심 키워드: `SUM`, `AVG`, `ROUND`, `CONCAT`
 
 ### 문제 요약
 
-<!-- 노선별로 집계할 값과 각 출력 컬럼의 단위·형식을 적는다. -->
+노선별로 총 누계 거리와 평균 역 사이 거리를 구하고 각각 `km` 단위를 붙여 출력한다.
+총 누계 거리가 큰 순서대로 정렬한다.
 
 ### 처음 작성한 쿼리
 
 ```sql
--- 오답 쿼리
-
+SELECT ROUTE, 
+       CONCAT(ROUND(SUM(D_BETWEEN_DIST), 1), 'km') AS TOTAL_DISTANCE, 
+       CONCAT(ROUND(AVG(D_BETWEEN_DIST), 2), 'km') AS AVERAGE_DISTANCE
+FROM SUBWAY_DISTANCE
+GROUP BY ROUTE
+ORDER BY TOTAL_DISTANCE DESC;
 ```
 
 ### 틀린 이유
 
-<!-- 반올림 시점, 단위 문자열 결합, 숫자 정렬 여부를 확인한다. -->
-
-- 놓친 조건:
-- 잘못 이해한 부분:
-- 실행 결과와 기대 결과의 차이:
+* 놓친 조건: 총 누계 거리를 **숫자 기준으로 내림차순 정렬**해야 한다.
+* 잘못 이해한 부분: `TOTAL_DISTANCE`는 `km`를 붙인 문자열이므로 이를 기준으로 정렬하면 문자열 정렬이 될 수 있다.
+* 실행 결과와 기대 결과의 차이: 거리의 실제 숫자 크기와 다른 순서로 정렬될 수 있다.
 
 ### 수정한 쿼리
 
 ```sql
--- 정답 쿼리
-
+SELECT ROUTE, 
+       CONCAT(ROUND(SUM(D_BETWEEN_DIST), 1), 'km') AS TOTAL_DISTANCE, 
+       CONCAT(ROUND(AVG(D_BETWEEN_DIST), 2), 'km') AS AVERAGE_DISTANCE
+FROM SUBWAY_DISTANCE
+GROUP BY ROUTE
+ORDER BY SUM(D_BETWEEN_DIST) DESC;
 ```
 
 ### 핵심 정리
 
-- 계산용 숫자와 화면에 출력할 문자열을 구분한다.
-- 문자열로 포맷한 별칭이 아니라 실제 숫자 집계값을 기준으로 정렬해야 하는지 확인한다.
-- 다시 풀 날짜: `YYYY-MM-DD`
-
----
+* `CONCAT()`으로 단위를 붙이면 출력값은 문자열이 된다.
+* **출력용 문자열과 계산·정렬용 숫자를 구분**한다.
+* 정렬할 때는 `TOTAL_DISTANCE`가 아니라 실제 집계값인 `SUM(D_BETWEEN_DIST)`를 사용한다.
+* 다시 풀 날짜: `YYYY-MM-DD`
 
 ## 5. 대여 횟수가 많은 자동차들의 월별 대여 횟수 구하기
 
