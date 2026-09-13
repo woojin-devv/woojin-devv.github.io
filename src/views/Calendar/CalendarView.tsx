@@ -9,7 +9,12 @@ import { FloatingButton } from '../../components/FloatingButton'
 import * as styles from './Calendar.module.scss'
 
 export const CALENDAR_URL =
-  'https://calendar.google.com/calendar/embed?src=b88481a5df1fe7ef0f552f95d3ed7c23ffef940ba4eaba6e42dce32864848bd3%40group.calendar.google.com&color=%23FF9D50&ctz=Asia%2FSeoul'
+  'https://calendar.google.com/calendar/embed?' +
+  'src=b88481a5df1fe7ef0f552f95d3ed7c23ffef940ba4eaba6e42dce32864848bd3%40group.calendar.google.com&color=%23F2765E' +
+  '&src=9b98951e14db00cc263efde6045b04a04d4f5355c05a19d03c425c5012201843%40group.calendar.google.com&color=%23315B8C' +
+  '&src=janechoi0880%40gmail.com&color=%23413333' +
+  '&src=75b22dd6434ac4900bcc99a3f4518bf0e769af163f6be7ed096ce4fb6642a16e%40group.calendar.google.com&color=%23F6ECDD' +
+  '&ctz=Asia%2FSeoul'
 
 export type CalendarLoadingState = 'auto' | 'loading' | 'loaded'
 
