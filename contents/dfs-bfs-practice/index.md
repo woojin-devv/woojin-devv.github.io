@@ -17,7 +17,7 @@ DFS와 BFS는 단순히 탐색 코드를 외우는 것보다, **어떤 값을 �
 
 | 순서 | 문제                                                                                    |   추천 방식    | 연습할 내용                                    | 완료  |
 | ---: | --------------------------------------------------------------------------------------- | :------------: | ---------------------------------------------- | :---: |
-|    1 | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)         |   DFS / BFS    | 연결된 영역 탐색, 영역별 합 구하기             |   ⬜   |
+|    1 | [무인도 여행](https://school.programmers.co.kr/learn/courses/30/lessons/154540)         |   DFS / BFS    | 연결된 영역 탐색, 영역별 합 구하기             |   ✅   |
 |    2 | [전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971) |   DFS / BFS    | 간선을 하나 끊고 연결된 노드 수 세기           |   ⬜   |
 |    3 | [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839)            | DFS + 백트래킹 | 숫자 배치, 방문 복구, 중복 제거                |   ⬜   |
 |    4 | [가장 먼 노드](https://school.programmers.co.kr/learn/courses/30/lessons/49189)         |      BFS       | 인접 리스트, 시작점에서 각 노드까지의 최단거리 |   ⬜   |
