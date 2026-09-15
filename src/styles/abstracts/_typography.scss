@@ -2,7 +2,7 @@
 @use './media-query' as *;
 
 @mixin typo-d1 {
-  font-family: 'Pretendard', sans-serif;
+  font-family: var(--font-content);
   font-weight: 600;
   font-size: rem(35px);
 }

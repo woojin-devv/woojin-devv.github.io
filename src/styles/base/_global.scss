@@ -1,4 +1,5 @@
 :root {
+  --font-content: 'Inter', system-ui, Arial, sans-serif;
   --paper: #ffffff;
   --paper-raised: #ffffff;
   --ink: #111111;
@@ -42,12 +43,7 @@
 
 body {
   min-width: 320px;
-  font-family:
-    'Pretendard',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    sans-serif;
+  font-family: var(--font-content);
   color: var(--ink);
   background: var(--paper);
   transition:
