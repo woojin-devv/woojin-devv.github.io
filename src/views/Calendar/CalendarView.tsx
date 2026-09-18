@@ -14,7 +14,7 @@ export const CALENDAR_URL =
   '&src=9b98951e14db00cc263efde6045b04a04d4f5355c05a19d03c425c5012201843%40group.calendar.google.com&color=%23315B8C' +
   '&src=janechoi0880%40gmail.com&color=%23413333' +
   '&src=75b22dd6434ac4900bcc99a3f4518bf0e769af163f6be7ed096ce4fb6642a16e%40group.calendar.google.com&color=%23F6ECDD' +
-  '&ctz=Asia%2FSeoul'
+  '&ctz=Asia%2FSeoul&mode=DAY'
 
 export type CalendarLoadingState = 'auto' | 'loading' | 'loaded'
 
