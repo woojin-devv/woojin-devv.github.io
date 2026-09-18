@@ -23,6 +23,7 @@ const config: GatsbyConfig = {
         policy: [{ userAgent: '*', allow: '/' }],
       },
     },
+    'gatsby-plugin-postcss',
     'gatsby-plugin-sass',
     'gatsby-plugin-advanced-sitemap-v5',
     'gatsby-plugin-image',

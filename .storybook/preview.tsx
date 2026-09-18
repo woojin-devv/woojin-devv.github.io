@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react-vite'
 
 import { ThemeProvider } from '../src/contexts'
 import '../src/styles/index.scss'
+import '../src/styles/shadcn.css'
 
 const preview: Preview = {
   decorators: [

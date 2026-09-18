@@ -1,6 +1,7 @@
 import 'prismjs/themes/prism-tomorrow.css'
 import 'katex/dist/katex.min.css'
 import '@/styles/index.scss'
+import '@/styles/shadcn.css'
 
 import type { WrapPageElementBrowserArgs } from 'gatsby'
 

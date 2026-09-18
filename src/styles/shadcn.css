@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ui-background: 0 0% 100%;
+    --ui-foreground: 0 0% 7%;
+    --ui-card: 0 0% 100%;
+    --ui-card-foreground: 0 0% 7%;
+    --ui-popover: 0 0% 100%;
+    --ui-popover-foreground: 0 0% 7%;
+    --ui-primary: 0 0% 7%;
+    --ui-primary-foreground: 0 0% 98%;
+    --ui-secondary: 60 11% 93%;
+    --ui-secondary-foreground: 0 0% 7%;
+    --ui-muted: 60 11% 93%;
+    --ui-muted-foreground: 60 3% 44%;
+    --ui-accent: 60 11% 93%;
+    --ui-accent-foreground: 0 0% 7%;
+    --ui-destructive: 0 72% 51%;
+    --ui-destructive-foreground: 0 0% 98%;
+    --ui-border: 60 7% 84%;
+    --ui-input: 60 7% 84%;
+    --ui-ring: 0 0% 7%;
+    --ui-radius: 0.5rem;
+  }
+
+  [dark-mode] {
+    --ui-background: 249 57% 5%;
+    --ui-foreground: 60 14% 95%;
+    --ui-card: 0 0% 9%;
+    --ui-card-foreground: 60 14% 95%;
+    --ui-popover: 0 0% 9%;
+    --ui-popover-foreground: 60 14% 95%;
+    --ui-primary: 60 14% 95%;
+    --ui-primary-foreground: 0 0% 7%;
+    --ui-secondary: 60 3% 13%;
+    --ui-secondary-foreground: 60 14% 95%;
+    --ui-muted: 60 3% 13%;
+    --ui-muted-foreground: 60 5% 67%;
+    --ui-accent: 60 3% 13%;
+    --ui-accent-foreground: 60 14% 95%;
+    --ui-destructive: 0 63% 31%;
+    --ui-destructive-foreground: 60 14% 95%;
+    --ui-border: 60 3% 20%;
+    --ui-input: 60 3% 20%;
+    --ui-ring: 60 14% 83%;
+  }
+}
