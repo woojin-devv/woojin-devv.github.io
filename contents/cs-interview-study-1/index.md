@@ -4,6 +4,8 @@ description: "1. 디자인 패턴이란? 디자인 패턴은 소프트웨어 설
 date: 2026-03-24
 slug: "/cs-interview-study-1/"
 tags: ["cs"]
+series: "CS 면접 스터디"
+seriesOrder: 1
 heroImageUrl: "https://cdn.inflearn.com/public/courses/328823/cover/1081d7c2-64b4-4063-87f4-c40e11bb481f/KakaoTalk_20220517_140737840.jpg?w=736"
 heroImageAlt: "1주차 - CS 스터디"
 ---

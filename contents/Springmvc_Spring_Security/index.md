@@ -4,6 +4,8 @@ description: "Spring Security 1. Spring 기반 보안 설정 처리 Spring Secur
 date: 2026-06-19
 slug: "/Springmvc_Spring_Security/"
 tags: [spring]
+series: "Spring MVC 학습"
+seriesOrder: 6
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] Spring Security"
 ---

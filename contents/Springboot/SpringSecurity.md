@@ -4,6 +4,8 @@ description: ""
 date: 2026-06-24
 slug: "/Springboot-security/"
 tags: [SpringBoot]
+series: "Spring Boot 학습"
+seriesOrder: 2
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring Boot]"
 ---

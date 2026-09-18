@@ -4,6 +4,8 @@ description: "1. 개요 이 글에서는 Spring MVC에서 어노테이션을 이
 date: 2026-06-16
 slug: "/Springmvc_basic/"
 tags: [spring]
+series: "Spring MVC 학습"
+seriesOrder: 2
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] MVC 어노테이션 기반 요청 처리 흐름 정리"
 ---

@@ -5,7 +5,7 @@ import Layout from '@/layouts'
 
 import { Giscus } from '../../components/Giscus'
 import { ProfileCard } from '../../components/ProfileCard'
-import { TableOfContents, TagList } from './components'
+import { type AdjacentPost, PostDiscovery, type PostSeries, type PostSummary, TableOfContents, TagList } from './components'
 import * as styles from './Post.module.scss'
 
 type PostViewProps = {
@@ -13,9 +13,14 @@ type PostViewProps = {
   title: string
   date: string
   tags: readonly string[]
+  readingTime?: number
   html: string
   tableOfContents: string
   hero?: ReactNode
+  previousPost?: AdjacentPost
+  nextPost?: AdjacentPost
+  relatedPosts?: readonly PostSummary[]
+  series?: PostSeries
   showComments?: boolean
 }
 
@@ -24,9 +29,14 @@ export const PostView = ({
   title,
   date,
   tags,
+  readingTime,
   html,
   tableOfContents,
   hero,
+  previousPost,
+  nextPost,
+  relatedPosts = [],
+  series,
   showComments = true,
 }: PostViewProps) => {
   useEffect(() => {
@@ -49,13 +59,22 @@ export const PostView = ({
     <Layout pathname={pathname}>
       <main className={styles.wrapper}>
         <h1 className={styles.title}>{title}</h1>
-        <p className={styles.date}>{date}</p>
+        <div className={styles.metadata}>
+          <p>{date}</p>
+          {readingTime && <p>{readingTime} min read</p>}
+        </div>
         <TagList tags={tags} className={styles.tagList} />
         {hero}
         <div className={styles.contentWrapper}>
           <section className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
           <TableOfContents html={tableOfContents} />
         </div>
+        <PostDiscovery
+          previousPost={previousPost}
+          nextPost={nextPost}
+          relatedPosts={relatedPosts}
+          series={series}
+        />
         <section className={styles.bio}>
           <ProfileCard pathname={pathname} />
         </section>

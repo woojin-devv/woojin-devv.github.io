@@ -4,6 +4,8 @@ description: "1. 개요 게시판 기능을 구현하다 보면 글 작성과 �
 date: 2026-06-16
 slug: "/Springmvc_basic_2/"
 tags: [spring]
+series: "Spring MVC 학습"
+seriesOrder: 3
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] MVC 파일 업로드 처리 흐름 정리"
 ---

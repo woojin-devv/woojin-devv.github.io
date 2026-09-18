@@ -4,6 +4,8 @@ description: "MyBatis의 역할과 Mapper 인터페이스·XML 연결 방식, CR
 date: 2026-06-19
 slug: "/Springmvc_mybatis_2/"
 tags: [spring, mybatis]
+series: "Spring MVC 학습"
+seriesOrder: 5
 heroImage: ./heroImage.png
 heroImageAlt: "Spring MVC에서 MyBatis Mapper를 사용하는 흐름"
 ---

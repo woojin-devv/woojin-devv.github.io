@@ -96,6 +96,8 @@ export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] 
       heroImage: File @fileByRelativePath
       heroImageUrl: String
       heroImageAlt: String
+      series: String
+      seriesOrder: Int
     }
 
     type MarkdownRemark implements Node {

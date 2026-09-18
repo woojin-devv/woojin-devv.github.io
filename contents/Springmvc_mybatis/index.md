@@ -4,6 +4,8 @@ description: "1. 개요 이번 글에서는 Maven 원형 기반의 Spring MVC �
 date: 2026-06-18
 slug: "/Springmvc_mybatis/"
 tags: [spring]
+series: "Spring MVC 학습"
+seriesOrder: 4
 heroImage: ./heroImage.png
 heroImageAlt: "[Spring] Maven 기반 Spring MVC 프로젝트에 MyBatis 연동하기"
 ---
@@ -128,4 +130,3 @@ SpringMVC_Basic05_Maven
 > 일반적인 Spring 설정파일은 아래와 같다. 
 - src/main/webapp/WEB-INF/spring/root-context.xml
 - src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
-

@@ -4,6 +4,8 @@ description: "소프트웨어 개발과 관심사의 분리 1. 소프트웨어 �
 date: 2026-06-11
 slug: "/Spring-preview/"
 tags: [spring]
+series: "Spring MVC 학습"
+seriesOrder: 1
 heroImageAlt: "[Spring] 소프트웨어 개발과 관심사의 분리"
 ---
 
@@ -320,4 +322,3 @@ DI, Dependency Injection
 5. 하지만 상속은 단일 상속과 강한 결합 문제가 있음
 6. 상속 대신 인터페이스와 다형성을 사용하는 구조로 개선 필요
 ```
-

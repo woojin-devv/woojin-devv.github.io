@@ -4,6 +4,8 @@ description: "Spring Boot의 Starter, 자동 설정, 내장 서버, 컴포넌트
 date: 2026-06-22
 slug: "/Springboot-basic/"
 tags: [SpringBoot]
+series: "Spring Boot 학습"
+seriesOrder: 1
 heroImage: ./heroImage.png
 heroImageAlt: "Spring Boot 핵심 개념과 애플리케이션 구조"
 ---

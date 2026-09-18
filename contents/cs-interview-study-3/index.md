@@ -4,6 +4,8 @@ description: "참고자료 HTTP 1 Vs HTTP 2 Vs HTTP 3! HTTP 헤더(Header) 사�
 date: 2026-04-02
 slug: "/cs-interview-study-3/"
 tags: ["cs"]
+series: "CS 면접 스터디"
+seriesOrder: 3
 heroImageUrl: "https://cdn.inflearn.com/public/courses/328823/cover/1081d7c2-64b4-4063-87f4-c40e11bb481f/KakaoTalk_20220517_140737840.jpg?w=736"
 heroImageAlt: "3주차 - 네트워크"
 ---

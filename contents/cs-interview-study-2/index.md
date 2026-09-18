@@ -4,6 +4,8 @@ description: "38. 네트워크 기초 1 네트워크란? 노드와 링크가 서
 date: 2026-03-28
 slug: "/cs-interview-study-2/"
 tags: ["cs"]
+series: "CS 면접 스터디"
+seriesOrder: 2
 heroImageUrl: "https://cdn.inflearn.com/public/courses/328823/cover/1081d7c2-64b4-4063-87f4-c40e11bb481f/KakaoTalk_20220517_140737840.jpg?w=736"
 heroImageAlt: "2주차 - 네트워크"
 ---

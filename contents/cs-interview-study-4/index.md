@@ -4,6 +4,8 @@ description: "🌐 HTTP 상태 코드(Status Code) 핵심 요약 HTTP 상태 코
 date: 2026-04-12
 slug: "/cs-interview-study-4/"
 tags: ["cs"]
+series: "CS 면접 스터디"
+seriesOrder: 4
 heroImageUrl: "https://cdn.inflearn.com/public/courses/328823/cover/1081d7c2-64b4-4063-87f4-c40e11bb481f/KakaoTalk_20220517_140737840.jpg?w=736"
 heroImageAlt: "4주차 - 네트워크"
 ---
