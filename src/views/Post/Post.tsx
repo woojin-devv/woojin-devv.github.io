@@ -21,7 +21,8 @@ const Post = ({ data, pageContext, location: { pathname } }: PageProps<Queries.P
   const localHeroImage = heroImage?.childImageSharp?.gatsbyImageData
   const imageAlt = heroImageAlt ?? title
   const normalizedTags = new Set(tags.map((tag) => tag.toLocaleLowerCase()))
-  const postSummaries = data.allMarkdownRemark.nodes
+  const postNodes = data.allMarkdownRemark?.nodes ?? []
+  const postSummaries = postNodes
     .filter((post) => post.frontmatter.slug !== slug)
     .map((post) => ({
       ...post.frontmatter,
@@ -32,7 +33,7 @@ const Post = ({ data, pageContext, location: { pathname } }: PageProps<Queries.P
     .sort((a, b) => b.sharedTagCount - a.sharedTagCount)
     .slice(0, 3)
   const seriesPosts = series
-    ? data.allMarkdownRemark.nodes
+    ? postNodes
       .filter((post) => post.frontmatter.series === series)
       .map(({ frontmatter: post }) => post)
       .sort((a, b) => (a.seriesOrder ?? Number.MAX_SAFE_INTEGER) - (b.seriesOrder ?? Number.MAX_SAFE_INTEGER))
