@@ -1,5 +1,5 @@
 ---
-title: "Node.js란 무엇인가?"
+title: "[Node.js] Node.js란 무엇인가?"
 description: "Node.js의 정의와 특징, 브라우저 JavaScript와의 차이를 정리합니다."
 date: "2026-09-18T07:00:00.000Z"
 slug: "/nodejs-basics-1/"
