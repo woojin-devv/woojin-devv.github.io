@@ -3,7 +3,6 @@ import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 
 export type AdjacentPost = {
@@ -90,24 +89,28 @@ export const PostDiscovery = ({ previousPost, nextPost, relatedPosts }: PostDisc
         <SectionHeading eyebrow="KEEP READING" title="Related writing" id="related-posts-title" />
         <ul className="m-0 grid list-none gap-3 p-0 md:grid-cols-3">
           {relatedPosts.map((post) => (
-            <li key={post.slug}>
-              <Link className="group block h-full text-inherit no-underline" to={postPath(post.slug)}>
-                <Card className="flex h-full min-h-52 flex-col rounded-xl transition-all group-hover:-translate-y-1 group-hover:border-foreground/30 group-hover:shadow-md">
-                  <CardHeader className="space-y-4 p-5 pb-3">
-                    <CardDescription className="m-0 font-mono text-[0.625rem]">{post.date}</CardDescription>
-                    <CardTitle className="text-base leading-snug tracking-[-0.035em] md:text-[1.05rem]">
+            <li key={post.slug} className="h-full">
+              <Button
+                asChild
+                variant="outline"
+                className="group h-full min-h-52 w-full items-stretch justify-start whitespace-normal rounded-xl border-foreground/30 bg-secondary/20 p-0 text-left text-card-foreground shadow-sm transition-all hover:-translate-y-1 hover:border-foreground/55 hover:bg-accent/60 hover:text-accent-foreground hover:shadow-md"
+              >
+                <Link className="flex flex-col no-underline" to={postPath(post.slug)}>
+                  <span className="flex flex-col gap-4 p-5 pb-3">
+                    <span className="font-mono text-[0.625rem] font-normal text-muted-foreground">{post.date}</span>
+                    <strong className="text-base font-semibold leading-snug tracking-[-0.035em] md:text-[1.05rem]">
                       {post.title}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent className="mt-auto flex flex-wrap gap-1.5 p-5 pt-3">
+                    </strong>
+                  </span>
+                  <span className="mt-auto flex flex-wrap gap-1.5 p-5 pt-3">
                     {post.tags.slice(0, 3).map((tag) => (
                       <Badge key={tag} variant="secondary" className="font-mono text-[0.625rem] font-medium">
                         {tag}
                       </Badge>
                     ))}
-                  </CardContent>
-                </Card>
-              </Link>
+                  </span>
+                </Link>
+              </Button>
             </li>
           ))}
         </ul>
