@@ -39,9 +39,9 @@
 }
 
 .heroImage {
-  width: 100%;
-  max-height: 620px;
-  margin-top: 54px;
+  width: min(100%, 640px);
+  max-height: 380px;
+  margin: 54px auto 0;
   border: 1px solid var(--line);
   object-fit: contain;
   background: var(--paper-raised);
