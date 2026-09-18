@@ -5,7 +5,15 @@ import Layout from '@/layouts'
 
 import { Giscus } from '../../components/Giscus'
 import { ProfileCard } from '../../components/ProfileCard'
-import { type AdjacentPost, PostDiscovery, type PostSeries, type PostSummary, TableOfContents, TagList } from './components'
+import {
+  type AdjacentPost,
+  PostDiscovery,
+  type PostSeries,
+  type PostSummary,
+  SeriesNavigation,
+  TableOfContents,
+  TagList,
+} from './components'
 import * as styles from './Post.module.scss'
 
 type PostViewProps = {
@@ -55,9 +63,11 @@ export const PostView = ({
     })
   }, [html])
 
+  const showSeriesNavigation = Boolean(series && series.posts.length > 1)
+
   return (
     <Layout pathname={pathname}>
-      <main className={styles.wrapper}>
+      <main className={`${styles.wrapper} ${showSeriesNavigation ? styles.wrapperWithSeries : ''}`}>
         <h1 className={styles.title}>{title}</h1>
         <div className={styles.metadata}>
           <p>{date}</p>
@@ -65,7 +75,11 @@ export const PostView = ({
         </div>
         <TagList tags={tags} className={styles.tagList} />
         {hero}
-        <div className={styles.contentWrapper}>
+        {showSeriesNavigation && series && <SeriesNavigation series={series} variant="mobile" />}
+        <div
+          className={`${styles.contentWrapper} ${showSeriesNavigation ? styles.contentWrapperWithSeries : ''}`}
+        >
+          {showSeriesNavigation && series && <SeriesNavigation series={series} variant="desktop" />}
           <section className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
           <TableOfContents html={tableOfContents} />
         </div>
@@ -73,7 +87,6 @@ export const PostView = ({
           previousPost={previousPost}
           nextPost={nextPost}
           relatedPosts={relatedPosts}
-          series={series}
         />
         <section className={styles.bio}>
           <ProfileCard pathname={pathname} />

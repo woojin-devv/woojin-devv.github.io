@@ -52,6 +52,34 @@ const defaultArgs = {
   showComments: false,
 }
 
+const series = {
+  name: 'JavaScript 고유 문법',
+  currentSlug: '/javascript-functions/',
+  posts: [
+    {
+      slug: '/javascript-scope/',
+      title: 'var, let, const와 호이스팅',
+      date: '26.09.09',
+      tags: ['javascript'],
+      seriesOrder: 1,
+    },
+    {
+      slug: '/javascript-functions/',
+      title: '함수 선언문부터 화살표 함수까지',
+      date: '26.09.10',
+      tags: ['javascript'],
+      seriesOrder: 2,
+    },
+    {
+      slug: '/javascript-destructuring/',
+      title: '구조 분해 할당과 Rest·Spread',
+      date: '26.09.11',
+      tags: ['javascript'],
+      seriesOrder: 3,
+    },
+  ],
+}
+
 const meta = {
   title: 'Pages/Post',
   component: PostView,
@@ -81,4 +109,11 @@ export const FullArticle: Story = {
 
 export const WithoutHeroImage: Story = {
   args: defaultArgs,
+}
+
+export const WithSeriesNavigation: Story = {
+  args: {
+    ...defaultArgs,
+    series,
+  },
 }

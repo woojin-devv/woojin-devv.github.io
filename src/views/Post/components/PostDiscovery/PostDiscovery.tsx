@@ -1,5 +1,5 @@
 import { Link } from 'gatsby'
-import { ArrowLeft, ArrowRight, BookOpen } from 'lucide-react'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -18,17 +18,10 @@ export type PostSummary = {
   tags: readonly string[]
 }
 
-export type PostSeries = {
-  name: string
-  currentSlug: string
-  posts: readonly (PostSummary & { seriesOrder?: number | null })[]
-}
-
 type PostDiscoveryProps = {
   previousPost?: AdjacentPost
   nextPost?: AdjacentPost
   relatedPosts: readonly PostSummary[]
-  series?: PostSeries
 }
 
 const postPath = (slug: string) => `/posts${slug}`
@@ -44,7 +37,7 @@ const SectionHeading = ({ eyebrow, title, id }: { eyebrow: string; title: string
   </header>
 )
 
-export const PostDiscovery = ({ previousPost, nextPost, relatedPosts, series }: PostDiscoveryProps) => (
+export const PostDiscovery = ({ previousPost, nextPost, relatedPosts }: PostDiscoveryProps) => (
   <div className="mt-20 grid min-w-0 gap-16 md:mt-24 md:gap-20">
     {(previousPost || nextPost) && (
       <nav className="grid gap-3 md:grid-cols-2" aria-label="이전 글과 다음 글">
@@ -118,53 +111,6 @@ export const PostDiscovery = ({ previousPost, nextPost, relatedPosts, series }: 
             </li>
           ))}
         </ul>
-      </section>
-    )}
-
-    {series && series.posts.length > 1 && (
-      <section aria-labelledby="series-title">
-        <Card className="overflow-hidden rounded-xl">
-          <CardHeader className="border-b border-border p-5 md:p-6">
-            <div className="flex items-center gap-2 font-mono text-[0.625rem] font-bold tracking-[0.16em] text-muted-foreground">
-              <BookOpen size={14} aria-hidden="true" /> SERIES
-            </div>
-            <CardTitle id="series-title" className="pt-1 text-xl tracking-[-0.04em] md:text-2xl">
-              {series.name}
-            </CardTitle>
-            <CardDescription className="m-0">총 {series.posts.length}개의 글로 구성된 시리즈입니다.</CardDescription>
-          </CardHeader>
-          <CardContent className="p-2 md:p-3">
-            <ol className="m-0 list-none space-y-1 p-0">
-              {series.posts.map((post, index) => {
-                const isCurrent = post.slug === series.currentSlug
-                return (
-                  <li key={post.slug}>
-                    <Link
-                      to={postPath(post.slug)}
-                      aria-current={isCurrent ? 'page' : undefined}
-                      className={cn(
-                        'grid min-h-14 grid-cols-[2.25rem_minmax(0,1fr)] items-center gap-3 rounded-lg px-3 py-2.5 text-muted-foreground no-underline transition-colors hover:bg-muted hover:text-foreground md:grid-cols-[2.5rem_minmax(0,1fr)_auto] md:px-4',
-                        isCurrent && 'bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground',
-                      )}
-                    >
-                      <span className="font-mono text-xs opacity-70">
-                        {String(post.seriesOrder ?? index + 1).padStart(2, '0')}
-                      </span>
-                      <strong className="text-sm font-medium leading-snug md:text-[0.9375rem]">{post.title}</strong>
-                      <span className="hidden md:block">
-                        {isCurrent ? (
-                          <Badge variant="secondary" className="font-mono text-[0.625rem]">Reading</Badge>
-                        ) : (
-                          <small className="font-mono text-[0.625rem]">{post.date}</small>
-                        )}
-                      </span>
-                    </Link>
-                  </li>
-                )
-              })}
-            </ol>
-          </CardContent>
-        </Card>
       </section>
     )}
   </div>
