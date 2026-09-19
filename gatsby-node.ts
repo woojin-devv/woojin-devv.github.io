@@ -54,21 +54,34 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions 
   })
 }
 
-export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({ actions }: CreateWebpackConfigArgs) => {
-  actions.setWebpackConfig({
-    resolve: {
-      alias: {
-        '@': path.resolve(__dirname, 'src'),
-        '@/components': path.resolve(__dirname, 'src/components'),
-        '@/images': path.resolve(__dirname, 'src/images'),
-        '@/styles': path.resolve(__dirname, 'src/styles'),
-        '@/utils': path.resolve(__dirname, 'src/utils'),
-        '@/contexts': path.resolve(__dirname, 'src/contexts'),
-        '@/layouts': path.resolve(__dirname, 'src/layouts'),
-        '@/lib': path.resolve(__dirname, 'src/lib'),
-      },
-    },
-  })
+export const onCreateWebpackConfig: GatsbyNode['onCreateWebpackConfig'] = ({
+  actions,
+  getConfig,
+}: CreateWebpackConfigArgs) => {
+  const config = getConfig()
+
+  config.resolve = config.resolve ?? {}
+  config.resolve.alias = {
+    ...config.resolve.alias,
+    '@': path.resolve(__dirname, 'src'),
+    '@/components': path.resolve(__dirname, 'src/components'),
+    '@/images': path.resolve(__dirname, 'src/images'),
+    '@/styles': path.resolve(__dirname, 'src/styles'),
+    '@/utils': path.resolve(__dirname, 'src/utils'),
+    '@/contexts': path.resolve(__dirname, 'src/contexts'),
+    '@/layouts': path.resolve(__dirname, 'src/layouts'),
+    '@/lib': path.resolve(__dirname, 'src/lib'),
+  }
+
+  const cssExtractPlugin = config.plugins?.find(
+    (plugin: { constructor?: { name?: string } }) => plugin?.constructor?.name === 'MiniCssExtractPlugin',
+  ) as { options?: { ignoreOrder?: boolean } } | undefined
+
+  if (cssExtractPlugin?.options) {
+    cssExtractPlugin.options.ignoreOrder = true
+  }
+
+  actions.replaceWebpackConfig(config)
 }
 
 export const createSchemaCustomization: GatsbyNode['createSchemaCustomization'] = ({
