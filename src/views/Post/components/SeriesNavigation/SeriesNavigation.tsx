@@ -41,7 +41,7 @@ const SeriesList = ({ series }: { series: PostSeries }) => (
             className={cn(styles.link, isCurrent && styles.current)}
           >
             <span className={styles.order}>{String(order).padStart(2, '0')}</span>
-            <span>{post.title}</span>
+            <span className={styles.postTitle}>{post.title}</span>
           </Link>
         </li>
       )
