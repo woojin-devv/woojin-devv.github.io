@@ -5,7 +5,7 @@ date: "2026-09-18T03:00:00.000Z"
 slug: "/nodejs-basics-5/"
 tags: ["nodejs", "javascript", "backend"]
 series: "Node.js 기초"
-seriesOrder: 5
+seriesOrder: 6
 heroImageUrl: "/assets/img/nodejs-thumbnail.png"
 heroImageAlt: "Node.js 로고"
 ---
