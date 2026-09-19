@@ -17,6 +17,8 @@ import {
   YAxis,
 } from 'recharts'
 
+import { Card, CardContent, CardHeader } from '@/components/ui/card'
+
 import * as styles from './InsightCharts.module.scss'
 
 type InsightTest = {
@@ -118,16 +120,16 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
       </header>
 
       <div className={styles.chartGrid}>
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div>
               <span>Language</span>
               <h3>풀이 언어</h3>
             </div>
             <strong>{languages.length}</strong>
-          </div>
+          </CardHeader>
 
-          <div className={styles.languageChart}>
+          <CardContent className={`${styles.languageChart} p-0`}>
             <div className={styles.donutWrap} role="img" aria-label={languages.map((language) => `${language.label} ${language.count}개`).join(', ')}>
               <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 154, height: 154 }}>
                 <PieChart accessibilityLayer>
@@ -168,20 +170,20 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 </li>
               ))}
             </ol>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
 
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div>
               <span>Problem type</span>
               <h3>많이 푼 문제 유형</h3>
             </div>
             <strong>Top {TYPE_LIMIT}</strong>
-          </div>
+          </CardHeader>
 
-          <div
-            className={styles.barChart}
+          <CardContent
+            className={`${styles.barChart} p-0`}
             role="img"
             aria-label={problemTypes.map((type) => `${type.label} ${type.count}문제`).join(', ')}
           >
@@ -211,20 +213,20 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
 
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div>
               <span>Programmers level</span>
               <h3>레벨별 풀이 수</h3>
             </div>
             <strong>{programmersTotal} solved</strong>
-          </div>
+          </CardHeader>
 
-          <div
-            className={styles.levelChart}
+          <CardContent
+            className={`${styles.levelChart} p-0`}
             role="img"
             aria-label={programmerLevels.map((level) => `${level.label} ${level.count}문제`).join(', ')}
           >
@@ -247,20 +249,20 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
 
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div>
               <span>CodeTree difficulty</span>
               <h3>난이도별 풀이 수</h3>
             </div>
             <strong>{codeTreeTotal} solved</strong>
-          </div>
+          </CardHeader>
 
-          <div
-            className={styles.levelChart}
+          <CardContent
+            className={`${styles.levelChart} p-0`}
             role="img"
             aria-label={codeTreeDifficulties.map((difficulty) => `${difficulty.label} ${difficulty.count}문제`).join(', ')}
           >
@@ -283,20 +285,20 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
 
-        <article className={`${styles.chartCard} ${styles.radarCard}`}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} ${styles.radarCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div>
               <span>Problem type radar</span>
               <h3>문제 유형 분포</h3>
             </div>
             <strong>Top {TYPE_LIMIT}</strong>
-          </div>
+          </CardHeader>
 
-          <div
-            className={styles.radarChart}
+          <CardContent
+            className={`${styles.radarChart} p-0`}
             role="img"
             aria-label={problemTypes.map((type) => `${type.label} ${type.count}문제`).join(', ')}
           >
@@ -332,8 +334,8 @@ export const InsightCharts = ({ tests }: InsightChartsProps) => {
                 />
               </RadarChart>
             </ResponsiveContainer>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
       </div>
     </section>
   )

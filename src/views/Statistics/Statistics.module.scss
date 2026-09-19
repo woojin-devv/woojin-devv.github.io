@@ -1,11 +1,4 @@
-.main {
-  width: min(100% - 40px, 1280px);
-  margin: 0 auto;
-}
-
 .pageHeader {
-  width: min(100%, 1080px);
-  margin: 0 auto;
   padding: 96px 0 58px;
   border-bottom: 1px solid var(--line);
 
@@ -38,8 +31,6 @@
 }
 
 .sections {
-  width: min(100%, 1080px);
-  margin: 0 auto;
   padding: 48px 0 96px;
 }
 
@@ -73,8 +64,6 @@
 }
 
 @media (max-width: 640px) {
-  .main { width: min(100% - 28px, 1280px); }
-
   .pageHeader {
     padding: 52px 0 42px;
 

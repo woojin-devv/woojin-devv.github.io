@@ -1,5 +1,7 @@
 import { Bar, BarChart, CartesianGrid, LabelList, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 
+import { Card, CardContent, CardHeader } from '@/components/ui/card'
+
 import * as styles from './ReviewInsights.module.scss'
 
 type ReviewTest = {
@@ -67,12 +69,12 @@ export const ReviewInsights = ({ generatedAt, tests }: ReviewInsightsProps) => {
       </header>
 
       <div className={styles.chartGrid}>
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div><span>Review rounds</span><h3>회독별 문제 수</h3></div>
             <strong>{tests.length} problems</strong>
-          </div>
-          <div className={styles.distributionChart} role="img" aria-label={distribution.map((item) => `${item.label} ${item.count}문제`).join(', ')}>
+          </CardHeader>
+          <CardContent className={`${styles.distributionChart} p-0`} role="img" aria-label={distribution.map((item) => `${item.label} ${item.count}문제`).join(', ')}>
             <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 480, height: 230 }}>
               <BarChart accessibilityLayer data={distribution} margin={{ top: 24, right: 8, bottom: 0, left: 8 }}>
                 <XAxis dataKey="label" axisLine={false} tickLine={false} tick={{ fill: 'var(--muted)', fontSize: 11 }} />
@@ -83,15 +85,15 @@ export const ReviewInsights = ({ generatedAt, tests }: ReviewInsightsProps) => {
                 </Bar>
               </BarChart>
             </ResponsiveContainer>
-          </div>
-        </article>
+          </CardContent>
+        </Card>
 
-        <article className={styles.chartCard}>
-          <div className={styles.cardHeader}>
+        <Card className={`${styles.chartCard} rounded-none shadow-none`}>
+          <CardHeader className={`${styles.cardHeader} flex-row p-0`}>
             <div><span>Review rhythm</span><h3>최근 12개월 복습 추이</h3></div>
             <strong>{reviewEvents.length} logs</strong>
-          </div>
-          <div className={styles.trendChart} role="img" aria-label={trend.map((item) => `${item.label} ${item.count}회`).join(', ')}>
+          </CardHeader>
+          <CardContent className={`${styles.trendChart} p-0`} role="img" aria-label={trend.map((item) => `${item.label} ${item.count}회`).join(', ')}>
             <ResponsiveContainer width="100%" height="100%" initialDimension={{ width: 480, height: 230 }}>
               <LineChart accessibilityLayer data={trend} margin={{ top: 20, right: 12, bottom: 0, left: -28 }}>
                 <CartesianGrid vertical={false} stroke="var(--line)" strokeDasharray="3 3" />
@@ -101,9 +103,9 @@ export const ReviewInsights = ({ generatedAt, tests }: ReviewInsightsProps) => {
                 <Line type="monotone" dataKey="count" stroke="#ff9d50" strokeWidth={2} dot={{ r: 3, fill: '#ff9d50', strokeWidth: 0 }} activeDot={{ r: 5 }} />
               </LineChart>
             </ResponsiveContainer>
-          </div>
+          </CardContent>
           {reviewEvents.length === 0 && <p className={styles.emptyHint}>첫 복습을 기록하면 월별 추이가 표시됩니다.</p>}
-        </article>
+        </Card>
       </div>
     </section>
   )

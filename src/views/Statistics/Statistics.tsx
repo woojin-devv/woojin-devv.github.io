@@ -49,14 +49,14 @@ const Statistics = ({ data, location: { pathname } }: PageProps<StatisticsData>)
 
   return (
     <Layout pathname={pathname}>
-      <main className={styles.main}>
-        <header className={styles.pageHeader}>
+      <main className="container max-w-7xl px-5 sm:px-8">
+        <header className={`${styles.pageHeader} mx-auto max-w-[1080px]`}>
           <p className={styles.eyebrow}>Archive in numbers</p>
           <h1>Statistics</h1>
           <p className={styles.intro}>쌓아온 글과 문제 풀이 기록을 한눈에 살펴봅니다.</p>
         </header>
 
-        <div className={styles.sections}>
+        <div className={`${styles.sections} mx-auto max-w-[1080px]`}>
           <WritingInsights posts={posts} />
 
           <section className={styles.codingSection} aria-labelledby="coding-statistics-heading">
