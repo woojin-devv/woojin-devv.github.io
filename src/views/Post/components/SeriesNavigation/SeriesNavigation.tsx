@@ -27,11 +27,18 @@ type SeriesNavigationProps = {
 
 const postPath = (slug: string) => `/posts${slug}`
 
+const getDisplayTitle = (title: string, seriesName: string) => {
+  const seriesPrefix = `[${seriesName}]`
+
+  return title.startsWith(seriesPrefix) ? title.slice(seriesPrefix.length).trim() : title
+}
+
 const SeriesList = ({ series }: { series: PostSeries }) => (
   <ol className={styles.list}>
     {series.posts.map((post, index) => {
       const isCurrent = post.slug === series.currentSlug
       const order = post.seriesOrder ?? index + 1
+      const displayTitle = getDisplayTitle(post.title, series.name)
 
       return (
         <li key={post.slug}>
@@ -41,7 +48,7 @@ const SeriesList = ({ series }: { series: PostSeries }) => (
             className={cn(styles.link, isCurrent && styles.current)}
           >
             <span className={styles.order}>{String(order).padStart(2, '0')}</span>
-            <span className={styles.postTitle}>{post.title}</span>
+            <span className={styles.postTitle} title={post.title}>{displayTitle}</span>
           </Link>
         </li>
       )
