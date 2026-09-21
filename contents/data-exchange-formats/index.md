@@ -13,15 +13,15 @@ heroImageAlt: "JSON XML HTML 데이터 교환 형식 비교"
 
 웹 애플리케이션에서는 클라이언트와 서버, 서로 다른 서버, 프로그램과 파일 사이에서 데이터를 주고받는다.
 
-이때 데이터를 어떤 규칙으로 표현할지 정한 것이 **데이터 형식(Data Format)**이다. 대표적인 형식으로 JSON과 XML이 있으며, HTML도 태그를 사용한다는 점에서 XML과 자주 비교된다.
+이때 데이터를 어떤 규칙으로 표현할지 정한 것이 <strong>데이터 형식(Data Format)</strong>이다. 대표적인 형식으로 JSON과 XML이 있으며, HTML도 태그를 사용한다는 점에서 XML과 자주 비교된다.
 
 세 형식은 겉으로 비슷해 보이지만 목적이 다르다.
 
-> 이 글은 인프런의 **큰돌님의 CS 지식 강의**를 학습한 뒤, 관련 개념을 추가로 확인하고 예제와 활용 사례를 더해 재구성한 내용입니다.
+> 이 글은 인프런의 <strong>큰돌님의 CS 지식 강의</strong>를 학습한 뒤, 관련 개념을 추가로 확인하고 예제와 활용 사례를 더해 재구성한 내용입니다.
 
-- **JSON**: 구조화된 데이터를 가볍게 표현하고 교환한다.
-- **XML**: 사용자가 정의한 요소로 데이터와 문서 구조를 표현한다.
-- **HTML**: 웹 브라우저에 문서의 구조와 의미를 전달한다.
+- <strong>JSON</strong>: 구조화된 데이터를 가볍게 표현하고 교환한다.
+- <strong>XML</strong>: 사용자가 정의한 요소로 데이터와 문서 구조를 표현한다.
+- <strong>HTML</strong>: 웹 브라우저에 문서의 구조와 의미를 전달한다.
 
 ## 마크업이란?
 
@@ -47,7 +47,7 @@ XML도 태그를 사용하지만, 태그가 미리 정해져 있지 않다는 �
 
 JSON(JavaScript Object Notation)은 구조화된 데이터를 텍스트로 표현하는 형식이다.
 
-JavaScript 객체 표기법에서 영향을 받았지만 **JSON 자체가 JavaScript 객체인 것은 아니다.** JSON은 언어에 독립적인 텍스트 형식이므로 JavaScript뿐 아니라 Python, Java, Kotlin 등 여러 언어에서 사용할 수 있다.
+JavaScript 객체 표기법에서 영향을 받았지만 <strong>JSON 자체가 JavaScript 객체인 것은 아니다.</strong> JSON은 언어에 독립적인 텍스트 형식이므로 JavaScript뿐 아니라 Python, Java, Kotlin 등 여러 언어에서 사용할 수 있다.
 
 ```json
 {
@@ -73,7 +73,7 @@ JSON에서 사용할 수 있는 값의 종류는 다음과 같다.
 
 프로그램 내부의 객체는 언어와 실행 환경에 종속된 메모리 구조다. 이 객체를 파일에 저장하거나 네트워크로 전송하려면 공통된 형식으로 변환해야 한다.
 
-객체를 JSON 문자열로 변환하는 과정을 **직렬화(Serialization)**라고 한다. 반대로 JSON 문자열을 프로그램에서 사용할 객체로 복원하는 과정을 **역직렬화(Deserialization)**라고 한다.
+객체를 JSON 문자열로 변환하는 과정을 <strong>직렬화(Serialization)</strong>라고 한다. 반대로 JSON 문자열을 프로그램에서 사용할 객체로 복원하는 과정을 <strong>역직렬화(Deserialization)</strong>라고 한다.
 
 ```text
 JavaScript 객체
@@ -112,7 +112,7 @@ console.log(user.name); // woojin
 
 ### 직렬화는 바이트 변환과 다르다
 
-`JSON.stringify()`의 결과는 바이트가 아니라 **문자열**이다.
+`JSON.stringify()`의 결과는 바이트가 아니라 <strong>문자열</strong>이다.
 
 실제로 네트워크를 통해 전송할 때는 이 문자열을 UTF-8과 같은 문자 인코딩을 이용해 바이트로 변환한다.
 
@@ -181,7 +181,7 @@ XML 문서에는 전체 내용을 감싸는 루트 요소가 하나만 존재해
 
 ## XML에서 태그를 직접 만들 수 있다는 의미
 
-HTML에서는 `<h1>`, `<p>`, `<a>`처럼 HTML 명세에 정의된 **표준 HTML 요소(Standard HTML Elements)**를 사용한다.
+HTML에서는 `<h1>`, `<p>`, `<a>`처럼 HTML 명세에 정의된 <strong>표준 HTML 요소(Standard HTML Elements)</strong>를 사용한다.
 
 XML에서는 문서의 목적에 맞게 요소 이름을 직접 정의할 수 있다.
 
