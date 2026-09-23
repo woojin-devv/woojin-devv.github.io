@@ -50,9 +50,15 @@
 }
 
 .headerButtons {
+  flex: 0 0 auto;
+}
+
+.navigationList {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin: 0;
+  padding: 0;
 
   a,
   button {
@@ -165,6 +171,7 @@
 }
 
 .drawerHeader {
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -258,6 +265,7 @@
 }
 
 .drawerFooter {
+  flex-direction: row;
   justify-content: space-between;
   gap: 16px;
   margin-top: auto;

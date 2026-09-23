@@ -7,4 +7,4 @@ type DateProps = {
   className?: string
 }
 
-export const Date = ({ date, className }: DateProps) => <h3 className={clsx(styles.date, className)}>{date}</h3>
+export const Date = ({ date, className }: DateProps) => <time className={clsx(styles.date, className)}>{date}</time>
